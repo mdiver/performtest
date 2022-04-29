@@ -1,427 +1,395 @@
-2022-04-29 22:54:24,806 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-04-29 22:54:24,823 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
-2022-04-29 22:54:24,823 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: Version 5.4.3
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: java.version=1.8.0_322
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: os.name=Linux
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: os.arch=amd64
-2022-04-29 22:54:24,836 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
-2022-04-29 22:54:24,837 INFO o.a.j.JMeter: file.encoding=UTF-8
-2022-04-29 22:54:24,837 INFO o.a.j.JMeter: java.awt.headless=true
-2022-04-29 22:54:24,837 INFO o.a.j.JMeter: Max memory     =1073741824
-2022-04-29 22:54:24,837 INFO o.a.j.JMeter: Available Processors =2
-2022-04-29 22:54:24,843 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-04-29 22:54:24,843 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-04-29 22:54:24,843 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
-2022-04-29 22:54:24,843 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/comm-activation
-2022-04-29 22:54:24,843 INFO o.a.j.JMeter: PWD       =/app/performtest/test/comm-activation
-2022-04-29 22:54:24,844 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
-2022-04-29 22:54:24,847 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/comm-activation/comm-activation-90thread'
-2022-04-29 22:54:24,851 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/comm-activation'
-2022-04-29 22:54:24,852 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/comm-activation'
-2022-04-29 22:54:25,038 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-04-29 22:54:25,062 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-04-29 22:54:25,069 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-04-29 22:54:25,077 INFO o.a.j.s.SaveService: Loading file: comm-activation-90thread.jmx
-2022-04-29 22:54:25,158 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-29 22:54:25,158 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-29 22:54:25,158 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-29 22:54:25,158 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-29 22:54:25,158 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-04-29 22:54:25,159 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-04-29 22:54:25,169 INFO o.a.j.JMeter: Creating summariser <summary>
-2022-04-29 22:54:25,184 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2022-04-29 22:54:25,185 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: comm-activation-90thread.jtl
-2022-04-29 22:54:25,186 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
-2022-04-29 22:54:25,186 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2022-04-29 22:54:25,195 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2022-04-29 22:54:25,199 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2022-04-29 22:54:25,200 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2022-04-29 22:54:25,200 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2022-04-29 22:54:25,200 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2022-04-29 22:54:25,200 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2022-04-29 22:54:25,200 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2022-04-29 22:54:25,200 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2022-04-29 22:54:25,201 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2022-04-29 22:54:25,208 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,208 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,208 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,208 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,211 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,212 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-04-29 22:54:25,213 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
-2022-04-29 22:54:25,213 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
-2022-04-29 22:54:25,213 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
-2022-04-29 22:54:25,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2022-04-29 22:54:25,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2022-04-29 22:54:25,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2022-04-29 22:54:25,226 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-04-29 22:54:25,227 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-04-29 22:54:25,227 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-04-29 22:54:25,233 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-04-29 22:54:25,234 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-04-29 22:54:26,196 INFO o.a.j.JMeter: Running test (1651240466196)
-2022-04-29 22:54:26,245 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Stepping Thread Group
-2022-04-29 22:54:26,246 INFO o.a.j.e.StandardJMeterEngine: Starting 90 threads for group jp@gc - Stepping Thread Group.
-2022-04-29 22:54:26,246 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-29 22:54:26,246 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 90
-2022-04-29 22:54:26,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-1
-2022-04-29 22:54:26,308 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
-2022-04-29 22:54:26,321 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-04-29 22:54:26,323 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-04-29 22:54:26,323 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-04-29 22:54:26,323 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-04-29 22:54:26,324 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-04-29 22:54:26,418 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
-2022-04-29 22:54:26,418 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-04-29 22:54:26,483 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2022-04-29 22:54:26,491 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2022-04-29 22:54:26,491 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2022-04-29 22:54:26,558 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2022-04-29 22:54:26,561 INFO o.a.j.u.SSLManager: KeyStore created OK
-2022-04-29 22:54:26,561 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2022-04-29 22:54:26,753 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-2
-2022-04-29 22:54:27,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-3
-2022-04-29 22:54:27,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-4
-2022-04-29 22:54:28,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-5
-2022-04-29 22:54:28,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-6
-2022-04-29 22:54:29,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-7
-2022-04-29 22:54:29,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-8
-2022-04-29 22:54:30,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-9
-2022-04-29 22:54:30,399 INFO o.a.j.r.Summariser: summary +      9 in 00:00:04 =    2.1/s Avg:  1185 Min:   928 Max:  1837 Err:     0 (0.00%) Active: 9 Started: 9 Finished: 0
-2022-04-29 22:54:30,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-10
-2022-04-29 22:55:00,138 INFO o.a.j.r.Summariser: summary +     81 in 00:00:30 =    2.7/s Avg:  3459 Min:   986 Max:  8870 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
-2022-04-29 22:55:00,138 INFO o.a.j.r.Summariser: summary =     90 in 00:00:34 =    2.7/s Avg:  3231 Min:   928 Max:  8870 Err:     0 (0.00%)
-2022-04-29 22:55:01,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-11
-2022-04-29 22:55:01,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-12
-2022-04-29 22:55:02,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-13
-2022-04-29 22:55:02,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-14
-2022-04-29 22:55:03,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-15
-2022-04-29 22:55:03,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-16
-2022-04-29 22:55:04,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-17
-2022-04-29 22:55:04,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-18
-2022-04-29 22:55:05,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-19
-2022-04-29 22:55:05,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-20
-2022-04-29 22:55:30,394 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.7/s Avg:  6015 Min:   682 Max: 16163 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
-2022-04-29 22:55:30,394 INFO o.a.j.r.Summariser: summary =    173 in 00:01:04 =    2.7/s Avg:  4567 Min:   682 Max: 16163 Err:     0 (0.00%)
-2022-04-29 22:55:36,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-21
-2022-04-29 22:55:36,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-22
-2022-04-29 22:55:37,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-23
-2022-04-29 22:55:37,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-24
-2022-04-29 22:55:38,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-25
-2022-04-29 22:55:38,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-26
-2022-04-29 22:55:39,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-27
-2022-04-29 22:55:39,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-28
-2022-04-29 22:55:40,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-29
-2022-04-29 22:55:40,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-30
-2022-04-29 22:56:00,176 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg:  8847 Min:   753 Max: 20629 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
-2022-04-29 22:56:00,176 INFO o.a.j.r.Summariser: summary =    256 in 00:01:34 =    2.7/s Avg:  5954 Min:   682 Max: 20629 Err:     0 (0.00%)
-2022-04-29 22:56:11,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-31
-2022-04-29 22:56:11,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-32
-2022-04-29 22:56:12,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-33
-2022-04-29 22:56:12,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-34
-2022-04-29 22:56:13,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-35
-2022-04-29 22:56:13,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-36
-2022-04-29 22:56:14,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-37
-2022-04-29 22:56:14,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-38
-2022-04-29 22:56:15,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-39
-2022-04-29 22:56:15,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-40
-2022-04-29 22:56:30,097 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg: 10772 Min:   997 Max: 24856 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
-2022-04-29 22:56:30,097 INFO o.a.j.r.Summariser: summary =    339 in 00:02:04 =    2.7/s Avg:  7134 Min:   682 Max: 24856 Err:     0 (0.00%)
-2022-04-29 22:56:46,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-41
-2022-04-29 22:56:46,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-42
-2022-04-29 22:56:47,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-43
-2022-04-29 22:56:47,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-44
-2022-04-29 22:56:48,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-45
-2022-04-29 22:56:48,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-46
-2022-04-29 22:56:49,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-47
-2022-04-29 22:56:49,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-48
-2022-04-29 22:56:50,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-49
-2022-04-29 22:56:50,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-50
-2022-04-29 22:57:00,119 INFO o.a.j.r.Summariser: summary +     85 in 00:00:30 =    2.8/s Avg: 13914 Min:  1015 Max: 31304 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
-2022-04-29 22:57:00,119 INFO o.a.j.r.Summariser: summary =    424 in 00:02:34 =    2.8/s Avg:  8493 Min:   682 Max: 31304 Err:     0 (0.00%)
-2022-04-29 22:57:21,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-51
-2022-04-29 22:57:21,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-52
-2022-04-29 22:57:22,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-53
-2022-04-29 22:57:22,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-54
-2022-04-29 22:57:23,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-55
-2022-04-29 22:57:23,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-56
-2022-04-29 22:57:24,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-57
-2022-04-29 22:57:24,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-58
-2022-04-29 22:57:25,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-59
-2022-04-29 22:57:25,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-60
-2022-04-29 22:57:30,321 INFO o.a.j.r.Summariser: summary +     87 in 00:00:30 =    2.9/s Avg: 15770 Min:  1046 Max: 34796 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
-2022-04-29 22:57:30,321 INFO o.a.j.r.Summariser: summary =    511 in 00:03:04 =    2.8/s Avg:  9732 Min:   682 Max: 34796 Err:     0 (0.00%)
-2022-04-29 22:57:56,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-61
-2022-04-29 22:57:56,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-62
-2022-04-29 22:57:57,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-63
-2022-04-29 22:57:57,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-64
-2022-04-29 22:57:58,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-65
-2022-04-29 22:57:58,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-66
-2022-04-29 22:57:59,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-67
-2022-04-29 22:57:59,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-68
-2022-04-29 22:58:00,247 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-69
-2022-04-29 22:58:00,383 INFO o.a.j.r.Summariser: summary +     85 in 00:00:30 =    2.8/s Avg: 20894 Min:   912 Max: 41507 Err:     0 (0.00%) Active: 69 Started: 69 Finished: 0
-2022-04-29 22:58:00,383 INFO o.a.j.r.Summariser: summary =    596 in 00:03:34 =    2.8/s Avg: 11324 Min:   682 Max: 41507 Err:     0 (0.00%)
-2022-04-29 22:58:00,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-70
-2022-04-29 22:58:30,144 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg: 19308 Min:  1145 Max: 46326 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
-2022-04-29 22:58:30,144 INFO o.a.j.r.Summariser: summary =    679 in 00:04:04 =    2.8/s Avg: 12300 Min:   682 Max: 46326 Err:     0 (0.00%)
-2022-04-29 22:58:31,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-71
-2022-04-29 22:58:31,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-72
-2022-04-29 22:58:32,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-73
-2022-04-29 22:58:32,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-74
-2022-04-29 22:58:33,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-75
-2022-04-29 22:58:33,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-76
-2022-04-29 22:58:34,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-77
-2022-04-29 22:58:34,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-78
-2022-04-29 22:58:35,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-79
-2022-04-29 22:58:35,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-80
-2022-04-29 22:59:00,008 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg: 25071 Min:  1464 Max: 52335 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
-2022-04-29 22:59:00,009 INFO o.a.j.r.Summariser: summary =    762 in 00:04:34 =    2.8/s Avg: 13691 Min:   682 Max: 52335 Err:     0 (0.00%)
-2022-04-29 22:59:06,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-81
-2022-04-29 22:59:06,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-82
-2022-04-29 22:59:07,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-83
-2022-04-29 22:59:07,747 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-84
-2022-04-29 22:59:08,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-85
-2022-04-29 22:59:08,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-86
-2022-04-29 22:59:09,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-87
-2022-04-29 22:59:09,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-88
-2022-04-29 22:59:10,246 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-89
-2022-04-29 22:59:10,746 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-90
-2022-04-29 22:59:30,347 INFO o.a.j.r.Summariser: summary +     87 in 00:00:30 =    2.9/s Avg: 29280 Min:  1120 Max: 58024 Err:     0 (0.00%) Active: 90 Started: 90 Finished: 0
-2022-04-29 22:59:30,347 INFO o.a.j.r.Summariser: summary =    849 in 00:05:04 =    2.8/s Avg: 15288 Min:   682 Max: 58024 Err:     0 (0.00%)
-2022-04-29 23:00:00,526 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg: 32130 Min:  1327 Max: 60353 Err:     4 (4.82%) Active: 90 Started: 90 Finished: 0
-2022-04-29 23:00:00,527 INFO o.a.j.r.Summariser: summary =    932 in 00:05:34 =    2.8/s Avg: 16788 Min:   682 Max: 60353 Err:     4 (0.43%)
-2022-04-29 23:00:12,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-7
-2022-04-29 23:00:12,361 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-7
-2022-04-29 23:00:13,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-2
-2022-04-29 23:00:13,785 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-2
-2022-04-29 23:00:15,578 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-10
-2022-04-29 23:00:15,578 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-10
-2022-04-29 23:00:18,040 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-33
-2022-04-29 23:00:18,040 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-33
-2022-04-29 23:00:19,847 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-18
-2022-04-29 23:00:19,847 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-18
-2022-04-29 23:00:20,526 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-35
-2022-04-29 23:00:20,526 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-35
-2022-04-29 23:00:21,826 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-32
-2022-04-29 23:00:21,826 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-32
-2022-04-29 23:00:22,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-14
-2022-04-29 23:00:22,124 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-14
-2022-04-29 23:00:22,359 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-52
-2022-04-29 23:00:22,359 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-52
-2022-04-29 23:00:22,390 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-44
-2022-04-29 23:00:22,390 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-44
-2022-04-29 23:00:22,863 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-23
-2022-04-29 23:00:22,863 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-23
-2022-04-29 23:00:23,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-9
-2022-04-29 23:00:23,174 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-9
-2022-04-29 23:00:23,462 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-16
-2022-04-29 23:00:23,462 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-16
-2022-04-29 23:00:23,770 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-24
-2022-04-29 23:00:23,771 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-24
-2022-04-29 23:00:24,237 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-28
-2022-04-29 23:00:24,237 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-28
-2022-04-29 23:00:24,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-70
-2022-04-29 23:00:24,714 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-70
-2022-04-29 23:00:24,959 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-22
-2022-04-29 23:00:24,959 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-22
-2022-04-29 23:00:24,984 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-26
-2022-04-29 23:00:24,984 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-26
-2022-04-29 23:00:25,495 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-71
-2022-04-29 23:00:25,495 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-71
-2022-04-29 23:00:25,893 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-51
-2022-04-29 23:00:25,893 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-51
-2022-04-29 23:00:26,143 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-61
-2022-04-29 23:00:26,143 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-61
-2022-04-29 23:00:26,250 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-60
-2022-04-29 23:00:26,250 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-60
-2022-04-29 23:00:26,482 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-17
-2022-04-29 23:00:26,482 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-17
-2022-04-29 23:00:26,657 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-41
-2022-04-29 23:00:26,658 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-41
-2022-04-29 23:00:26,757 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-8
-2022-04-29 23:00:26,757 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-8
-2022-04-29 23:00:27,009 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-64
-2022-04-29 23:00:27,009 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-64
-2022-04-29 23:00:27,266 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-48
-2022-04-29 23:00:27,266 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-48
-2022-04-29 23:00:28,196 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-46
-2022-04-29 23:00:28,196 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-46
-2022-04-29 23:00:28,956 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-66
-2022-04-29 23:00:28,956 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-66
-2022-04-29 23:00:29,713 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-73
-2022-04-29 23:00:29,713 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-73
-2022-04-29 23:00:30,462 INFO o.a.j.r.Summariser: summary +     85 in 00:00:30 =    2.8/s Avg: 33631 Min:  2680 Max: 60383 Err:     7 (8.24%) Active: 60 Started: 90 Finished: 30
-2022-04-29 23:00:30,463 INFO o.a.j.r.Summariser: summary =   1017 in 00:06:04 =    2.8/s Avg: 18196 Min:   682 Max: 60383 Err:    11 (1.08%)
-2022-04-29 23:00:30,463 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-65
-2022-04-29 23:00:30,463 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-65
-2022-04-29 23:00:31,197 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-85
-2022-04-29 23:00:31,197 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-85
-2022-04-29 23:00:31,937 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-88
-2022-04-29 23:00:31,937 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-88
-2022-04-29 23:00:32,683 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-50
-2022-04-29 23:00:32,683 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-50
-2022-04-29 23:00:33,283 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-75
-2022-04-29 23:00:33,283 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-75
-2022-04-29 23:00:33,495 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-87
-2022-04-29 23:00:33,495 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-87
-2022-04-29 23:00:34,061 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-90
-2022-04-29 23:00:34,061 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-90
-2022-04-29 23:00:34,354 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-78
-2022-04-29 23:00:34,354 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-78
-2022-04-29 23:00:34,915 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-63
-2022-04-29 23:00:34,915 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-63
-2022-04-29 23:00:35,226 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-59
-2022-04-29 23:00:35,226 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-59
-2022-04-29 23:00:35,752 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-81
-2022-04-29 23:00:35,752 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-81
-2022-04-29 23:00:35,977 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-79
-2022-04-29 23:00:35,977 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-79
-2022-04-29 23:00:36,540 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-62
-2022-04-29 23:00:36,540 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-62
-2022-04-29 23:00:36,742 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-49
-2022-04-29 23:00:36,742 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-49
-2022-04-29 23:00:37,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-38
-2022-04-29 23:00:37,315 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-38
-2022-04-29 23:00:37,543 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-67
-2022-04-29 23:00:37,543 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-67
-2022-04-29 23:00:38,080 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-40
-2022-04-29 23:00:38,080 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-40
-2022-04-29 23:00:38,271 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-39
-2022-04-29 23:00:38,271 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-39
-2022-04-29 23:00:38,898 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-47
-2022-04-29 23:00:38,898 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-47
-2022-04-29 23:00:39,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-29
-2022-04-29 23:00:39,315 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-29
-2022-04-29 23:00:39,750 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-45
-2022-04-29 23:00:39,750 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-45
-2022-04-29 23:00:40,204 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-19
-2022-04-29 23:00:40,204 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-19
-2022-04-29 23:00:40,644 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-36
-2022-04-29 23:00:40,644 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-36
-2022-04-29 23:00:41,007 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-57
-2022-04-29 23:00:41,007 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-57
-2022-04-29 23:00:41,638 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-43
-2022-04-29 23:00:41,638 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-43
-2022-04-29 23:00:41,935 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-30
-2022-04-29 23:00:41,935 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-30
-2022-04-29 23:00:42,567 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-42
-2022-04-29 23:00:42,567 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-42
-2022-04-29 23:00:42,850 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-3
-2022-04-29 23:00:42,850 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-3
-2022-04-29 23:00:43,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-15
-2022-04-29 23:00:43,506 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-15
-2022-04-29 23:00:43,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-80
-2022-04-29 23:00:43,785 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-80
-2022-04-29 23:00:44,407 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-69
-2022-04-29 23:00:44,408 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-69
-2022-04-29 23:00:44,724 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-55
-2022-04-29 23:00:44,724 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-55
-2022-04-29 23:00:45,214 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-13
-2022-04-29 23:00:45,214 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-13
-2022-04-29 23:00:45,604 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-74
-2022-04-29 23:00:45,604 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-74
-2022-04-29 23:00:46,106 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-5
-2022-04-29 23:00:46,106 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-5
-2022-04-29 23:00:46,449 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-72
-2022-04-29 23:00:46,449 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-72
-2022-04-29 23:00:47,018 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-37
-2022-04-29 23:00:47,018 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-37
-2022-04-29 23:00:47,596 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-27
-2022-04-29 23:00:47,596 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-27
-2022-04-29 23:00:47,976 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-58
-2022-04-29 23:00:47,976 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-58
-2022-04-29 23:00:48,473 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-31
-2022-04-29 23:00:48,473 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-31
-2022-04-29 23:00:48,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-11
-2022-04-29 23:00:48,816 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-11
-2022-04-29 23:00:49,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-34
-2022-04-29 23:00:49,298 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-34
-2022-04-29 23:00:49,645 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-53
-2022-04-29 23:00:49,646 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-53
-2022-04-29 23:00:50,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-84
-2022-04-29 23:00:50,168 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-84
-2022-04-29 23:00:50,498 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-1
-2022-04-29 23:00:50,498 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-1
-2022-04-29 23:00:50,991 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-76
-2022-04-29 23:00:50,991 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-76
-2022-04-29 23:00:51,328 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-54
-2022-04-29 23:00:51,328 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-54
-2022-04-29 23:00:51,822 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-12
-2022-04-29 23:00:51,822 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-12
-2022-04-29 23:00:52,163 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-86
-2022-04-29 23:00:52,163 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-86
-2022-04-29 23:00:52,703 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-25
-2022-04-29 23:00:52,704 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-25
-2022-04-29 23:00:52,984 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-56
-2022-04-29 23:00:52,984 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-56
-2022-04-29 23:00:53,485 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-20
-2022-04-29 23:00:53,485 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-20
-2022-04-29 23:00:53,786 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-83
-2022-04-29 23:00:53,786 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-83
-2022-04-29 23:00:54,248 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-89
-2022-04-29 23:00:54,248 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-89
-2022-04-29 23:00:54,520 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-82
-2022-04-29 23:00:54,520 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-82
-2022-04-29 23:00:55,237 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-4
-2022-04-29 23:00:55,237 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-4
-2022-04-29 23:00:55,962 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-6
-2022-04-29 23:00:55,962 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-6
-2022-04-29 23:00:56,740 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-21
-2022-04-29 23:00:56,741 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-21
-2022-04-29 23:00:57,495 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-77
-2022-04-29 23:00:57,495 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-77
-2022-04-29 23:00:57,534 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-68
-2022-04-29 23:00:57,534 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-68
-2022-04-29 23:00:57,535 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-04-29 23:00:57,536 INFO o.a.j.r.Summariser: summary +     59 in 00:00:27 =    2.2/s Avg: 35278 Min:  9711 Max: 60179 Err:     1 (1.69%) Active: 0 Started: 90 Finished: 90
-2022-04-29 23:00:57,537 INFO o.a.j.r.Summariser: summary =   1076 in 00:06:31 =    2.7/s Avg: 19133 Min:   682 Max: 60383 Err:    12 (1.12%)
-2022-04-29 23:00:57,537 INFO o.a.j.JMeter: Generating Dashboard
-2022-04-29 23:00:57,537 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2022-04-29 23:00:57,561 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2022-04-29 23:00:57,956 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2022-04-29 23:00:57,956 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2022-04-29 23:00:57,959 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2022-04-29 23:00:57,960 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2022-04-29 23:00:57,968 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2022-04-29 23:00:57,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2022-04-29 23:00:57,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2022-04-29 23:00:57,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2022-04-29 23:00:58,038 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2022-04-29 23:00:58,038 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2022-04-29 23:00:58,039 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2022-04-29 23:00:58,039 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2022-04-29 23:00:58,059 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2022-04-29 23:00:58,060 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 7532 samples
-2022-04-29 23:00:58,060 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
-2022-04-29 23:00:58,060 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2022-04-29 23:00:58,060 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2022-04-29 23:00:58,060 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2022-04-29 23:00:58,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2022-04-29 23:00:58,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2022-04-29 23:00:58,069 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2022-04-29 23:00:58,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2022-04-29 23:00:58,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2022-04-29 23:00:58,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2022-04-29 23:00:58,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 16140 samples
-2022-04-29 23:00:58,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3228 samples
-2022-04-29 23:00:58,070 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1076 samples
-2022-04-29 23:00:58,071 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1076 samples produced in 441ms on channel 0
-2022-04-29 23:00:58,071 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
-2022-04-29 23:00:58,253 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
-2022-04-29 23:00:58,253 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
-2022-04-29 23:00:58,254 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
-2022-04-29 23:00:58,255 INFO o.a.j.r.d.JsonExporter: Checking output folder
-2022-04-29 23:00:58,255 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /app/performtest/test/comm-activation/comm-activation-90thread/statistics.json
-2022-04-29 23:00:58,317 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2022-04-29 23:00:58,321 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /app/performtest/test/comm-activation/comm-activation-90thread
-2022-04-29 23:00:58,476 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /app/performtest/test/comm-activation/comm-activation-90thread, creating folder structure
-2022-04-29 23:00:58,481 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/app/.local/apache-jmeter-5.4.3/bin/report-template' to '/app/performtest/test/comm-activation/comm-activation-90thread', got message: /app/performtest/test/comm-activation/comm-activation-90thread, found non empty folder with following content [/app/performtest/test/comm-activation/comm-activation-90thread/statistics.json], will be ignored
-2022-04-29 23:00:58,893 INFO o.a.j.JMeter: Dashboard generated
+2022-04-29 23:02:54,297 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-04-29 23:02:54,314 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
+2022-04-29 23:02:54,315 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
+2022-04-29 23:02:54,328 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-04-29 23:02:54,328 INFO o.a.j.JMeter: Version 5.4.3
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: java.version=1.8.0_322
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: os.name=Linux
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: os.arch=amd64
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: java.awt.headless=true
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-04-29 23:02:54,329 INFO o.a.j.JMeter: Available Processors =2
+2022-04-29 23:02:54,335 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-04-29 23:02:54,336 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-04-29 23:02:54,336 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
+2022-04-29 23:02:54,336 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/comm-activation
+2022-04-29 23:02:54,336 INFO o.a.j.JMeter: PWD       =/app/performtest/test/comm-activation
+2022-04-29 23:02:54,337 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-04-29 23:02:54,340 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/comm-activation/comm-activation-80thread'
+2022-04-29 23:02:54,344 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/comm-activation'
+2022-04-29 23:02:54,345 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/comm-activation'
+2022-04-29 23:02:54,552 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-04-29 23:02:54,582 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-04-29 23:02:54,588 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-04-29 23:02:54,597 INFO o.a.j.s.SaveService: Loading file: comm-activation-80thread.jmx
+2022-04-29 23:02:54,671 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-29 23:02:54,671 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-29 23:02:54,671 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-29 23:02:54,671 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-29 23:02:54,671 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-04-29 23:02:54,671 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-04-29 23:02:54,682 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-04-29 23:02:54,696 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-04-29 23:02:54,696 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: comm-activation-80thread.jtl
+2022-04-29 23:02:54,697 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
+2022-04-29 23:02:54,697 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-04-29 23:02:54,703 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-04-29 23:02:54,707 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-04-29 23:02:54,707 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-04-29 23:02:54,708 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-04-29 23:02:54,708 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-04-29 23:02:54,708 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-04-29 23:02:54,708 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-04-29 23:02:54,708 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-04-29 23:02:54,708 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-04-29 23:02:54,715 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,716 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,717 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,717 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,717 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,718 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-29 23:02:54,719 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-04-29 23:02:54,719 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-04-29 23:02:54,720 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-04-29 23:02:54,720 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-04-29 23:02:54,720 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-04-29 23:02:54,720 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-04-29 23:02:54,732 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-04-29 23:02:54,733 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-04-29 23:02:54,733 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-04-29 23:02:54,740 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-04-29 23:02:54,740 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-04-29 23:02:55,755 INFO o.a.j.JMeter: Running test (1651240975755)
+2022-04-29 23:02:55,816 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Stepping Thread Group
+2022-04-29 23:02:55,816 INFO o.a.j.e.StandardJMeterEngine: Starting 80 threads for group jp@gc - Stepping Thread Group.
+2022-04-29 23:02:55,816 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-29 23:02:55,816 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 80
+2022-04-29 23:02:55,829 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-1
+2022-04-29 23:02:55,859 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-04-29 23:02:55,872 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-04-29 23:02:55,875 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-04-29 23:02:55,875 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-04-29 23:02:55,875 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-04-29 23:02:55,875 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-04-29 23:02:55,993 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-04-29 23:02:55,993 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-04-29 23:02:56,067 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-04-29 23:02:56,075 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-04-29 23:02:56,075 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-04-29 23:02:56,146 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-04-29 23:02:56,149 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-04-29 23:02:56,150 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-04-29 23:02:56,318 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-2
+2022-04-29 23:02:56,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-3
+2022-04-29 23:02:57,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-4
+2022-04-29 23:02:57,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-5
+2022-04-29 23:02:58,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-6
+2022-04-29 23:02:58,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-7
+2022-04-29 23:02:59,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-8
+2022-04-29 23:02:59,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-9
+2022-04-29 23:03:00,213 INFO o.a.j.r.Summariser: summary +     10 in 00:00:04 =    2.2/s Avg:  1382 Min:   424 Max:  2752 Err:     0 (0.00%) Active: 9 Started: 9 Finished: 0
+2022-04-29 23:03:00,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-10
+2022-04-29 23:03:30,012 INFO o.a.j.r.Summariser: summary +     84 in 00:00:30 =    2.8/s Avg:  3424 Min:   913 Max:  6953 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2022-04-29 23:03:30,012 INFO o.a.j.r.Summariser: summary =     94 in 00:00:34 =    2.7/s Avg:  3206 Min:   424 Max:  6953 Err:     0 (0.00%)
+2022-04-29 23:03:30,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-11
+2022-04-29 23:03:31,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-12
+2022-04-29 23:03:31,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-13
+2022-04-29 23:03:32,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-14
+2022-04-29 23:03:32,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-15
+2022-04-29 23:03:33,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-16
+2022-04-29 23:03:33,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-17
+2022-04-29 23:03:34,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-18
+2022-04-29 23:03:34,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-19
+2022-04-29 23:03:35,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-20
+2022-04-29 23:04:00,130 INFO o.a.j.r.Summariser: summary +     86 in 00:00:30 =    2.9/s Avg:  5802 Min:   891 Max: 13174 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2022-04-29 23:04:00,131 INFO o.a.j.r.Summariser: summary =    180 in 00:01:04 =    2.8/s Avg:  4446 Min:   424 Max: 13174 Err:     0 (0.00%)
+2022-04-29 23:04:05,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-21
+2022-04-29 23:04:06,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-22
+2022-04-29 23:04:06,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-23
+2022-04-29 23:04:07,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-24
+2022-04-29 23:04:07,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-25
+2022-04-29 23:04:08,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-26
+2022-04-29 23:04:08,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-27
+2022-04-29 23:04:09,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-28
+2022-04-29 23:04:09,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-29
+2022-04-29 23:04:10,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-30
+2022-04-29 23:04:30,035 INFO o.a.j.r.Summariser: summary +     86 in 00:00:30 =    2.9/s Avg:  7985 Min:   843 Max: 17712 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2022-04-29 23:04:30,035 INFO o.a.j.r.Summariser: summary =    266 in 00:01:34 =    2.8/s Avg:  5590 Min:   424 Max: 17712 Err:     0 (0.00%)
+2022-04-29 23:04:40,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-31
+2022-04-29 23:04:41,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-32
+2022-04-29 23:04:41,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-33
+2022-04-29 23:04:42,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-34
+2022-04-29 23:04:42,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-35
+2022-04-29 23:04:43,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-36
+2022-04-29 23:04:43,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-37
+2022-04-29 23:04:44,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-38
+2022-04-29 23:04:44,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-39
+2022-04-29 23:04:45,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-40
+2022-04-29 23:05:00,000 INFO o.a.j.r.Summariser: summary +     84 in 00:00:30 =    2.8/s Avg: 11165 Min:  1054 Max: 23907 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2022-04-29 23:05:00,000 INFO o.a.j.r.Summariser: summary =    350 in 00:02:04 =    2.8/s Avg:  6928 Min:   424 Max: 23907 Err:     0 (0.00%)
+2022-04-29 23:05:15,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-41
+2022-04-29 23:05:16,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-42
+2022-04-29 23:05:16,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-43
+2022-04-29 23:05:17,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-44
+2022-04-29 23:05:17,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-45
+2022-04-29 23:05:18,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-46
+2022-04-29 23:05:18,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-47
+2022-04-29 23:05:19,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-48
+2022-04-29 23:05:19,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-49
+2022-04-29 23:05:20,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-50
+2022-04-29 23:05:30,171 INFO o.a.j.r.Summariser: summary +     84 in 00:00:30 =    2.8/s Avg: 13947 Min:   874 Max: 28909 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2022-04-29 23:05:30,172 INFO o.a.j.r.Summariser: summary =    434 in 00:02:34 =    2.8/s Avg:  8287 Min:   424 Max: 28909 Err:     0 (0.00%)
+2022-04-29 23:05:50,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-51
+2022-04-29 23:05:51,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-52
+2022-04-29 23:05:51,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-53
+2022-04-29 23:05:52,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-54
+2022-04-29 23:05:52,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-55
+2022-04-29 23:05:53,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-56
+2022-04-29 23:05:53,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-57
+2022-04-29 23:05:54,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-58
+2022-04-29 23:05:54,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-59
+2022-04-29 23:05:55,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-60
+2022-04-29 23:06:00,013 INFO o.a.j.r.Summariser: summary +     84 in 00:00:30 =    2.8/s Avg: 16661 Min:  1102 Max: 33389 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-04-29 23:06:00,014 INFO o.a.j.r.Summariser: summary =    518 in 00:03:04 =    2.8/s Avg:  9645 Min:   424 Max: 33389 Err:     0 (0.00%)
+2022-04-29 23:06:25,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-61
+2022-04-29 23:06:26,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-62
+2022-04-29 23:06:26,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-63
+2022-04-29 23:06:27,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-64
+2022-04-29 23:06:27,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-65
+2022-04-29 23:06:28,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-66
+2022-04-29 23:06:28,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-67
+2022-04-29 23:06:29,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-68
+2022-04-29 23:06:29,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-69
+2022-04-29 23:06:30,000 INFO o.a.j.r.Summariser: summary +     84 in 00:00:30 =    2.8/s Avg: 19888 Min:  1114 Max: 41800 Err:     0 (0.00%) Active: 69 Started: 69 Finished: 0
+2022-04-29 23:06:30,001 INFO o.a.j.r.Summariser: summary =    602 in 00:03:34 =    2.8/s Avg: 11074 Min:   424 Max: 41800 Err:     0 (0.00%)
+2022-04-29 23:06:30,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-70
+2022-04-29 23:07:00,090 INFO o.a.j.r.Summariser: summary +     86 in 00:00:30 =    2.9/s Avg: 20778 Min:  1509 Max: 46821 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2022-04-29 23:07:00,090 INFO o.a.j.r.Summariser: summary =    688 in 00:04:04 =    2.8/s Avg: 12287 Min:   424 Max: 46821 Err:     0 (0.00%)
+2022-04-29 23:07:00,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-71
+2022-04-29 23:07:01,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-72
+2022-04-29 23:07:01,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-73
+2022-04-29 23:07:02,323 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-74
+2022-04-29 23:07:02,816 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-75
+2022-04-29 23:07:03,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-76
+2022-04-29 23:07:03,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-77
+2022-04-29 23:07:04,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-78
+2022-04-29 23:07:04,817 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-79
+2022-04-29 23:07:05,316 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-80
+2022-04-29 23:07:30,251 INFO o.a.j.r.Summariser: summary +     85 in 00:00:30 =    2.8/s Avg: 24755 Min:  1045 Max: 49819 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+2022-04-29 23:07:30,251 INFO o.a.j.r.Summariser: summary =    773 in 00:04:34 =    2.8/s Avg: 13658 Min:   424 Max: 49819 Err:     0 (0.00%)
+2022-04-29 23:08:00,096 INFO o.a.j.r.Summariser: summary +     81 in 00:00:30 =    2.7/s Avg: 26389 Min:  1021 Max: 56844 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+2022-04-29 23:08:00,096 INFO o.a.j.r.Summariser: summary =    854 in 00:05:04 =    2.8/s Avg: 14865 Min:   424 Max: 56844 Err:     0 (0.00%)
+2022-04-29 23:08:09,000 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-4
+2022-04-29 23:08:09,000 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-4
+2022-04-29 23:08:09,408 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-15
+2022-04-29 23:08:09,408 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-15
+2022-04-29 23:08:10,161 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-17
+2022-04-29 23:08:10,161 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-17
+2022-04-29 23:08:10,887 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-20
+2022-04-29 23:08:10,887 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-20
+2022-04-29 23:08:12,225 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-19
+2022-04-29 23:08:12,225 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-19
+2022-04-29 23:08:13,022 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-31
+2022-04-29 23:08:13,022 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-31
+2022-04-29 23:08:13,950 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-8
+2022-04-29 23:08:13,950 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-8
+2022-04-29 23:08:14,614 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-25
+2022-04-29 23:08:14,614 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-25
+2022-04-29 23:08:14,724 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-44
+2022-04-29 23:08:14,724 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-44
+2022-04-29 23:08:15,357 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-18
+2022-04-29 23:08:15,357 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-18
+2022-04-29 23:08:15,464 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-49
+2022-04-29 23:08:15,464 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-49
+2022-04-29 23:08:16,123 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-5
+2022-04-29 23:08:16,124 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-5
+2022-04-29 23:08:16,894 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-42
+2022-04-29 23:08:16,895 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-42
+2022-04-29 23:08:17,581 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-24
+2022-04-29 23:08:17,581 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-24
+2022-04-29 23:08:17,796 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-59
+2022-04-29 23:08:17,796 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-59
+2022-04-29 23:08:18,245 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-57
+2022-04-29 23:08:18,245 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-57
+2022-04-29 23:08:18,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-13
+2022-04-29 23:08:18,312 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-13
+2022-04-29 23:08:18,537 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-60
+2022-04-29 23:08:18,537 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-60
+2022-04-29 23:08:19,078 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-68
+2022-04-29 23:08:19,078 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-68
+2022-04-29 23:08:19,403 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-27
+2022-04-29 23:08:19,403 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-27
+2022-04-29 23:08:19,532 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-11
+2022-04-29 23:08:19,533 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-11
+2022-04-29 23:08:19,794 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-33
+2022-04-29 23:08:19,795 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-33
+2022-04-29 23:08:20,656 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-9
+2022-04-29 23:08:20,657 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-9
+2022-04-29 23:08:21,352 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-75
+2022-04-29 23:08:21,352 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-75
+2022-04-29 23:08:22,150 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-79
+2022-04-29 23:08:22,150 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-79
+2022-04-29 23:08:22,673 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-64
+2022-04-29 23:08:22,673 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-64
+2022-04-29 23:08:22,834 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-55
+2022-04-29 23:08:22,834 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-55
+2022-04-29 23:08:23,423 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-65
+2022-04-29 23:08:23,424 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-65
+2022-04-29 23:08:23,566 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-73
+2022-04-29 23:08:23,567 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-73
+2022-04-29 23:08:24,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-48
+2022-04-29 23:08:24,164 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-48
+2022-04-29 23:08:24,385 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-53
+2022-04-29 23:08:24,385 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-53
+2022-04-29 23:08:24,930 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-52
+2022-04-29 23:08:24,931 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-52
+2022-04-29 23:08:25,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-26
+2022-04-29 23:08:25,175 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-26
+2022-04-29 23:08:25,696 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-28
+2022-04-29 23:08:25,696 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-28
+2022-04-29 23:08:25,908 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-72
+2022-04-29 23:08:25,908 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-72
+2022-04-29 23:08:26,485 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-23
+2022-04-29 23:08:26,485 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-23
+2022-04-29 23:08:26,717 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-30
+2022-04-29 23:08:26,717 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-30
+2022-04-29 23:08:27,248 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-45
+2022-04-29 23:08:27,248 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-45
+2022-04-29 23:08:27,318 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-78
+2022-04-29 23:08:27,319 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-78
+2022-04-29 23:08:27,987 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-67
+2022-04-29 23:08:27,987 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-67
+2022-04-29 23:08:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-77
+2022-04-29 23:08:28,306 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-77
+2022-04-29 23:08:28,806 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-46
+2022-04-29 23:08:28,806 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-46
+2022-04-29 23:08:28,860 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-34
+2022-04-29 23:08:28,860 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-34
+2022-04-29 23:08:29,517 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-36
+2022-04-29 23:08:29,517 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-36
+2022-04-29 23:08:29,704 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-58
+2022-04-29 23:08:29,704 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-58
+2022-04-29 23:08:30,299 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg: 32064 Min:  2127 Max: 60244 Err:     4 (5.06%) Active: 35 Started: 80 Finished: 45
+2022-04-29 23:08:30,300 INFO o.a.j.r.Summariser: summary =    933 in 00:05:35 =    2.8/s Avg: 16322 Min:   424 Max: 60244 Err:     4 (0.43%)
+2022-04-29 23:08:30,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-21
+2022-04-29 23:08:30,300 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-21
+2022-04-29 23:08:30,478 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-14
+2022-04-29 23:08:30,479 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-14
+2022-04-29 23:08:31,114 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-35
+2022-04-29 23:08:31,114 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-35
+2022-04-29 23:08:31,348 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-70
+2022-04-29 23:08:31,348 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-70
+2022-04-29 23:08:31,863 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-39
+2022-04-29 23:08:31,863 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-39
+2022-04-29 23:08:32,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-7
+2022-04-29 23:08:32,105 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-7
+2022-04-29 23:08:32,751 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-37
+2022-04-29 23:08:32,751 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-37
+2022-04-29 23:08:33,001 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-56
+2022-04-29 23:08:33,002 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-56
+2022-04-29 23:08:33,496 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-43
+2022-04-29 23:08:33,496 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-43
+2022-04-29 23:08:33,752 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-62
+2022-04-29 23:08:33,752 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-62
+2022-04-29 23:08:34,226 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-38
+2022-04-29 23:08:34,226 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-38
+2022-04-29 23:08:34,587 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-71
+2022-04-29 23:08:34,587 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-71
+2022-04-29 23:08:35,054 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-6
+2022-04-29 23:08:35,055 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-6
+2022-04-29 23:08:35,398 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-41
+2022-04-29 23:08:35,398 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-41
+2022-04-29 23:08:35,852 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-22
+2022-04-29 23:08:35,852 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-22
+2022-04-29 23:08:36,132 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-32
+2022-04-29 23:08:36,132 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-32
+2022-04-29 23:08:36,608 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-74
+2022-04-29 23:08:36,608 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-74
+2022-04-29 23:08:36,864 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-40
+2022-04-29 23:08:36,865 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-40
+2022-04-29 23:08:37,401 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-80
+2022-04-29 23:08:37,401 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-80
+2022-04-29 23:08:37,636 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-1
+2022-04-29 23:08:37,636 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-1
+2022-04-29 23:08:38,194 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-66
+2022-04-29 23:08:38,195 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-66
+2022-04-29 23:08:38,470 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-2
+2022-04-29 23:08:38,470 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-2
+2022-04-29 23:08:38,993 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-47
+2022-04-29 23:08:38,993 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-47
+2022-04-29 23:08:39,152 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-16
+2022-04-29 23:08:39,152 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-16
+2022-04-29 23:08:39,730 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-69
+2022-04-29 23:08:39,731 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-69
+2022-04-29 23:08:39,887 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-63
+2022-04-29 23:08:39,887 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-63
+2022-04-29 23:08:40,548 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-76
+2022-04-29 23:08:40,548 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-76
+2022-04-29 23:08:40,789 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-61
+2022-04-29 23:08:40,789 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-61
+2022-04-29 23:08:41,306 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-3
+2022-04-29 23:08:41,307 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-3
+2022-04-29 23:08:42,045 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-50
+2022-04-29 23:08:42,046 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-50
+2022-04-29 23:08:42,798 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-54
+2022-04-29 23:08:42,798 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-54
+2022-04-29 23:08:43,591 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-10
+2022-04-29 23:08:43,592 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-10
+2022-04-29 23:08:44,335 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-29
+2022-04-29 23:08:44,335 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-29
+2022-04-29 23:08:45,092 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-12
+2022-04-29 23:08:45,092 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-12
+2022-04-29 23:08:45,874 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-51
+2022-04-29 23:08:45,874 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-51
+2022-04-29 23:08:45,875 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-04-29 23:08:45,876 INFO o.a.j.r.Summariser: summary +     34 in 00:00:16 =    2.2/s Avg: 39821 Min: 26516 Max: 57514 Err:     0 (0.00%) Active: 0 Started: 80 Finished: 80
+2022-04-29 23:08:45,876 INFO o.a.j.r.Summariser: summary =    967 in 00:05:50 =    2.8/s Avg: 17148 Min:   424 Max: 60244 Err:     4 (0.41%)
+2022-04-29 23:08:45,876 INFO o.a.j.JMeter: Generating Dashboard
+2022-04-29 23:08:45,876 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-04-29 23:08:45,888 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-04-29 23:08:46,148 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-04-29 23:08:46,148 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-04-29 23:08:46,151 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-04-29 23:08:46,152 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-04-29 23:08:46,158 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-04-29 23:08:46,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-04-29 23:08:46,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-04-29 23:08:46,166 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-04-29 23:08:46,220 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-04-29 23:08:46,220 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-04-29 23:08:46,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-04-29 23:08:46,221 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-04-29 23:08:46,245 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-04-29 23:08:46,246 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 6769 samples
+2022-04-29 23:08:46,246 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-04-29 23:08:46,246 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-04-29 23:08:46,246 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-04-29 23:08:46,247 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-04-29 23:08:46,248 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-04-29 23:08:46,249 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-04-29 23:08:46,255 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-04-29 23:08:46,261 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-04-29 23:08:46,261 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-04-29 23:08:46,261 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-04-29 23:08:46,262 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 14505 samples
+2022-04-29 23:08:46,262 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 2901 samples
+2022-04-29 23:08:46,262 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 967 samples
+2022-04-29 23:08:46,263 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 967 samples produced in 335ms on channel 0
+2022-04-29 23:08:46,263 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-04-29 23:08:46,460 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-04-29 23:08:46,460 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-04-29 23:08:46,461 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-04-29 23:08:46,462 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-04-29 23:08:46,462 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /app/performtest/test/comm-activation/comm-activation-80thread/statistics.json
+2022-04-29 23:08:46,511 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-04-29 23:08:46,516 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /app/performtest/test/comm-activation/comm-activation-80thread
+2022-04-29 23:08:46,687 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /app/performtest/test/comm-activation/comm-activation-80thread, creating folder structure
+2022-04-29 23:08:46,692 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/app/.local/apache-jmeter-5.4.3/bin/report-template' to '/app/performtest/test/comm-activation/comm-activation-80thread', got message: /app/performtest/test/comm-activation/comm-activation-80thread, found non empty folder with following content [/app/performtest/test/comm-activation/comm-activation-80thread/statistics.json], will be ignored
+2022-04-29 23:08:47,018 INFO o.a.j.JMeter: Dashboard generated
