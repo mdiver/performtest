@@ -1,0 +1,366 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1651246629494,1051,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,174,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1048,0,351
+1651246630548,299,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,4,4,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,299,0,18
+1651246629800,1119,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1119,0,50
+1651246630920,220,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,4,4,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,220,0,21
+1651246630293,1370,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1370,0,26
+1651246630793,1066,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1066,0,26
+1651246631664,222,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,6,6,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,222,0,15
+1651246631142,897,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,174,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,897,0,37
+1651246631860,199,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,6,6,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,199,0,13
+1651246630851,1401,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1401,0,21
+1651246632040,215,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,6,6,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,215,0,13
+1651246632253,196,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,7,7,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,196,0,15
+1651246631293,1411,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1411,0,16
+1651246632705,198,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,8,8,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,198,0,19
+1651246632294,799,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,174,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,799,0,17
+1651246631793,1460,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1460,0,22
+1651246633095,213,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,9,9,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,213,0,10
+1651246632256,1188,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1188,0,21
+1651246633254,192,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,9,9,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,192,0,14
+1651246633444,191,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,9,9,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,191,0,19
+1651246631887,2076,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2076,0,16
+1651246632793,1399,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1398,0,10
+1651246633964,269,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,269,0,14
+1651246634193,225,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,225,0,12
+1651246632450,2159,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2159,0,8
+1651246633793,862,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,174,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,862,0,16
+1651246634608,194,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,194,0,11
+1651246634655,223,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,223,0,11
+1651246633293,1592,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1592,0,14
+1651246634885,225,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,225,0,17
+1651246632060,3218,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3218,0,15
+1651246635277,175,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,175,0,9
+1651246633447,2033,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2033,0,23
+1651246635479,237,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,237,0,12
+1651246634803,1118,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1118,0,10
+1651246635922,184,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,184,0,11
+1651246632905,3384,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3384,0,14
+1651246634419,1909,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1909,0,10
+1651246636288,189,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,189,0,14
+1651246636327,250,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,250,0,11
+1651246635716,985,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,174,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,985,0,8
+1651246636702,180,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,180,0,10
+1651246634233,2897,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2897,0,11
+1651246637130,194,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,194,0,7
+1651246635453,2053,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2053,0,10
+1651246633636,3924,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3924,0,11
+1651246637506,221,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,221,0,9
+1651246637559,181,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,181,0,12
+1651246634879,3019,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3019,0,11
+1651246637899,341,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,341,0,8
+1651246633309,5131,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5131,0,13
+1651246638439,209,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,209,0,9
+1651246637325,1592,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1592,0,9
+1651246638241,778,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,174,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,778,0,11
+1651246638917,192,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,192,0,8
+1651246639019,186,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,185,0,12
+1651246636478,2879,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2879,0,11
+1651246639357,224,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,224,0,11
+1651246637728,1883,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1882,0,11
+1651246639611,184,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,184,0,12
+1651246636578,3564,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3564,0,7
+1651246640142,240,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,240,0,7
+1651246636883,3522,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3522,0,11
+1651246640405,217,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,217,0,9
+1651246639796,908,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,174,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,908,0,8
+1651246640704,193,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,193,0,8
+1651246636107,4863,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4863,0,11
+1651246640970,200,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,200,0,11
+1651246639111,2348,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2348,0,9
+1651246641460,221,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,221,0,9
+1651246635111,6625,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6625,0,12
+1651246641736,185,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,185,0,7
+1651246639206,2990,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2990,0,14
+1651246642197,188,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,188,0,7
+1651246640898,1614,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1614,0,7
+1651246637741,4857,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4856,0,10
+1651246642512,175,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,175,0,11
+1651246642598,91,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,12957,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,91,0,9
+1651246640383,2759,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2758,0,8
+1651246643142,215,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,215,0,7
+1651246641171,2310,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2310,0,11
+1651246643481,193,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,193,0,13
+1651246639582,4139,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4139,0,25
+1651246643722,193,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,193,0,8
+1651246640623,3567,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3567,0,9
+1651246644191,223,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,223,0,12
+1651246638649,5906,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5906,0,9
+1651246644556,197,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,197,0,10
+1651246643675,1247,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1247,0,7
+1651246644923,226,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,226,0,11
+1651246643916,1394,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1394,0,7
+1651246643357,2133,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2133,0,8
+1651246645312,198,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,198,0,7
+1651246645491,230,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,230,0,7
+1651246642690,3309,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3309,0,10
+1651246646000,205,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,205,0,11
+1651246642386,3923,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3922,0,8
+1651246642688,3683,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3683,0,9
+1651246646310,208,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,208,0,32
+1651246646373,199,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,199,0,10
+1651246645722,1064,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1064,0,9
+1651246646786,185,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,185,0,7
+1651246644754,2389,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2389,0,10
+1651246641925,5222,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5222,0,11
+1651246647143,180,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,180,0,15
+1651246647148,245,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,245,0,10
+1651246644415,3154,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3154,0,13
+1651246647570,179,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,179,0,15
+1651246641681,6477,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6476,0,12
+1651246648159,252,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,252,0,8
+1651246646573,1848,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1848,0,10
+1651246648421,222,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,222,0,9
+1651246647394,1423,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1423,0,9
+1651246646206,2770,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2770,0,7
+1651246648818,167,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,167,0,9
+1651246648976,237,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,237,0,10
+1651246647324,1900,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1900,0,8
+1651246649225,212,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,212,0,12
+1651246648644,1083,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1083,0,7
+1651246649727,205,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,205,0,14
+1651246646972,3125,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3125,0,9
+1651246648412,1783,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1783,0,10
+1651246650098,211,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,211,0,8
+1651246650195,195,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,195,0,13
+1651246646519,4155,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4155,0,8
+1651246650674,201,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,201,0,7
+1651246647750,3350,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3350,0,12
+1651246651099,208,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,208,0,12
+1651246650391,961,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,174,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,961,0,9
+1651246651353,248,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,248,0,7
+1651246645511,6127,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6127,0,10
+1651246651637,248,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,248,0,7
+1651246649933,2141,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2140,0,10
+1651246652074,181,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,181,0,8
+1651246645150,7388,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7388,0,8
+1651246652538,175,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,175,0,8
+1651246649214,3758,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3758,0,12
+1651246652971,253,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,253,0,8
+1651246651602,1703,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1703,0,7
+1651246653306,186,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,186,0,7
+1651246652256,1238,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1238,0,7
+1651246653494,204,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,204,0,14
+1651246651310,2556,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2556,0,10
+1651246653866,190,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,10,10,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,190,0,10
+1651246651886,2797,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2797,0,7
+1651246650876,3967,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3967,0,8
+1651246654684,227,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,12,12,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,227,0,10
+1651246654844,242,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,12,12,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,241,0,7
+1651246653699,1434,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1434,0,10
+1651246655133,259,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,13,13,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,259,0,9
+1651246650310,5277,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5277,0,21
+1651246653493,2261,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2261,0,15
+1651246655587,249,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,14,14,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,249,0,11
+1651246655754,232,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,14,14,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,232,0,8
+1651246649437,6599,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6599,0,12
+1651246656037,186,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,14,14,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,186,0,11
+1651246653225,3216,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,15,15,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3216,0,9
+1651246656442,199,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,15,15,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,199,0,7
+1651246648986,8120,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,16,16,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8120,0,8
+1651246657105,194,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,17,17,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,194,0,7
+1651246655987,1402,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,17,17,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1402,0,7
+1651246656224,1277,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,17,17,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1276,0,7
+1651246657389,179,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,17,17,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,179,0,6
+1651246657501,254,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,17,17,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,253,0,12
+1651246656291,1505,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-15,text,true,,175,155,18,18,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1505,0,17
+1651246657797,190,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-15,text,false,,15255,161,18,18,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,190,0,14
+1651246655836,2460,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,19,19,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2460,0,8
+1651246658296,184,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,19,19,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,184,0,10
+1651246655792,2962,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,175,155,19,19,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2962,0,9
+1651246658755,212,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-14,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,212,0,11
+1651246655393,3772,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3772,0,10
+1651246655292,3950,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-13,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3950,0,13
+1651246659166,201,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,201,0,8
+1651246659243,215,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-13,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,215,0,10
+1651246654912,4683,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4683,0,8
+1651246659596,207,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,207,0,6
+1651246655087,4760,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4760,0,11
+1651246659849,181,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,181,0,10
+1651246658967,1591,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1591,0,7
+1651246660558,201,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-14,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,201,0,11
+1651246654792,6072,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-12,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6072,0,7
+1651246660865,208,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-12,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,208,0,9
+1651246658798,2349,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-20,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2349,0,10
+1651246661148,175,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-20,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,175,0,11
+1651246654293,7305,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-11,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7305,0,9
+1651246661599,181,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-11,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,181,0,17
+1651246657755,4209,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4209,0,8
+1651246661965,188,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,188,0,7
+1651246654057,8432,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8432,0,8
+1651246662489,198,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,198,0,8
+1651246657987,4740,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-15,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4740,0,8
+1651246662728,181,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-15,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,181,0,11
+1651246652714,10606,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10606,0,14
+1651246663320,202,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,202,0,19
+1651246657300,6374,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6374,0,9
+1651246663674,178,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,178,0,10
+1651246662154,1922,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1921,0,7
+1651246664076,14,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,12956,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,14,0,7
+1651246657292,7051,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-17,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7051,0,13
+1651246664346,207,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-17,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,207,0,11
+1651246661781,2972,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-11,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2972,0,7
+1651246663853,1058,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1058,0,8
+1651246664754,174,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-11,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,174,0,9
+1651246664912,176,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,176,0,8
+1651246661324,3949,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-20,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3949,0,7
+1651246665274,236,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-20,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,236,0,7
+1651246662910,2620,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-15,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2620,0,9
+1651246665532,209,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-15,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,209,0,7
+1651246660031,5725,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5725,0,8
+1651246665757,201,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,201,0,7
+1651246662688,3410,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3410,0,8
+1651246666099,205,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,205,0,7
+1651246659804,6540,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6540,0,9
+1651246666345,243,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,243,0,13
+1651246661074,5768,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-12,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5768,0,15
+1651246666843,253,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-12,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,253,0,62
+1651246658481,8625,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8625,0,8
+1651246667107,212,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,212,0,6
+1651246660759,6761,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6761,0,9
+1651246667522,208,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-14,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,208,0,8
+1651246658293,9582,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-19,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9582,0,14
+1651246667877,202,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-19,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,202,0,8
+1651246659368,8782,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8782,0,10
+1651246668152,251,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,251,0,10
+1651246657792,10616,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-18,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10615,0,14
+1651246668411,215,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-18,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,215,0,16
+1651246659459,9337,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-13,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9337,0,7
+1651246668798,199,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-13,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,199,0,8
+1651246657569,11624,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,11624,0,7
+1651246669194,179,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,179,0,9
+1651246668404,978,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,174,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,978,0,19
+1651246669382,14,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,12956,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,14,0,7
+1651246656641,12979,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,12979,0,7
+1651246669622,191,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,191,0,6
+1651246668080,1965,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-19,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1965,0,10
+1651246670045,217,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-19,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,217,0,14
+1651246656792,13470,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-16,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,13470,0,8
+1651246670264,213,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-16,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,213,0,19
+1651246667097,3411,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-12,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3411,0,8
+1651246670509,198,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-12,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,198,0,8
+1651246669814,1321,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1320,0,10
+1651246666589,4656,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4656,0,7
+1651246671135,296,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,296,0,8
+1651246671246,191,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,190,0,10
+1651246669397,2046,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2046,0,11
+1651246671443,199,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,199,0,9
+1651246665510,6336,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-20,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6336,0,8
+1651246671846,168,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-20,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,168,0,7
+1651246668627,3574,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-18,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3574,0,7
+1651246672201,196,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-18,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,196,0,8
+1651246665088,7350,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7350,0,8
+1651246672438,181,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,181,0,7
+1651246667731,4894,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4894,0,6
+1651246672625,16,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-14,text,false,,12956,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,16,0,9
+1651246667320,5740,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5740,0,6
+1651246673060,203,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,203,0,9
+1651246664554,8920,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-17,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8920,0,7
+1651246673474,214,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-17,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,214,0,6
+1651246672619,1188,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1188,0,8
+1651246673807,169,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,169,0,7
+1651246666305,7735,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7735,0,7
+1651246674040,222,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,222,0,7
+1651246665959,8517,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8517,0,12
+1651246672642,2010,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2010,0,9
+1651246674476,210,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,210,0,7
+1651246674652,183,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-14,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,183,0,6
+1651246665742,9137,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-15,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9137,0,11
+1651246674879,229,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-15,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,229,0,6
+1651246671438,3673,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3673,0,9
+1651246675111,187,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,187,0,13
+1651246670708,4831,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-12,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4831,0,10
+1651246664929,10709,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-11,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10709,0,7
+1651246675638,167,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-11,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,167,0,7
+1651246675540,285,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-12,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,285,0,7
+1651246670478,5541,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-16,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5541,0,7
+1651246676019,200,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-16,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,200,0,8
+1651246664091,12189,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,12189,0,7
+1651246676281,183,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,183,0,8
+1651246669373,7360,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-3,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7360,0,8
+1651246676733,193,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-3,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,193,0,6
+1651246663523,13544,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-1,text,true,,176,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,13544,0,14
+1651246677068,16,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-1,text,false,,12956,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,16,0,9
+1651246668998,8323,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-13,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8323,0,9
+1651246677321,200,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-13,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,200,0,7
+1651246676220,1304,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-16,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1304,0,7
+1651246677525,200,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-16,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,200,0,9
+1651246676465,1438,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1438,0,8
+1651246677904,286,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,286,0,7
+1651246674835,3506,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3506,0,6
+1651246678342,191,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-14,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,191,0,6
+1651246675806,2930,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-11,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2930,0,11
+1651246678736,15,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-11,text,false,,12956,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,15,0,9
+1651246674687,4265,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,20,20,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4265,0,7
+1651246678952,189,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,20,20,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,189,0,8
+1651246675825,3648,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-12,text,true,,175,155,21,21,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3648,0,8
+1651246679474,167,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-12,text,false,,15255,161,21,21,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,167,0,7
+1651246674262,5637,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,22,22,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5637,0,7
+1651246679899,203,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,22,22,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,203,0,7
+1651246675299,4804,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,22,22,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4804,0,9
+1651246680103,17,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,12956,161,22,22,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,17,0,12
+1651246673689,6556,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-17,text,true,,175,155,22,22,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6556,0,6
+1651246680245,210,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-17,text,false,,15255,161,23,23,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,210,0,9
+1651246675109,5539,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-15,text,true,,175,155,23,23,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5539,0,11
+1651246680648,245,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-15,text,false,,15255,161,24,24,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,245,0,7
+1651246672397,8806,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-18,text,true,,175,155,24,24,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8806,0,8
+1651246681203,168,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-18,text,false,,15255,161,25,25,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,168,0,7
+1651246673976,7580,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-9,text,true,,175,155,25,25,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7580,0,7
+1651246672014,9750,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-20,text,true,,175,155,25,25,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9750,0,10
+1651246681557,410,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-9,text,false,,15255,161,26,26,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,410,0,8
+1651246681765,208,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-20,text,false,,15255,161,26,26,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,208,0,8
+1651246673264,8913,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-8,text,true,,175,155,26,26,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8913,0,13
+1651246682177,180,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-8,text,false,,15255,161,27,27,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,180,0,8
+1651246671643,10850,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-4,text,true,,176,155,27,27,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10850,0,9
+1651246681293,1380,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-25,text,true,,175,155,27,27,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1380,0,8
+1651246682494,229,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-4,text,false,,15255,161,27,27,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,229,0,7
+1651246682673,188,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-25,text,false,,15255,161,28,28,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,188,0,7
+1651246671432,11575,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-2,text,true,,176,155,28,28,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,11575,0,12
+1651246683007,200,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-2,text,false,,15255,161,28,28,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,200,0,7
+1651246681371,1902,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-18,text,true,,175,155,28,28,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1902,0,7
+1651246683273,176,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-18,text,false,,15255,161,29,29,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,176,0,7
+1651246670263,13372,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-19,text,true,,176,155,29,29,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,13371,0,20
+1651246683635,198,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-19,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,198,0,6
+1651246680893,2942,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-15,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2942,0,7
+1651246683836,206,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-15,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,206,0,7
+1651246682793,1252,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-28,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1252,0,7
+1651246684046,193,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-28,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,193,0,7
+1651246680103,4402,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-6,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4402,0,13
+1651246684505,198,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-6,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,198,0,9
+1651246682293,2572,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-27,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2572,0,7
+1651246679793,5286,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-22,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5286,0,6
+1651246684866,304,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-27,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,304,0,9
+1651246681974,3370,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-20,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3370,0,7
+1651246685080,283,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-22,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,283,0,9
+1651246685344,282,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-20,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,282,0,8
+1651246679293,6335,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-21,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6335,0,7
+1651246685628,231,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-21,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,231,0,10
+1651246681793,4274,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-26,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4274,0,8
+1651246679141,7127,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7127,0,8
+1651246686068,213,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-26,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,213,0,6
+1651246686269,177,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,177,0,9
+1651246680456,6253,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-17,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6253,0,6
+1651246686709,177,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-17,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,177,0,7
+1651246678190,8906,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-7,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8906,0,7
+1651246680793,6321,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-24,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6321,0,6
+1651246687097,203,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-7,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,203,0,19
+1651246687115,186,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-24,text,false,,12958,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,186,0,24
+1651246677522,9955,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-13,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9955,0,11
+1651246687477,182,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-13,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,182,0,7
+1651246686446,1454,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-10,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1454,0,7
+1651246687900,199,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-10,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,199,0,9
+1651246680121,7998,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-5,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7998,0,8
+1651246688120,12,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-5,text,false,,12956,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,11,0,6
+1651246686281,2058,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-26,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2058,0,10
+1651246688339,219,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-26,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,219,0,10
+1651246680293,8440,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-23,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8440,0,6
+1651246688734,383,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-23,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,383,0,10
+1651246685627,3501,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-20,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3501,0,10
+1651246689128,17,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-20,text,false,,12956,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,17,0,12
+1651246679642,9724,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-12,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9724,0,7
+1651246689367,180,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-12,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,180,0,6
+1651246685170,4713,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-27,text,true,,175,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4713,0,8
+1651246689884,229,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-27,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,229,0,6
+1651246678752,11409,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-11,text,true,,176,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,11409,0,7
+1651246690161,210,HTTP Request,500,Internal Server Error,jp@gc - Stepping Thread Group 1-11,text,false,,15255,161,30,30,https://msmp.sktelecom.com:8443/comm-activation/api/v1/active/bff,210,0,11
+1651246678534,12257,HTTP Request,200,OK,jp@gc - Stepping Thread Group 1-14,text,true,,176,155,30,30,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,12257,0,6
