@@ -1,0 +1,1130 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1652165129928,1477,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,1,1,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1475,0,400
+1652165131408,1300,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,1,1,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1300,0,37
+1652165132712,863,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,174,155,1,1,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,863,0,20
+1652165133576,885,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,885,0,25
+1652165134072,1045,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1045,0,25
+1652165134462,1594,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1594,0,20
+1652165135118,966,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,966,0,20
+1652165136056,915,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,915,0,18
+1652165136085,1103,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1103,0,15
+1652165136972,855,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,174,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,855,0,14
+1652165137188,1270,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1270,0,25
+1652165137827,1269,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1269,0,22
+1652165138359,857,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,174,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,857,0,15
+1652165138459,1434,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1434,0,19
+1652165139218,1473,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1473,0,14
+1652165139894,1070,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1070,0,11
+1652165139097,2421,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2421,0,13
+1652165140966,808,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,174,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,808,0,23
+1652165140693,1771,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1770,0,12
+1652165141520,1024,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1024,0,14
+1652165141775,1477,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1477,0,12
+1652165142545,1017,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,174,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1017,0,11
+1652165142464,1464,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1464,0,15
+1652165142644,1586,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1586,0,13
+1652165143253,1398,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1398,0,24
+1652165143929,1120,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1120,0,10
+1652165144231,1069,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1069,0,16
+1652165143563,2126,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2126,0,18
+1652165144652,1393,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1393,0,15
+1652165145301,1079,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1079,0,12
+1652165145049,1654,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1654,0,15
+1652165145690,1591,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1591,0,10
+1652165146046,1320,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1320,0,10
+1652165146930,1094,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1094,0,12
+1652165146704,1626,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1626,0,13
+1652165146380,2600,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2600,0,14
+1652165147282,2121,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2121,0,12
+1652165148025,1976,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1976,0,14
+1652165148331,2106,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2106,0,14
+1652165147366,3665,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3665,0,10
+1652165150002,1218,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1218,0,13
+1652165149404,2378,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2378,0,10
+1652165150438,1572,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1572,0,23
+1652165148981,3499,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3499,0,8
+1652165151032,1905,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1905,0,19
+1652165151220,1936,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,6,6,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1936,0,12
+1652165152010,1611,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,6,6,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1611,0,11
+1652165151216,2859,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2859,0,10
+1652165151782,2765,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,6,6,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2765,0,12
+1652165153157,1604,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1604,0,9
+1652165153622,1619,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1619,0,14
+1652165152480,3224,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3224,0,12
+1652165152937,3215,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3215,0,12
+1652165154762,1751,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1751,0,14
+1652165155502,1297,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1297,0,13
+1652165154076,3339,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3339,0,12
+1652165155242,2529,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2529,0,10
+1652165156800,1320,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1320,0,10
+1652165154548,4162,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4162,0,11
+1652165156514,2315,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2315,0,8
+1652165158121,1401,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1401,0,10
+1652165155705,4033,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4033,0,9
+1652165157772,2458,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2458,0,11
+1652165159523,954,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,198,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,954,0,20
+1652165156153,4833,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4832,0,19
+1652165158711,2595,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2595,0,9
+1652165160477,1396,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1396,0,12
+1652165157416,4809,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4809,0,7
+1652165160231,2260,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2260,0,9
+1652165161307,1815,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1815,0,9
+1652165158829,4301,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4301,0,11
+1652165159787,3965,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3965,0,8
+1652165162225,1710,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1710,0,28
+1652165159738,4633,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4633,0,12
+1652165161874,2843,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2843,0,11
+1652165164072,906,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,174,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,906,0,9
+1652165160985,4538,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4538,0,10
+1652165163936,1833,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1833,0,16
+1652165163122,3267,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3267,0,10
+1652165164979,1435,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1435,0,14
+1652165162492,4451,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4451,0,21
+1652165164718,2509,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2509,0,11
+1652165166390,1138,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1138,0,11
+1652165163752,4450,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4450,0,12
+1652165165524,2926,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2926,0,12
+1652165163130,5689,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5689,0,8
+1652165164371,4657,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4657,0,19
+1652165168451,898,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,198,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,898,0,12
+1652165168358,1264,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1264,0,9
+1652165168203,1727,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1727,0,8
+1652165167529,2681,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2681,0,10
+1652165167227,3299,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3299,0,10
+1652165166943,4040,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4040,0,12
+1652165166415,4870,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4870,0,10
+1652165170211,1505,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1505,0,8
+1652165165769,6391,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6391,0,10
+1652165169930,2651,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2651,0,10
+1652165170984,2121,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2121,0,11
+1652165169349,3968,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3968,0,12
+1652165170527,3220,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3220,0,10
+1652165169028,5145,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5145,0,11
+1652165169623,4916,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4916,0,9
+1652165173106,1817,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1817,0,11
+1652165168820,6349,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6349,0,12
+1652165172645,2866,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2866,0,49
+1652165174925,1060,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1060,0,15
+1652165171716,4620,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4619,0,11
+1652165173747,3082,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3082,0,11
+1652165171285,5819,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,12,12,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5819,0,10
+1652165173317,4395,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,12,12,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4395,0,14
+1652165176831,912,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,174,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,912,0,7
+1652165172584,5712,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5712,0,22
+1652165175171,3399,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3399,0,9
+1652165172161,6972,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6971,0,18
+1652165174540,4827,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4827,0,11
+1652165177714,2326,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2326,0,8
+1652165174174,5872,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5872,0,10
+1652165176931,3690,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3690,0,11
+1652165179369,1491,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,12,12,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1491,0,10
+1652165176337,4896,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4896,0,12
+1652165178570,3199,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3199,0,9
+1652165175985,5857,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5857,0,10
+1652165178298,4287,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4287,0,9
+1652165175513,7246,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7245,0,11
+1652165177743,5461,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5461,0,14
+1652165181843,1696,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1696,0,8
+1652165177106,6692,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6692,0,9
+1652165180861,3465,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3465,0,8
+1652165183205,1348,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1348,0,8
+1652165180622,4318,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4318,0,9
+1652165182759,2449,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2449,0,8
+1652165181770,4092,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4092,0,8
+1652165180041,6036,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6036,0,24
+1652165181215,5256,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5256,0,26
+1652165179134,7574,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7574,0,11
+1652165181234,6003,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6003,0,15
+1652165186472,1020,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1020,0,10
+1652165180047,7776,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7776,0,17
+1652165185863,2423,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2423,0,13
+1652165186709,1859,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1859,0,7
+1652165185502,3382,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3382,0,16
+1652165186078,3086,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3086,0,10
+1652165184941,4533,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4533,0,9
+1652165185208,4573,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4573,0,9
+1652165184327,5856,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5856,0,10
+1652165184554,6069,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6069,0,9
+1652165183539,7263,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7263,0,11
+1652165183799,7488,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7488,0,10
+1652165182586,9007,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9007,0,8
+1652165190185,1865,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1865,0,10
+1652165190803,1402,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1402,0,12
+1652165190624,2232,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2232,0,9
+1652165189782,3099,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3099,0,9
+1652165189474,3985,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3985,0,10
+1652165188885,4784,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4784,0,9
+1652165189164,5078,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5078,0,9
+1652165188568,5842,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5842,0,9
+1652165188287,6710,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6710,0,17
+1652165187824,7401,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7401,0,8
+1652165187492,8299,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8299,0,11
+1652165194243,1570,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1570,0,8
+1652165187238,9152,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9152,0,8
+1652165193670,3091,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3091,0,6
+1652165195813,1370,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1370,0,9
+1652165192881,4476,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4476,0,9
+1652165195791,2006,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2006,0,9
+1652165192051,6149,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6149,0,11
+1652165194997,3395,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3395,0,9
+1652165194411,4625,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4625,0,8
+1652165191593,7461,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7461,0,9
+1652165193460,6424,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6424,0,12
+1652165191289,8612,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8612,0,13
+1652165192856,7803,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7803,0,9
+1652165199037,1624,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1624,0,9
+1652165198393,3054,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3053,0,8
+1652165192206,9382,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9382,0,9
+1652165197798,4325,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4325,0,8
+1652165201446,876,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,876,0,9
+1652165197358,5611,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5611,0,12
+1652165199900,3344,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3344,0,9
+1652165196761,6972,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6972,0,9
+1652165199055,4918,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4918,0,12
+1652165195226,9108,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9108,0,8
+1652165198201,6335,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6335,0,11
+1652165203244,1796,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1796,0,9
+1652165197184,8207,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8207,0,9
+1652165202969,2679,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2679,0,9
+1652165196391,9861,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9860,0,8
+1652165200661,5631,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5631,0,17
+1652165200659,6419,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6419,0,19
+1652165205649,1442,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1442,0,10
+1652165199883,7775,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7775,0,9
+1652165203972,3883,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3883,0,10
+1652165206251,1997,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1997,0,7
+1652165203733,4909,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4909,0,7
+1652165205391,3616,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3616,0,10
+1652165202323,7126,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7126,0,11
+1652165205040,4535,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4535,0,10
+1652165202122,8213,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8213,0,9
+1652165204535,5884,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5884,0,9
+1652165201588,9331,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9331,0,7
+1652165204333,6862,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6862,0,8
+1652165210420,1096,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1096,0,8
+1652165210919,937,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,937,0,8
+1652165210336,1969,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1969,0,8
+1652165209575,3087,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3087,0,9
+1652165209449,3485,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3485,0,11
+1652165209008,4359,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4359,0,11
+1652165207856,5869,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5869,0,10
+1652165208643,5282,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5282,0,19
+1652165207092,7248,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7248,0,10
+1652165208248,6445,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6445,0,12
+1652165207078,7860,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7860,0,8
+1652165206293,9207,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9207,0,14
+1652165207659,7843,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7843,0,8
+1652165214694,1362,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1362,0,10
+1652165214940,1430,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1430,0,8
+1652165213927,2781,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2781,0,27
+1652165214340,2610,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2610,0,12
+1652165213367,4123,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4123,0,10
+1652165213725,3853,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3853,0,10
+1652165212306,5811,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5811,0,10
+1652165212935,5403,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5403,0,7
+1652165211856,6855,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6855,0,10
+1652165212662,6274,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6274,0,9
+1652165218339,1220,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1220,0,9
+1652165211516,8288,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8288,0,13
+1652165218119,2273,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2273,0,7
+1652165211195,9424,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9424,0,11
+1652165216710,4325,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4325,0,10
+1652165219805,1450,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1450,0,9
+1652165216370,5227,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5227,0,10
+1652165218937,2918,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2918,0,9
+1652165215503,6935,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6934,0,12
+1652165218713,3968,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3968,0,10
+1652165215502,7735,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7735,0,11
+1652165217579,5860,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5860,0,8
+1652165222681,1195,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1195,0,8
+1652165217491,6735,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6735,0,9
+1652165222438,2023,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2023,0,12
+1652165216951,8082,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8082,0,11
+1652165221255,3970,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3970,0,12
+1652165216057,9563,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9563,0,10
+1652165221035,4972,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4972,0,7
+1652165225034,1358,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1358,0,12
+1652165220621,6135,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6135,0,7
+1652165223876,3137,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3137,0,8
+1652165219560,7782,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7782,0,9
+1652165223440,4166,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4166,0,11
+1652165226392,1527,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1527,0,12
+1652165223237,5242,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5242,0,12
+1652165225621,3089,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3089,0,14
+1652165221855,7227,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7227,0,9
+1652165225226,4234,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4234,0,16
+1652165221598,8088,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8088,0,11
+1652165224461,5648,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5647,0,11
+1652165220394,10071,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,10071,0,9
+1652165224226,6603,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6603,0,9
+1652165229460,1605,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1605,0,12
+1652165230465,1009,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1009,0,9
+1652165229082,2763,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2763,0,7
+1652165230109,2319,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2319,0,10
+1652165228711,3968,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3968,0,8
+1652165229687,3560,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3560,0,8
+1652165227920,5713,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5713,0,7
+1652165228479,5395,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5395,0,15
+1652165227014,7513,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7513,0,9
+1652165227607,7141,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7141,0,7
+1652165226756,8181,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8181,0,11
+1652165227342,8038,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8038,0,8
+1652165226007,9652,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9652,0,8
+1652165234528,1656,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1656,0,9
+1652165235381,1031,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1031,0,7
+1652165233634,3332,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3332,0,8
+1652165234748,2404,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2404,0,10
+1652165233248,4270,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4270,0,7
+1652165234938,2903,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2903,0,8
+1652165232679,5402,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5401,0,7
+1652165233874,4564,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4564,0,9
+1652165231475,7225,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7225,0,10
+1652165232428,6720,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6720,0,8
+1652165238081,1423,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1423,0,9
+1652165231845,7973,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7973,0,12
+1652165237841,2303,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2303,0,10
+1652165231066,9582,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9582,0,9
+1652165236967,3798,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3798,0,25
+1652165230829,10447,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10447,0,7
+1652165236184,5355,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5355,0,7
+1652165240144,1774,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1774,0,9
+1652165235659,6735,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6735,0,8
+1652165239818,2795,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2795,0,10
+1652165239149,3863,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3863,0,8
+1652165241918,1311,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1311,0,10
+1652165238439,5173,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5173,0,10
+1652165240765,3211,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3211,0,8
+1652165237518,6696,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6696,0,9
+1652165240647,3906,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3906,0,9
+1652165237153,7672,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7672,0,8
+1652165239504,5873,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5873,0,8
+1652165236412,9016,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9015,0,14
+1652165238701,7444,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7444,0,7
+1652165244824,1369,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1369,0,9
+1652165245427,1308,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1307,0,7
+1652165244554,2436,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2436,0,7
+1652165245376,1957,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1957,0,11
+1652165243976,3818,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3818,0,7
+1652165244213,3769,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3769,0,7
+1652165243011,5397,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5397,0,11
+1652165243611,5285,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5285,0,30
+1652165242613,6519,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6519,0,11
+1652165243230,6259,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6259,0,13
+1652165241539,8164,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8164,0,8
+1652165242393,7963,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7963,0,8
+1652165241275,9256,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9256,0,9
+1652165249133,1842,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1842,0,8
+1652165249703,1551,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1551,0,7
+1652165247794,3735,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3735,0,15
+1652165249490,2548,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2547,0,8
+1652165247334,4777,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4777,0,12
+1652165248897,3739,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3739,0,6
+1652165246991,6005,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6005,0,9
+1652165248408,4976,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4975,0,7
+1652165246144,7587,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7586,0,9
+1652165247982,5966,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5966,0,8
+1652165252998,1482,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1482,0,8
+1652165246735,7962,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7962,0,13
+1652165252638,2416,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2416,0,9
+1652165246193,9115,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9115,0,7
+1652165251531,4184,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4184,0,8
+1652165254480,1581,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1581,0,10
+1652165250976,5412,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5412,0,11
+1652165253949,2678,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2678,0,11
+1652165250533,6696,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6696,0,8
+1652165253385,3864,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3864,0,11
+1652165250358,7646,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7646,0,7
+1652165252113,6036,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6036,0,11
+1652165257249,1339,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1339,0,10
+1652165252039,6884,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6884,0,10
+1652165256388,2772,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2771,0,17
+1652165251255,8264,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8264,0,8
+1652165255715,4042,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4042,0,9
+1652165259160,1082,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1082,0,10
+1652165255055,5604,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5604,0,7
+1652165258923,2097,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2097,0,9
+1652165254700,6641,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6641,0,9
+1652165258150,3650,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3650,0,7
+1652165253732,8319,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8319,0,8
+1652165257229,5296,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5296,0,9
+1652165261342,1509,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1509,0,9
+1652165256627,6695,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6695,0,9
+1652165260659,2867,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2866,0,12
+1652165256062,7874,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7874,0,7
+1652165260243,4057,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4057,0,8
+1652165255309,9376,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9376,0,12
+1652165259757,5310,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5310,0,11
+1652165263937,1548,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1548,0,10
+1652165258588,7089,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7089,0,8
+1652165258004,8234,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8234,0,9
+1652165263526,3111,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3111,0,8
+1652165265678,1372,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1372,0,7
+1652165262851,4336,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4336,0,8
+1652165264685,3077,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3077,0,6
+1652165261801,6141,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6141,0,9
+1652165264301,4232,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4232,0,7
+1652165261020,7750,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7750,0,8
+1652165263322,5808,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5808,0,9
+1652165259519,10079,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10079,0,7
+1652165262525,7578,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7578,0,13
+1652165268770,1704,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1704,0,11
+1652165262052,8703,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8703,0,7
+1652165268533,2567,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2567,0,9
+1652165270104,1236,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1236,0,9
+1652165267943,3931,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3931,0,7
+1652165269130,2798,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2798,0,8
+1652165267187,5299,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5299,0,8
+1652165267763,5114,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5114,0,8
+1652165266638,6740,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6740,0,8
+1652165267050,6431,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6431,0,10
+1652165265486,8466,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8466,0,7
+1652165266239,7961,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7961,0,6
+1652165265067,9482,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9481,0,8
+1652165273952,827,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,827,0,8
+1652165273379,1924,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1924,0,6
+1652165273482,2075,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2075,0,7
+1652165272878,3189,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3189,0,7
+1652165271929,4403,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4403,0,7
+1652165272486,4393,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4393,0,8
+1652165271874,5026,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5026,0,11
+1652165270756,6843,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6843,0,20
+1652165271341,6461,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6460,0,6
+1652165270475,7934,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7934,0,14
+1652165271100,7312,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7312,0,9
+1652165269599,9435,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9435,0,8
+1652165277802,1413,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1413,0,10
+1652165276901,2923,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2923,0,6
+1652165278409,1425,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1425,0,10
+1652165275558,4884,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4884,0,8
+1652165277599,3025,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3025,0,9
+1652165274780,6256,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6256,0,13
+1652165276879,4549,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4549,0,8
+1652165274200,7624,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7624,0,11
+1652165276332,5671,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5671,0,9
+1652165276067,6526,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6526,0,10
+1652165281428,1413,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1413,0,6
+1652165280442,2941,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2941,0,7
+1652165275303,8270,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8270,0,8
+1652165279824,4132,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4132,0,10
+1652165274549,9631,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9631,0,11
+1652165279035,5782,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5782,0,7
+1652165283957,1171,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1171,0,10
+1652165278413,7014,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7014,0,8
+1652165283573,2102,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2102,0,6
+1652165285129,831,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,831,0,8
+1652165282841,3422,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3421,0,9
+1652165284179,2392,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2392,0,9
+1652165282593,4473,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4473,0,7
+1652165283383,3773,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3773,0,9
+1652165281035,6641,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6641,0,8
+1652165282003,5931,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5931,0,7
+1652165280624,7658,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7658,0,7
+1652165281823,6692,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6692,0,8
+1652165279834,9033,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9033,0,9
+1652165287934,1448,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1448,0,8
+1652165279215,10428,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10428,0,7
+1652165287676,2278,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2278,0,8
+1652165289382,840,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,840,0,10
+1652165287067,3654,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3654,0,11
+1652165288282,2702,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2702,0,8
+1652165286263,4999,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4999,0,18
+1652165287157,4657,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4657,0,9
+1652165285675,6178,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6178,0,8
+1652165286573,5888,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5888,0,25
+1652165291263,1462,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1462,0,8
+1652165285961,7344,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7344,0,19
+1652165290721,2797,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2797,0,8
+1652165285426,8498,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8498,0,9
+1652165289642,4650,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4650,0,9
+1652165284816,9719,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9719,0,9
+1652165288867,6151,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6151,0,8
+1652165294292,1083,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1083,0,7
+1652165288515,7276,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7276,0,11
+1652165293305,2685,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2685,0,9
+1652165295377,1208,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1208,0,9
+1652165292462,4351,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4351,0,10
+1652165295019,2152,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2152,0,7
+1652165291815,5822,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5822,0,8
+1652165293924,3924,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3924,0,7
+1652165290985,7223,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7223,0,6
+1652165293518,4911,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4911,0,8
+1652165290223,8624,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8624,0,7
+1652165292726,6512,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6512,0,7
+1652165289954,9715,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9714,0,11
+1652165291854,8178,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8178,0,7
+1652165298848,1645,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1645,0,12
+1652165299670,958,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,958,0,8
+1652165299240,2007,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2007,0,11
+1652165297849,3457,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3457,0,9
+1652165298430,3597,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3597,0,7
+1652165297638,4449,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4448,0,7
+1652165298209,4766,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4766,0,11
+1652165296585,6515,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6515,0,7
+1652165297172,6412,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6412,0,8
+1652165295793,8123,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8123,0,11
+1652165296815,7367,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7367,0,7
+1652165295992,8714,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8714,0,7
+1652165303100,1843,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1843,0,9
+1652165294536,10966,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10966,0,7
+1652165302975,2770,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2770,0,9
+1652165304943,1312,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1312,0,10
+1652165302087,4374,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4374,0,8
+1652165303917,3172,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3172,0,16
+1652165300629,6642,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6642,0,7
+1652165306255,1686,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1686,0,11
+1652165303584,4365,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4365,0,7
+1652165302027,6759,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6759,0,8
+1652165305745,3046,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3046,0,10
+1652165304706,4636,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4636,0,8
+1652165301307,8245,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8245,0,9
+1652165304182,5740,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5740,0,8
+1652165301248,9097,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9097,0,16
+1652165309343,1181,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1181,0,6
+1652165300493,10715,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,10715,0,9
+1652165308792,2611,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2611,0,7
+1652165300033,11752,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,11752,0,10
+1652165308787,3314,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3314,0,9
+1652165311209,1170,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1170,0,6
+1652165307090,5594,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5594,0,7
+1652165310524,2451,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2451,0,11
+1652165311786,1705,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1705,0,11
+1652165309922,3836,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3836,0,7
+1652165311403,2685,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2685,0,9
+1652165309552,4801,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4801,0,9
+1652165310347,4498,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4498,0,14
+1652165307949,7190,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7190,0,12
+1652165313758,1826,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1826,0,11
+1652165307941,8002,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8002,0,7
+1652165313492,2883,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2883,0,8
+1652165307272,9260,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9260,0,9
+1652165312975,4034,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4034,0,8
+1652165306461,10936,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10936,0,11
+1652165312685,4904,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4904,0,8
+1652165305504,12499,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,12499,0,9
+1652165317009,1352,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1352,0,8
+1652165317397,1150,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1150,0,9
+1652165315585,3365,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3365,0,6
+1652165316533,2833,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2833,0,14
+1652165314845,4787,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4787,0,7
+1652165316376,3560,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3560,0,15
+1652165319367,1061,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1061,0,9
+1652165315943,4575,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4575,0,10
+1652165318951,2137,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2137,0,17
+1652165315140,6166,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6166,0,8
+1652165318003,3865,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3865,0,7
+1652165314354,7825,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7825,0,9
+1652165317589,5103,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5103,0,8
+1652165314089,8997,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8997,0,7
+1652165321869,1529,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1529,0,8
+1652165312379,11525,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,11525,0,9
+1652165320519,3527,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3527,0,7
+1652165312101,12397,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,12397,0,9
+1652165320429,4497,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4497,0,8
+1652165323905,1393,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1393,0,7
+1652165319936,5677,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5676,0,8
+1652165323399,2499,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2499,0,7
+1652165325297,1014,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1014,0,10
+1652165323086,3588,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3588,0,9
+1652165324499,2508,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2507,0,8
+1652165322180,5122,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5122,0,9
+1652165324047,3815,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3815,0,9
+1652165321306,6611,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6611,0,9
+1652165322692,5776,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5776,0,8
+1652165321088,7607,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7607,0,7
+1652165327916,1414,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1414,0,8
+1652165319632,9704,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9704,0,9
+1652165326673,3214,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3214,0,8
+1652165318548,11634,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,11634,0,8
+1652165325898,4611,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4611,0,9
+1652165318362,12609,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,12609,0,7
+1652165325612,5502,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5502,0,9
+1652165330510,1278,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1278,0,7
+1652165329336,2696,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2696,0,9
+1652165330181,2201,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2201,0,9
+1652165329330,3554,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3554,0,10
+1652165329887,3435,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3435,0,9
+1652165328468,5215,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5215,0,10
+1652165328694,5357,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5357,0,8
+1652165333322,957,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,957,0,7
+1652165327861,6976,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6976,0,7
+1652165332032,2977,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2977,0,9
+1652165327302,8153,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8153,0,13
+1652165331114,4767,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4767,0,14
+1652165327006,9233,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9233,0,10
+1652165330971,5447,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5447,0,12
+1652165326312,10731,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10731,0,7
+1652165335882,1583,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1583,0,9
+1652165324926,12922,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,12922,0,7
+1652165334837,3236,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3236,0,10
+1652165337043,1372,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1372,0,12
+1652165333683,4974,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4974,0,10
+1652165336418,2591,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2591,0,8
+1652165338074,1173,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1173,0,8
+1652165335455,4186,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4186,0,8
+1652165337848,2171,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2171,0,10
+1652165335010,5216,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5216,0,7
+1652165334280,6583,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6583,0,9
+1652165337466,3496,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3496,0,11
+1652165334051,7455,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7455,0,10
+1652165336240,5524,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5524,0,7
+1652165332885,9176,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9176,0,7
+1652165341507,970,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,970,0,11
+1652165332383,10466,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10466,0,7
+1652165339642,3665,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3665,0,9
+1652165331788,11872,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,11872,0,9
+1652165339247,4682,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4682,0,11
+1652165342851,1340,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1340,0,8
+1652165339010,5699,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5699,0,10
+1652165342478,2475,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2475,0,7
+1652165344192,1185,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1185,0,6
+1652165340964,4620,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4620,0,7
+1652165343662,2501,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2501,0,7
+1652165340865,5653,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5653,0,10
+1652165343308,3464,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3464,0,10
+1652165340227,6981,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6981,0,8
+1652165342062,5514,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5514,0,8
+1652165340021,7676,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7676,0,10
+1652165341765,6394,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6394,0,9
+1652165338658,9926,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9926,0,15
+1652165347698,1233,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1233,0,14
+1652165338415,10863,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10863,0,8
+1652165346772,2753,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2753,0,11
+1652165348932,1140,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1140,0,9
+1652165346518,3730,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3730,0,9
+1652165348585,1858,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1858,0,10
+1652165345584,5445,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5445,0,10
+1652165348159,3027,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3027,0,9
+1652165344953,6705,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6705,0,9
+1652165347577,4445,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4445,0,14
+1652165351186,922,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,922,0,9
+1652165347208,5232,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5232,0,7
+1652165350444,2334,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2334,0,6
+1652165346163,6893,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6893,0,10
+1652165350072,3305,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3305,0,8
+1652165345378,8509,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8509,0,8
+1652165349525,4423,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4423,0,9
+1652165344711,9674,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9674,0,6
+1652165349280,5324,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5324,0,8
+1652165343930,10848,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10848,0,9
+1652165353377,1823,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1823,0,6
+1652165354385,1122,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1122,0,8
+1652165353057,2567,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2567,0,7
+1652165353949,1956,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1956,0,9
+1652165352110,4109,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4109,0,25
+1652165353888,2700,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2700,0,9
+1652165352022,5019,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5019,0,12
+1652165352779,4495,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4495,0,7
+1652165351658,6165,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6165,0,7
+1652165352441,5550,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5550,0,9
+1652165351030,7405,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7405,0,7
+1652165357042,1624,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1624,0,7
+1652165350249,8776,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8776,0,9
+1652165355905,3545,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3545,0,10
+1652165357992,1692,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1692,0,6
+1652165355201,4875,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4875,0,9
+1652165357275,3254,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3254,0,6
+1652165354605,6220,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6220,0,6
+1652165356588,4528,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4528,0,9
+1652165360077,1330,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1330,0,11
+1652165356219,5497,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5497,0,8
+1652165359025,3164,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3164,0,9
+1652165355625,6827,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6827,0,9
+1652165355508,7491,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7491,0,6
+1652165358666,4571,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4571,0,9
+1652165358436,5359,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5359,0,9
+1652165354778,9050,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9050,0,9
+1652165357823,6578,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6577,0,10
+1652165363237,1356,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1356,0,7
+1652165362453,2515,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2515,0,13
+1652165363000,2356,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2356,0,8
+1652165361717,3880,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3880,0,7
+1652165362189,3932,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3932,0,7
+1652165361117,5197,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5197,0,15
+1652165361407,5302,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5302,0,10
+1652165360826,6226,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6226,0,9
+1652165360529,6931,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6931,0,9
+1652165365596,2043,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2043,0,9
+1652165359684,8606,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8606,0,9
+1652165365355,2944,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2944,0,9
+1652165359450,9464,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9464,0,7
+1652165364593,4508,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4508,0,8
+1652165368300,1180,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1180,0,8
+1652165364401,5606,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5606,0,7
+1652165366708,3535,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3535,0,7
+1652165369481,1416,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1416,0,7
+1652165366313,5025,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5025,0,8
+1652165369101,2582,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2582,0,11
+1652165366120,5743,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5743,0,10
+1652165368290,3985,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3984,0,7
+1652165364967,7527,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7527,0,8
+1652165367640,5311,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5311,0,10
+1652165363828,9413,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9413,0,8
+1652165367460,6243,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6243,0,6
+1652165363796,10081,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10081,0,9
+1652165367051,7449,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7449,0,7
+1652165373241,1467,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1467,0,9
+1652165372953,2143,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2143,0,8
+1652165372495,3083,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3083,0,9
+1652165372276,3665,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3665,0,8
+1652165371864,4337,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4337,0,7
+1652165371684,4796,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4796,0,7
+1652165371339,5442,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5442,0,8
+1652165370898,6167,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6167,0,9
+1652165370245,7328,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7328,0,11
+1652165376781,1048,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1048,0,9
+1652165370008,8152,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8152,0,9
+1652165375579,2854,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2854,0,9
+1652165368914,10024,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,10024,0,9
+1652165375097,4119,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4119,0,6
+1652165378161,1363,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1363,0,7
+1652165374709,5309,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5309,0,9
+1652165377065,3230,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3230,0,11
+1652165374501,6217,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6217,0,8
+1652165376480,4587,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4586,0,7
+1652165380295,1071,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1071,0,9
+1652165376201,5565,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5565,0,8
+1652165380019,2186,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2186,0,8
+1652165375941,6487,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6487,0,7
+1652165379217,3645,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3645,0,8
+1652165373704,9413,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9413,0,9
+1652165378434,5259,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5259,0,9
+1652165373877,9874,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9874,0,12
+1652165383117,1236,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1236,0,8
+1652165377830,6623,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6623,0,11
+1652165382206,2907,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2907,0,6
+1652165377574,7786,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7786,0,10
+1652165381367,4356,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4356,0,6
+1652165384453,1704,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1704,0,8
+1652165381067,5243,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5243,0,8
+1652165383693,3325,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3325,0,9
+1652165380718,6320,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6320,0,9
+1652165382863,4768,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4768,0,6
+1652165379524,8305,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8305,0,9
+1652165382429,5785,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5785,0,10
+1652165378940,9699,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9699,0,7
+1652165381767,7204,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7204,0,10
+1652165387830,1382,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1382,0,7
+1652165388639,1003,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1003,0,9
+1652165387631,2444,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2444,0,8
+1652165388214,2231,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2231,0,7
+1652165387019,3835,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3835,0,7
+1652165387038,4002,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4002,0,9
+1652165386157,5455,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5455,0,8
+1652165386311,5509,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5509,0,9
+1652165385114,7102,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7102,0,8
+1652165385723,6716,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6716,0,9
+1652165384354,8459,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8459,0,8
+1652165385360,7902,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7902,0,9
+1652165383752,9767,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9767,0,7
+1652165392814,1296,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1296,0,7
+1652165393263,1078,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1078,0,12
+1652165392216,2697,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2697,0,8
+1652165392439,2516,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2516,0,8
+1652165391613,3844,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3844,0,10
+1652165391820,3937,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3937,0,10
+1652165390854,5216,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5216,0,19
+1652165391040,5416,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5416,0,7
+1652165390076,6724,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6724,0,7
+1652165390446,6652,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6652,0,8
+1652165388971,8551,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8551,0,10
+1652165389642,8254,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8254,0,7
+1652165396799,1260,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1260,0,8
+1652165396070,2576,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2576,0,7
+1652165389212,9594,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9594,0,8
+1652165395757,3500,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3500,0,6
+1652165398646,984,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,984,0,10
+1652165395457,4410,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4410,0,7
+1652165398060,2365,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2365,0,6
+1652165394912,5532,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5532,0,8
+1652165397522,3477,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3477,0,9
+1652165394341,6899,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6899,0,8
+1652165397097,4657,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4657,0,7
+1652165400999,1008,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1008,0,11
+1652165396456,6108,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6108,0,10
+1652165399630,3014,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3014,0,7
+1652165394954,8252,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8252,0,8
+1652165399257,4018,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4018,0,10
+1652165394110,9938,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9938,0,11
+1652165398805,5505,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5505,0,7
+1652165393519,11093,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,11093,0,17
+1652165397896,7177,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7177,0,9
+1652165404310,1011,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1011,0,8
+1652165404048,1824,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1824,0,9
+1652165402565,3509,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3509,0,6
+1652165403275,3243,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3243,0,7
+1652165401754,4996,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4996,0,9
+1652165403207,3922,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3922,0,8
+1652165401240,6076,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6076,0,9
+1652165402644,5115,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5115,0,9
+1652165400445,7682,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7682,0,6
+1652165402008,6300,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6300,0,7
+1652165400426,8480,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8480,0,9
+1652165407317,1787,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1787,0,10
+1652165399867,9629,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9629,0,8
+1652165407131,2781,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2781,0,8
+1652165409105,1043,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1043,0,7
+1652165406520,4190,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4190,0,10
+1652165407761,3079,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3079,0,6
+1652165406752,4736,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4736,0,27
+1652165405075,6427,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6427,0,6
+1652165406075,6087,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6087,0,8
+1652165409912,2252,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2252,0,7
+1652165408907,3901,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3901,0,10
+1652165405874,7159,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7158,0,9
+1652165408309,5160,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5160,0,12
+1652165405323,8536,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8536,0,14
+1652165408128,5949,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5949,0,13
+1652165404611,9865,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9865,0,7
+1652165413859,1025,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1025,0,9
+1652165414077,960,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,960,0,10
+1652165413033,2454,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2454,0,6
+1652165413469,2331,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2331,0,8
+1652165412164,4105,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4105,0,12
+1652165412808,3614,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3614,0,11
+1652165412163,4865,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4865,0,11
+1652165411503,5588,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5588,0,11
+1652165410841,7010,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7010,0,7
+1652165411488,6539,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6539,0,9
+1652165410710,7842,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7842,0,9
+1652165417091,1671,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1671,0,8
+1652165410148,8982,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8982,0,9
+1652165417028,2658,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2658,0,8
+1652165409497,10372,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10372,0,10
+1652165418552,1931,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1931,0,8
+1652165416423,4263,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4262,0,10
+1652165417851,3194,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3194,0,7
+1652165415800,5736,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5735,0,9
+1652165418027,3651,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3651,0,9
+1652165415488,6851,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6851,0,10
+1652165416270,6306,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6306,0,6
+1652165414477,8647,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8647,0,9
+1652165415037,8303,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8303,0,9
+1652165422340,1414,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1414,0,6
+1652165414884,9292,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9292,0,8
+1652165421678,2812,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2812,0,8
+1652165423340,1619,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1619,0,7
+1652165421045,4100,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4100,0,8
+1652165423124,2441,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2441,0,7
+1652165419687,6176,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6176,0,6
+1652165422576,3687,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3687,0,15
+1652165419131,7487,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7487,0,7
+1652165421536,5289,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5289,0,6
+1652165418762,8600,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8599,0,8
+1652165420686,6903,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6903,0,8
+1652165426825,1392,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1392,0,9
+1652165420483,8035,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8035,0,7
+1652165426263,2552,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2552,0,33
+1652165419870,9230,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9230,0,11
+1652165425565,3850,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3850,0,8
+1652165428518,1338,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1338,0,11
+1652165424490,5686,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5686,0,8
+1652165427590,2861,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2861,0,7
+1652165424176,6766,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6765,0,9
+1652165426618,4630,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4630,0,8
+1652165423755,7757,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7757,0,10
+1652165425863,6006,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6006,0,13
+1652165431248,857,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,857,0,7
+1652165425145,7495,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7495,0,9
+1652165430452,2437,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2437,0,8
+1652165424960,8474,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8474,0,8
+1652165429415,4235,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4235,0,7
+1652165432890,1161,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1161,0,6
+1652165428815,5599,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5599,0,8
+1652165432641,1995,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1995,0,7
+1652165428217,6792,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6792,0,7
+1652165431513,3930,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3930,0,6
+1652165427362,8403,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8402,0,6
+1652165430942,5319,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5319,0,6
+1652165435444,1082,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1082,0,8
+1652165430177,6702,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6702,0,8
+1652165434637,2512,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2512,0,7
+1652165429856,7615,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7615,0,6
+1652165434414,3329,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3329,0,6
+1652165429101,8958,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8958,0,10
+1652165433650,4849,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4849,0,8
+1652165437743,1190,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1190,0,8
+1652165432106,7094,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7094,0,7
+1652165437471,2305,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2305,0,21
+1652165431870,8095,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8095,0,6
+1652165438933,1634,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1634,0,10
+1652165436880,3711,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3711,0,7
+1652165438500,2703,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2703,0,6
+1652165435765,5787,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5787,0,8
+1652165437149,4828,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4828,0,11
+1652165435009,7186,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7186,0,10
+1652165436527,6176,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6176,0,6
+1652165434051,9078,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9078,0,8
+1652165436261,7244,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7244,0,8
+1652165433434,10263,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10263,0,8
+1652165443128,1255,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1255,0,7
+1652165441977,2532,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2532,0,6
+1652165442702,2483,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2483,0,8
+1652165441551,3830,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3830,0,6
+1652165442195,3564,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3564,0,9
+1652165441203,4987,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4987,0,7
+1652165440591,5956,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5956,0,12
+1652165440567,6197,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6196,0,10
+1652165439964,7316,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7316,0,9
+1652165439201,8352,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8352,0,6
+1652165439776,8100,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8100,0,7
+1652165438059,10242,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,10242,0,8
+1652165447280,1222,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1222,0,6
+1652165447875,1180,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1180,0,10
+1652165446764,2699,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2699,0,7
+1652165447552,2438,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2438,0,8
+1652165446547,3760,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3760,0,9
+1652165445759,4888,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4888,0,9
+1652165446191,4772,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4772,0,8
+1652165445382,5930,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5930,0,8
+1652165445186,6408,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6408,0,11
+1652165444383,7541,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7541,0,8
+1652165444509,7675,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7675,0,8
+1652165443697,8927,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8927,0,8
+1652165451314,1671,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1671,0,6
+1652165443505,9764,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9764,0,10
+1652165450649,2868,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2868,0,7
+1652165452186,1966,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1966,0,8
+1652165450308,4017,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4017,0,9
+1652165451925,3049,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3049,0,7
+1652165449055,6278,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6278,0,7
+1652165451595,4141,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4141,0,8
+1652165448301,7660,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7660,0,9
+1652165450964,5510,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5510,0,9
+1652165455334,1489,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1489,0,8
+1652165449992,7038,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7038,0,6
+1652165454974,2434,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2434,0,9
+1652165449463,8328,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8328,0,15
+1652165454152,4043,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4043,0,8
+1652165448503,10127,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,10127,0,7
+1652165452985,5830,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5830,0,12
+1652165457408,1768,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1768,0,7
+1652165452625,6807,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6807,0,11
+1652165456475,3500,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3500,0,6
+1652165458632,1369,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1369,0,8
+1652165455737,5015,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5015,0,8
+1652165457792,3131,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3131,0,8
+1652165454326,6959,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6959,0,7
+1652165457030,4536,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4536,0,8
+1652165453517,8594,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8594,0,8
+1652165456824,5375,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5375,0,19
+1652165453270,9452,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9452,0,8
+1652165455962,6991,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6991,0,9
+1652165461567,1743,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1742,0,11
+1652165462199,1312,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1312,0,13
+1652165461286,2617,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2617,0,9
+1652165462111,2176,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2176,0,14
+1652165460753,3946,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3946,0,8
+1652165460923,4204,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4204,0,12
+1652165460002,5499,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5499,0,12
+1652165459975,5852,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5852,0,8
+1652165459177,7074,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7074,0,7
+1652165459432,7192,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7192,0,7
+1652165458815,8199,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8199,0,8
+1652165466251,983,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,983,0,8
+1652165458195,9607,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9607,0,13
+1652165465827,2001,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2001,0,7
+1652165467234,1208,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1208,0,8
+1652165465128,3492,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3492,0,6
+1652165467014,1986,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1986,0,8
+1652165464287,5116,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5116,0,7
+1652165465501,4105,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4105,0,9
+1652165463512,6470,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6470,0,6
+1652165464699,5694,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5694,0,7
+1652165462953,7795,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7795,0,7
+1652165463903,7298,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7298,0,8
+1652165470393,1070,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1070,0,7
+1652165463310,8762,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8762,0,9
+1652165469982,2115,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2115,0,7
+1652165462723,9999,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,9999,0,8
+1652165469606,3516,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3516,0,8
+1652165472072,1459,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1459,0,8
+1652165469000,4734,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4734,0,7
+1652165471464,2867,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2867,0,7
+1652165468442,6199,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6199,0,7
+1652165471202,3737,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3737,0,9
+1652165466624,8837,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8837,0,7
+1652165469403,6351,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6351,0,7
+1652165474939,1330,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1330,0,8
+1652165468620,7960,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7960,0,8
+1652165473531,3324,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3324,0,8
+1652165467829,9356,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9356,0,10
+1652165473122,4501,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4501,0,7
+1652165467802,9968,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9968,0,9
+1652165472098,6381,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6381,0,10
+1652165476855,1635,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1635,0,6
+1652165470748,8611,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8611,0,7
+1652165476580,2998,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2998,0,6
+1652165478490,1499,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1499,0,16
+1652165474641,5551,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5551,0,8
+1652165477771,2920,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2920,0,7
+1652165474332,6485,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6485,0,8
+1652165477185,4393,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4393,0,7
+1652165473734,8093,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8093,0,8
+1652165476269,5911,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5911,0,8
+1652165472722,9681,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9681,0,8
+1652165475754,7025,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7025,0,8
+1652165481577,1611,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1611,0,9
+1652165475461,7999,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7999,0,8
+1652165480816,3242,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3242,0,7
+1652165482180,1966,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1966,0,6
+1652165481827,3044,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3044,0,9
+1652165480690,4188,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4188,0,9
+1652165479988,5497,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5497,0,6
+1652165480191,5478,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5478,0,9
+1652165479578,6861,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,6861,0,7
+1652165479360,7244,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7244,0,7
+1652165485486,1538,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1538,0,8
+1652165478479,8889,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8889,0,11
+1652165484871,2746,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2746,0,11
+1652165477623,10369,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,200,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,10369,0,8
+1652165484146,4062,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4062,0,8
+1652165487618,979,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,174,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,979,0,6
+1652165483460,5593,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5593,0,6
+1652165487025,2418,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2418,0,6
+1652165483188,6568,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6568,0,7
+1652165486604,3407,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3407,0,8
+1652165489444,898,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,198,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,898,0,9
+1652165485670,4934,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4934,0,8
+1652165489054,2269,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2269,0,8
+1652165484880,6628,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6628,0,10
+1652165488209,3733,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3733,0,6
+1652165484058,8292,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,14,14,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,8292,0,8
+1652165487368,5329,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5329,0,12
+1652165482779,10328,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,176,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10328,0,8
+1652165486440,6999,smp,200,OK,jp@gc - Ultimate Thread Group 1-14,text,true,,175,155,14,14,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6999,0,8
+1652165482403,11530,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,176,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,11530,0,6
+1652165493109,1122,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1122,0,7
+1652165492697,1851,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1851,0,8
+1652165491942,3082,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3082,0,8
+1652165492351,2895,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2895,0,7
+1652165491510,4323,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,199,157,13,13,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4323,0,7
+1652165490605,5384,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5384,0,6
+1652165491323,5294,smp,200,OK,jp@gc - Ultimate Thread Group 1-13,text,true,,175,155,13,13,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5294,0,7
+1652165490342,6437,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6437,0,6
+1652165489757,7601,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,12,12,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7601,0,7
+1652165490012,7380,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7380,0,6
+1652165488598,9376,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,12,12,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,9375,0,7
+1652165496778,1376,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,12,12,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1376,0,8
+1652165495832,2886,smp,200,OK,jp@gc - Ultimate Thread Group 1-12,text,true,,175,155,12,12,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2886,0,6
+1652165487993,10769,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,176,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,10769,0,9
+1652165495245,4352,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4352,0,7
+1652165497973,1650,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1650,0,6
+1652165494231,5954,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5954,0,7
+1652165497391,3014,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3014,0,11
+1652165497358,3613,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3613,0,9
+1652165493934,7320,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7320,0,11
+1652165495988,5620,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,11,11,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5620,0,8
+1652165500406,1516,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1515,0,6
+1652165495024,7296,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7296,0,6
+1652165499598,2945,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2945,0,16
+1652165494548,8721,smp,200,OK,jp@gc - Ultimate Thread Group 1-11,text,true,,175,155,11,11,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,8721,0,10
+1652165498761,4646,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4646,0,8
+1652165502320,1750,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1750,0,8
+1652165498155,6041,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,6041,0,6
+1652165501254,3448,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3448,0,9
+1652165502543,2486,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2486,0,8
+1652165500972,4335,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4335,0,10
+1652165501922,3702,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3702,0,11
+1652165500184,5736,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5736,0,8
+1652165501608,4624,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4624,0,10
+1652165499624,7101,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7101,0,8
+1652165505922,1100,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1100,0,6
+1652165505626,2146,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2146,0,9
+1652165505309,2589,smp,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2589,0,6
+1652165505031,3535,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3535,0,11
+1652165504702,4059,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4059,0,9
+1652165504196,4974,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,10,10,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4974,0,8
+1652165506727,2907,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2907,0,10
+1652165504070,5784,smp,200,OK,jp@gc - Ultimate Thread Group 1-10,text,true,,175,155,10,10,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5784,0,7
+1652165506233,4043,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4043,0,8
+1652165503407,7271,smp,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,7271,0,6
+1652165509172,1909,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1909,0,6
+1652165509634,1792,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1792,0,8
+1652165508566,3055,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3055,0,8
+1652165508762,3289,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3288,0,13
+1652165511081,1322,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1322,0,8
+1652165507772,4999,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4998,0,8
+1652165510276,2724,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,9,9,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2724,0,9
+1652165507898,5461,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-9,text,true,,199,157,9,9,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5461,0,8
+1652165512771,955,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,174,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,955,0,6
+1652165507022,7142,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,7142,0,11
+1652165512404,2113,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2113,0,8
+1652165513000,1762,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1762,0,9
+1652165512051,3057,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3057,0,8
+1652165511426,3922,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3922,0,7
+1652165511622,4078,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,8,8,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4078,0,6
+1652165510679,5451,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-8,text,true,,199,157,8,8,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5451,0,8
+1652165515109,1187,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1187,0,8
+1652165515349,1636,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1636,0,10
+1652165514763,2426,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2426,0,7
+1652165514518,3082,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3082,0,8
+1652165513726,4233,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4233,0,8
+1652165514165,4113,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4113,0,6
+1652165517190,1324,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1324,0,7
+1652165517959,916,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,174,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,916,0,8
+1652165515700,3438,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3438,0,8
+1652165518278,1404,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1404,0,9
+1652165517601,2091,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2091,0,9
+1652165519139,1090,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1090,0,6
+1652165516985,3498,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,3498,0,7
+1652165519693,1347,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1347,0,10
+1652165516296,5087,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,5087,0,8
+1652165519683,1759,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1759,0,9
+1652165520483,1672,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1672,0,14
+1652165521040,1348,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1348,0,10
+1652165520230,2543,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2543,0,8
+1652165522156,992,smp,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,174,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,992,0,8
+1652165518875,4475,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,4475,0,13
+1652165521442,2309,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,7,7,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2309,0,9
+1652165518514,5594,smp,200,OK,jp@gc - Ultimate Thread Group 1-7,text,true,,175,155,7,7,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5594,0,7
+1652165523351,1134,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,6,6,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1134,0,8
+1652165523148,1512,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-6,text,true,,199,157,6,6,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1512,0,7
+1652165523752,1516,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1516,0,10
+1652165522774,2665,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2665,0,6
+1652165524485,1384,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1384,0,8
+1652165522388,3829,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3829,0,9
+1652165525268,1365,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1365,0,8
+1652165521384,5609,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,5609,0,7
+1652165526218,995,smp,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,174,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,995,0,6
+1652165526633,1007,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,174,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1007,0,11
+1652165526994,1007,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,198,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1007,0,8
+1652165525869,2306,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,2306,0,6
+1652165525439,3114,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3114,0,8
+1652165528175,805,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,198,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,805,0,10
+1652165528001,1370,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1370,0,7
+1652165528980,779,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,174,155,5,5,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,779,0,7
+1652165527640,2460,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2460,0,13
+1652165529760,798,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,198,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,798,0,10
+1652165527214,3641,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-5,text,true,,199,157,5,5,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3641,0,10
+1652165530100,1229,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1229,0,6
+1652165530557,1052,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1052,0,6
+1652165531609,831,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,198,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,831,0,8
+1652165529371,3143,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,199,157,4,4,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3143,0,8
+1652165532441,777,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,174,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,777,0,6
+1652165528554,4897,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,4897,0,6
+1652165532513,1404,smp,200,OK,jp@gc - Ultimate Thread Group 1-4,text,true,,175,155,4,4,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1404,0,7
+1652165533218,913,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,198,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,913,0,8
+1652165531329,3388,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,3388,0,10
+1652165534132,1026,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1026,0,6
+1652165533450,2080,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,2080,0,8
+1652165534717,1188,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1188,0,7
+1652165535158,986,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,198,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,986,0,11
+1652165535530,1156,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1156,0,9
+1652165535905,1022,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,199,157,3,3,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1022,0,8
+1652165536144,1152,smp,200,OK,jp@gc - Ultimate Thread Group 1-3,text,true,,175,155,3,3,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1152,0,6
+1652165536686,830,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,830,0,11
+1652165536928,1111,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1111,0,6
+1652165537517,929,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,174,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,929,0,9
+1652165538039,761,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,761,0,8
+1652165538446,1014,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,199,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,1014,0,8
+1652165538800,1204,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,175,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1204,0,6
+1652165539460,1102,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,175,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,1102,0,7
+1652165540004,790,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,790,0,9
+1652165540562,790,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,198,157,2,2,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,790,0,8
+1652165540795,818,smp,200,OK,jp@gc - Ultimate Thread Group 1-2,text,true,,174,155,2,2,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,818,0,8
+1652165541353,770,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,174,155,1,1,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,770,0,8
+1652165542123,785,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,198,157,1,1,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,785,0,8
+1652165542908,763,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,174,155,1,1,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,763,0,6
+1652165543672,789,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,198,157,1,1,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,789,0,7
+1652165544461,776,smp,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,174,155,1,1,https://smp.sktelecom.com/comm-activation/api/v1/active/bff,776,0,7
+1652165545238,749,smp ex,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,198,157,1,1,https://smpex.sktelecom.com/comm-activation/api/v1/active/bff,749,0,9

@@ -1,383 +1,201 @@
-2022-05-09 11:57:36,551 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-05-09 11:57:36,568 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
-2022-05-09 11:57:36,568 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: Version 5.4.3
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: java.version=1.8.0_322
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: os.name=Linux
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: os.arch=amd64
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: file.encoding=UTF-8
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: java.awt.headless=true
-2022-05-09 11:57:36,578 INFO o.a.j.JMeter: Max memory     =1073741824
-2022-05-09 11:57:36,579 INFO o.a.j.JMeter: Available Processors =2
-2022-05-09 11:57:36,586 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-05-09 11:57:36,586 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-05-09 11:57:36,586 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
-2022-05-09 11:57:36,586 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/Ultimate_comm-activation2
-2022-05-09 11:57:36,586 INFO o.a.j.JMeter: PWD       =/app/performtest/test/Ultimate_comm-activation2
-2022-05-09 11:57:36,587 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
-2022-05-09 11:57:36,592 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2'
-2022-05-09 11:57:36,595 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/Ultimate_comm-activation2'
-2022-05-09 11:57:36,596 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/Ultimate_comm-activation2'
-2022-05-09 11:57:36,787 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-05-09 11:57:36,824 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-05-09 11:57:36,831 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-05-09 11:57:36,845 INFO o.a.j.s.SaveService: Loading file: SmartPlannerAWS.jmx
-2022-05-09 11:57:36,933 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-05-09 11:57:36,933 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-05-09 11:57:36,933 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-05-09 11:57:36,933 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-05-09 11:57:36,933 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-05-09 11:57:36,933 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-05-09 11:57:36,985 INFO o.a.j.JMeter: Creating summariser <summary>
-2022-05-09 11:57:36,992 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2022-05-09 11:57:36,992 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: SmartPlannerAWS2.jtl
-2022-05-09 11:57:36,993 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
-2022-05-09 11:57:36,993 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2022-05-09 11:57:36,999 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2022-05-09 11:57:37,003 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2022-05-09 11:57:37,004 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2022-05-09 11:57:37,009 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,010 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,010 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,010 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,010 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,010 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,011 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,011 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,011 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,011 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-05-09 11:57:37,012 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
-2022-05-09 11:57:37,012 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
-2022-05-09 11:57:37,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
-2022-05-09 11:57:37,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2022-05-09 11:57:37,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2022-05-09 11:57:37,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2022-05-09 11:57:37,020 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-05-09 11:57:37,023 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-05-09 11:57:37,023 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-05-09 11:57:37,029 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-05-09 11:57:37,029 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-05-09 11:57:38,046 INFO o.a.j.JMeter: Running test (1652065058046)
-2022-05-09 11:57:38,097 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Stepping Thread Group
-2022-05-09 11:57:38,097 INFO o.a.j.e.StandardJMeterEngine: Starting 14 threads for group jp@gc - Stepping Thread Group.
-2022-05-09 11:57:38,097 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-05-09 11:57:38,097 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 14
-2022-05-09 11:57:38,108 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-1
-2022-05-09 11:57:38,149 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
-2022-05-09 11:57:38,159 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-05-09 11:57:38,161 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-05-09 11:57:38,161 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-05-09 11:57:38,161 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-05-09 11:57:38,161 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-05-09 11:57:38,180 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
-2022-05-09 11:57:38,180 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-05-09 11:57:38,299 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2022-05-09 11:57:38,306 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2022-05-09 11:57:38,306 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2022-05-09 11:57:38,364 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2022-05-09 11:57:38,367 INFO o.a.j.u.SSLManager: KeyStore created OK
-2022-05-09 11:57:38,368 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2022-05-09 11:58:00,629 INFO o.a.j.r.Summariser: summary +     26 in 00:00:23 =    1.2/s Avg:   858 Min:   795 Max:  1209 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2022-05-09 11:58:30,666 INFO o.a.j.r.Summariser: summary +     36 in 00:00:30 =    1.2/s Avg:   833 Min:   792 Max:   981 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2022-05-09 11:58:30,667 INFO o.a.j.r.Summariser: summary =     62 in 00:00:53 =    1.2/s Avg:   844 Min:   792 Max:  1209 Err:     0 (0.00%)
-2022-05-09 11:59:00,270 INFO o.a.j.r.Summariser: summary +     35 in 00:00:30 =    1.2/s Avg:   845 Min:   782 Max:  1227 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
-2022-05-09 11:59:00,271 INFO o.a.j.r.Summariser: summary =     97 in 00:01:22 =    1.2/s Avg:   844 Min:   782 Max:  1227 Err:     0 (0.00%)
-2022-05-09 11:59:08,099 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-2
-2022-05-09 11:59:30,163 INFO o.a.j.r.Summariser: summary +     56 in 00:00:30 =    1.9/s Avg:   919 Min:   636 Max:  1263 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
-2022-05-09 11:59:30,163 INFO o.a.j.r.Summariser: summary =    153 in 00:01:52 =    1.4/s Avg:   871 Min:   636 Max:  1263 Err:     0 (0.00%)
-2022-05-09 12:00:00,665 INFO o.a.j.r.Summariser: summary +     62 in 00:00:31 =    2.0/s Avg:   979 Min:   779 Max:  1725 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
-2022-05-09 12:00:00,665 INFO o.a.j.r.Summariser: summary =    215 in 00:02:23 =    1.5/s Avg:   902 Min:   636 Max:  1725 Err:     0 (0.00%)
-2022-05-09 12:00:30,013 INFO o.a.j.r.Summariser: summary +     53 in 00:00:29 =    1.8/s Avg:  1113 Min:   797 Max:  2102 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
-2022-05-09 12:00:30,014 INFO o.a.j.r.Summariser: summary =    268 in 00:02:52 =    1.6/s Avg:   944 Min:   636 Max:  2102 Err:     0 (0.00%)
-2022-05-09 12:00:38,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-3
-2022-05-09 12:01:00,285 INFO o.a.j.r.Summariser: summary +     67 in 00:00:30 =    2.2/s Avg:  1213 Min:   593 Max:  2510 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
-2022-05-09 12:01:00,286 INFO o.a.j.r.Summariser: summary =    335 in 00:03:22 =    1.7/s Avg:   998 Min:   593 Max:  2510 Err:     0 (0.00%)
-2022-05-09 12:01:30,147 INFO o.a.j.r.Summariser: summary +     73 in 00:00:30 =    2.4/s Avg:  1233 Min:   605 Max:  2628 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
-2022-05-09 12:01:30,148 INFO o.a.j.r.Summariser: summary =    408 in 00:03:52 =    1.8/s Avg:  1040 Min:   593 Max:  2628 Err:     0 (0.00%)
-2022-05-09 12:02:00,290 INFO o.a.j.r.Summariser: summary +     72 in 00:00:30 =    2.4/s Avg:  1252 Min:   592 Max:  2402 Err:     0 (0.00%) Active: 3 Started: 3 Finished: 0
-2022-05-09 12:02:00,291 INFO o.a.j.r.Summariser: summary =    480 in 00:04:22 =    1.8/s Avg:  1072 Min:   592 Max:  2628 Err:     0 (0.00%)
-2022-05-09 12:02:08,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-4
-2022-05-09 12:02:30,301 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  1438 Min:   618 Max:  3214 Err:     0 (0.00%) Active: 4 Started: 4 Finished: 0
-2022-05-09 12:02:30,303 INFO o.a.j.r.Summariser: summary =    557 in 00:04:52 =    1.9/s Avg:  1122 Min:   592 Max:  3214 Err:     0 (0.00%)
-2022-05-09 12:03:00,570 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  1551 Min:   819 Max:  3020 Err:     0 (0.00%) Active: 4 Started: 4 Finished: 0
-2022-05-09 12:03:00,571 INFO o.a.j.r.Summariser: summary =    635 in 00:05:23 =    2.0/s Avg:  1175 Min:   592 Max:  3214 Err:     0 (0.00%)
-2022-05-09 12:03:30,257 INFO o.a.j.r.Summariser: summary +     76 in 00:00:30 =    2.6/s Avg:  1556 Min:   600 Max:  3304 Err:     0 (0.00%) Active: 4 Started: 4 Finished: 0
-2022-05-09 12:03:30,258 INFO o.a.j.r.Summariser: summary =    711 in 00:05:52 =    2.0/s Avg:  1216 Min:   592 Max:  3304 Err:     0 (0.00%)
-2022-05-09 12:03:38,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-5
-2022-05-09 12:04:00,251 INFO o.a.j.r.Summariser: summary +     76 in 00:00:30 =    2.5/s Avg:  1844 Min:   609 Max:  4531 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
-2022-05-09 12:04:00,252 INFO o.a.j.r.Summariser: summary =    787 in 00:06:22 =    2.1/s Avg:  1276 Min:   592 Max:  4531 Err:     0 (0.00%)
-2022-05-09 12:04:30,176 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  1921 Min:   742 Max:  4195 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
-2022-05-09 12:04:30,176 INFO o.a.j.r.Summariser: summary =    865 in 00:06:52 =    2.1/s Avg:  1334 Min:   592 Max:  4531 Err:     0 (0.00%)
-2022-05-09 12:05:00,555 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  1961 Min:   967 Max:  3319 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
-2022-05-09 12:05:00,555 INFO o.a.j.r.Summariser: summary =    942 in 00:07:23 =    2.1/s Avg:  1386 Min:   592 Max:  4531 Err:     0 (0.00%)
-2022-05-09 12:05:08,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-6
-2022-05-09 12:05:30,276 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.7/s Avg:  2126 Min:   831 Max:  5720 Err:     0 (0.00%) Active: 6 Started: 6 Finished: 0
-2022-05-09 12:05:30,276 INFO o.a.j.r.Summariser: summary =   1021 in 00:07:52 =    2.2/s Avg:  1443 Min:   592 Max:  5720 Err:     0 (0.00%)
-2022-05-09 12:06:00,514 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  2331 Min:   792 Max:  5518 Err:     0 (0.00%) Active: 6 Started: 6 Finished: 0
-2022-05-09 12:06:00,515 INFO o.a.j.r.Summariser: summary =   1098 in 00:08:22 =    2.2/s Avg:  1505 Min:   592 Max:  5720 Err:     0 (0.00%)
-2022-05-09 12:06:30,010 INFO o.a.j.r.Summariser: summary +     79 in 00:00:29 =    2.7/s Avg:  2270 Min:   961 Max:  5590 Err:     0 (0.00%) Active: 6 Started: 6 Finished: 0
-2022-05-09 12:06:30,011 INFO o.a.j.r.Summariser: summary =   1177 in 00:08:52 =    2.2/s Avg:  1557 Min:   592 Max:  5720 Err:     0 (0.00%)
-2022-05-09 12:06:38,099 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-7
-2022-05-09 12:07:00,113 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  2513 Min:   836 Max:  6848 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
-2022-05-09 12:07:00,113 INFO o.a.j.r.Summariser: summary =   1255 in 00:09:22 =    2.2/s Avg:  1616 Min:   592 Max:  6848 Err:     0 (0.00%)
-2022-05-09 12:07:30,172 INFO o.a.j.r.Summariser: summary +     76 in 00:00:30 =    2.5/s Avg:  2817 Min:   811 Max:  7408 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
-2022-05-09 12:07:30,173 INFO o.a.j.r.Summariser: summary =   1331 in 00:09:52 =    2.2/s Avg:  1685 Min:   592 Max:  7408 Err:     0 (0.00%)
-2022-05-09 12:08:00,049 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  2687 Min:   860 Max:  6016 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
-2022-05-09 12:08:00,049 INFO o.a.j.r.Summariser: summary =   1409 in 00:10:22 =    2.3/s Avg:  1740 Min:   592 Max:  7408 Err:     0 (0.00%)
-2022-05-09 12:08:08,099 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-8
-2022-05-09 12:08:30,384 INFO o.a.j.r.Summariser: summary +     81 in 00:00:30 =    2.7/s Avg:  2840 Min:   856 Max:  5653 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
-2022-05-09 12:08:30,384 INFO o.a.j.r.Summariser: summary =   1490 in 00:10:52 =    2.3/s Avg:  1800 Min:   592 Max:  7408 Err:     0 (0.00%)
-2022-05-09 12:09:00,449 INFO o.a.j.r.Summariser: summary +     75 in 00:00:30 =    2.5/s Avg:  3204 Min:   746 Max:  6204 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
-2022-05-09 12:09:00,449 INFO o.a.j.r.Summariser: summary =   1565 in 00:11:22 =    2.3/s Avg:  1867 Min:   592 Max:  7408 Err:     0 (0.00%)
-2022-05-09 12:09:30,185 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  3115 Min:  1058 Max:  6113 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
-2022-05-09 12:09:30,185 INFO o.a.j.r.Summariser: summary =   1642 in 00:11:52 =    2.3/s Avg:  1926 Min:   592 Max:  7408 Err:     0 (0.00%)
-2022-05-09 12:09:38,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-9
-2022-05-09 12:10:00,195 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  3297 Min:  1049 Max:  6489 Err:     0 (0.00%) Active: 9 Started: 9 Finished: 0
-2022-05-09 12:10:00,196 INFO o.a.j.r.Summariser: summary =   1721 in 00:12:22 =    2.3/s Avg:  1989 Min:   592 Max:  7408 Err:     0 (0.00%)
-2022-05-09 12:10:30,032 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  3334 Min:  1017 Max:  8296 Err:     0 (0.00%) Active: 9 Started: 9 Finished: 0
-2022-05-09 12:10:30,032 INFO o.a.j.r.Summariser: summary =   1800 in 00:12:52 =    2.3/s Avg:  2048 Min:   592 Max:  8296 Err:     0 (0.00%)
-2022-05-09 12:11:00,105 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  3323 Min:   914 Max:  9399 Err:     0 (0.00%) Active: 9 Started: 9 Finished: 0
-2022-05-09 12:11:00,105 INFO o.a.j.r.Summariser: summary =   1880 in 00:13:22 =    2.3/s Avg:  2102 Min:   592 Max:  9399 Err:     0 (0.00%)
-2022-05-09 12:11:08,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-10
-2022-05-09 12:11:30,128 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  3624 Min:   985 Max: 10368 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
-2022-05-09 12:11:30,128 INFO o.a.j.r.Summariser: summary =   1958 in 00:13:52 =    2.4/s Avg:  2163 Min:   592 Max: 10368 Err:     0 (0.00%)
-2022-05-09 12:12:00,354 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  3807 Min:   629 Max: 12002 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
-2022-05-09 12:12:00,354 INFO o.a.j.r.Summariser: summary =   2037 in 00:14:22 =    2.4/s Avg:  2226 Min:   592 Max: 12002 Err:     0 (0.00%)
-2022-05-09 12:12:30,219 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  3825 Min:   835 Max: 11302 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
-2022-05-09 12:12:30,220 INFO o.a.j.r.Summariser: summary =   2116 in 00:14:52 =    2.4/s Avg:  2286 Min:   592 Max: 12002 Err:     0 (0.00%)
-2022-05-09 12:12:38,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-11
-2022-05-09 12:13:00,004 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  4136 Min:   831 Max: 12186 Err:     0 (0.00%) Active: 11 Started: 11 Finished: 0
-2022-05-09 12:13:00,004 INFO o.a.j.r.Summariser: summary =   2193 in 00:15:22 =    2.4/s Avg:  2351 Min:   592 Max: 12186 Err:     0 (0.00%)
-2022-05-09 12:13:30,670 INFO o.a.j.r.Summariser: summary +     82 in 00:00:31 =    2.7/s Avg:  3997 Min:   870 Max: 11316 Err:     0 (0.00%) Active: 11 Started: 11 Finished: 0
-2022-05-09 12:13:30,670 INFO o.a.j.r.Summariser: summary =   2275 in 00:15:53 =    2.4/s Avg:  2410 Min:   592 Max: 12186 Err:     0 (0.00%)
-2022-05-09 12:14:00,217 INFO o.a.j.r.Summariser: summary +     75 in 00:00:30 =    2.5/s Avg:  4441 Min:  1043 Max: 11548 Err:     0 (0.00%) Active: 11 Started: 11 Finished: 0
-2022-05-09 12:14:00,217 INFO o.a.j.r.Summariser: summary =   2350 in 00:16:22 =    2.4/s Avg:  2475 Min:   592 Max: 12186 Err:     0 (0.00%)
-2022-05-09 12:14:08,099 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-12
-2022-05-09 12:14:30,349 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  4345 Min:   953 Max: 13134 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
-2022-05-09 12:14:30,349 INFO o.a.j.r.Summariser: summary =   2430 in 00:16:52 =    2.4/s Avg:  2537 Min:   592 Max: 13134 Err:     0 (0.00%)
-2022-05-09 12:15:00,211 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  4433 Min:   841 Max: 13934 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
-2022-05-09 12:15:00,212 INFO o.a.j.r.Summariser: summary =   2507 in 00:17:22 =    2.4/s Avg:  2595 Min:   592 Max: 13934 Err:     0 (0.00%)
-2022-05-09 12:15:30,300 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  4815 Min:  1031 Max: 14278 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
-2022-05-09 12:15:30,300 INFO o.a.j.r.Summariser: summary =   2585 in 00:17:52 =    2.4/s Avg:  2662 Min:   592 Max: 14278 Err:     0 (0.00%)
-2022-05-09 12:15:38,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-13
-2022-05-09 12:16:00,337 INFO o.a.j.r.Summariser: summary +     75 in 00:00:30 =    2.5/s Avg:  4793 Min:  1038 Max: 16152 Err:     0 (0.00%) Active: 13 Started: 13 Finished: 0
-2022-05-09 12:16:00,337 INFO o.a.j.r.Summariser: summary =   2660 in 00:18:22 =    2.4/s Avg:  2722 Min:   592 Max: 16152 Err:     0 (0.00%)
-2022-05-09 12:16:30,045 INFO o.a.j.r.Summariser: summary +     73 in 00:00:30 =    2.5/s Avg:  5242 Min:   830 Max: 17796 Err:     0 (0.00%) Active: 13 Started: 13 Finished: 0
-2022-05-09 12:16:30,046 INFO o.a.j.r.Summariser: summary =   2733 in 00:18:52 =    2.4/s Avg:  2789 Min:   592 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:17:00,110 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5209 Min:   580 Max: 16331 Err:     0 (0.00%) Active: 13 Started: 13 Finished: 0
-2022-05-09 12:17:00,110 INFO o.a.j.r.Summariser: summary =   2810 in 00:19:22 =    2.4/s Avg:  2856 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:17:08,098 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-14
-2022-05-09 12:17:30,179 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5145 Min:   842 Max: 17592 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:17:30,179 INFO o.a.j.r.Summariser: summary =   2888 in 00:19:52 =    2.4/s Avg:  2918 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:18:00,240 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5397 Min:   877 Max: 17165 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:18:00,240 INFO o.a.j.r.Summariser: summary =   2966 in 00:20:22 =    2.4/s Avg:  2983 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:18:30,591 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5423 Min:  1038 Max: 16401 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:18:30,591 INFO o.a.j.r.Summariser: summary =   3045 in 00:20:53 =    2.4/s Avg:  3046 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:19:00,210 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5265 Min:   903 Max: 15577 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:19:00,210 INFO o.a.j.r.Summariser: summary =   3123 in 00:21:22 =    2.4/s Avg:  3101 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:19:30,189 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5495 Min:  1088 Max: 16081 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:19:30,189 INFO o.a.j.r.Summariser: summary =   3202 in 00:21:52 =    2.4/s Avg:  3160 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:20:00,591 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5460 Min:   885 Max: 14535 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:20:00,591 INFO o.a.j.r.Summariser: summary =   3281 in 00:22:23 =    2.4/s Avg:  3216 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:20:30,146 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5563 Min:  1039 Max: 12991 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:20:30,146 INFO o.a.j.r.Summariser: summary =   3358 in 00:22:52 =    2.4/s Avg:  3270 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:21:00,019 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5363 Min:  1140 Max: 12336 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:21:00,019 INFO o.a.j.r.Summariser: summary =   3436 in 00:23:22 =    2.5/s Avg:  3317 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:21:30,067 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5036 Min:   885 Max: 14160 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:21:30,068 INFO o.a.j.r.Summariser: summary =   3515 in 00:23:52 =    2.5/s Avg:  3356 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:22:00,259 INFO o.a.j.r.Summariser: summary +     81 in 00:00:30 =    2.7/s Avg:  5310 Min:   852 Max: 13521 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:22:00,260 INFO o.a.j.r.Summariser: summary =   3596 in 00:24:22 =    2.5/s Avg:  3400 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:22:30,052 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5340 Min:  1116 Max: 15271 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:22:30,053 INFO o.a.j.r.Summariser: summary =   3673 in 00:24:52 =    2.5/s Avg:  3441 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:23:00,437 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  5493 Min:   984 Max: 14649 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:23:00,437 INFO o.a.j.r.Summariser: summary =   3750 in 00:25:22 =    2.5/s Avg:  3483 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:23:30,273 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5540 Min:  1026 Max: 15268 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:23:30,273 INFO o.a.j.r.Summariser: summary =   3827 in 00:25:52 =    2.5/s Avg:  3524 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:24:00,250 INFO o.a.j.r.Summariser: summary +     74 in 00:00:30 =    2.5/s Avg:  5345 Min:   976 Max: 16579 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:24:00,251 INFO o.a.j.r.Summariser: summary =   3901 in 00:26:22 =    2.5/s Avg:  3559 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:24:30,199 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5536 Min:  1043 Max: 17513 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:24:30,200 INFO o.a.j.r.Summariser: summary =   3978 in 00:26:52 =    2.5/s Avg:  3597 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:25:00,007 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5676 Min:  1009 Max: 16668 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:25:00,008 INFO o.a.j.r.Summariser: summary =   4056 in 00:27:22 =    2.5/s Avg:  3637 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:25:30,484 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  5279 Min:  1005 Max: 16675 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:25:30,484 INFO o.a.j.r.Summariser: summary =   4133 in 00:27:52 =    2.5/s Avg:  3667 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:26:00,245 INFO o.a.j.r.Summariser: summary +     76 in 00:00:30 =    2.6/s Avg:  5612 Min:   879 Max: 15938 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:26:00,246 INFO o.a.j.r.Summariser: summary =   4209 in 00:28:22 =    2.5/s Avg:  3703 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:26:30,435 INFO o.a.j.r.Summariser: summary +     76 in 00:00:30 =    2.5/s Avg:  5535 Min:  1168 Max: 16400 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:26:30,436 INFO o.a.j.r.Summariser: summary =   4285 in 00:28:52 =    2.5/s Avg:  3735 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:27:00,173 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5486 Min:   977 Max: 16122 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:27:00,173 INFO o.a.j.r.Summariser: summary =   4362 in 00:29:22 =    2.5/s Avg:  3766 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:27:30,338 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  4944 Min:   839 Max: 16563 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:27:30,339 INFO o.a.j.r.Summariser: summary =   4441 in 00:29:52 =    2.5/s Avg:  3787 Min:   580 Max: 17796 Err:     0 (0.00%)
-2022-05-09 12:28:00,176 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5696 Min:   797 Max: 18024 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:28:00,177 INFO o.a.j.r.Summariser: summary =   4518 in 00:30:22 =    2.5/s Avg:  3819 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:28:30,631 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5472 Min:   940 Max: 17019 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:28:30,631 INFO o.a.j.r.Summariser: summary =   4597 in 00:30:53 =    2.5/s Avg:  3848 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:29:00,244 INFO o.a.j.r.Summariser: summary +     75 in 00:00:30 =    2.5/s Avg:  5171 Min:  1078 Max: 16672 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:29:00,244 INFO o.a.j.r.Summariser: summary =   4672 in 00:31:22 =    2.5/s Avg:  3869 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:29:30,216 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5581 Min:  1086 Max: 16579 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:29:30,216 INFO o.a.j.r.Summariser: summary =   4751 in 00:31:52 =    2.5/s Avg:  3898 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:30:00,062 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5246 Min:   876 Max: 14355 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:30:00,062 INFO o.a.j.r.Summariser: summary =   4829 in 00:32:22 =    2.5/s Avg:  3919 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:30:30,138 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5389 Min:   882 Max: 15040 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:30:30,139 INFO o.a.j.r.Summariser: summary =   4908 in 00:32:52 =    2.5/s Avg:  3943 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:31:00,108 INFO o.a.j.r.Summariser: summary +     68 in 00:00:30 =    2.3/s Avg:  6117 Min:  1191 Max: 16934 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:31:00,108 INFO o.a.j.r.Summariser: summary =   4976 in 00:33:22 =    2.5/s Avg:  3973 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:31:30,240 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  5341 Min:   882 Max: 15586 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:31:30,240 INFO o.a.j.r.Summariser: summary =   5056 in 00:33:52 =    2.5/s Avg:  3994 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:32:00,108 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5389 Min:   870 Max: 14297 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:32:00,109 INFO o.a.j.r.Summariser: summary =   5133 in 00:34:22 =    2.5/s Avg:  4015 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:32:30,123 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  5496 Min:   989 Max: 14815 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:32:30,123 INFO o.a.j.r.Summariser: summary =   5213 in 00:34:52 =    2.5/s Avg:  4038 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:33:00,251 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  5183 Min:   959 Max: 13955 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:33:00,251 INFO o.a.j.r.Summariser: summary =   5293 in 00:35:22 =    2.5/s Avg:  4055 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:33:30,061 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  5184 Min:   827 Max: 12421 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:33:30,061 INFO o.a.j.r.Summariser: summary =   5373 in 00:35:52 =    2.5/s Avg:  4072 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:34:00,150 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5465 Min:  1056 Max: 14020 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:34:00,150 INFO o.a.j.r.Summariser: summary =   5451 in 00:36:22 =    2.5/s Avg:  4092 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:34:30,113 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5347 Min:  1009 Max: 14951 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:34:30,114 INFO o.a.j.r.Summariser: summary =   5530 in 00:36:52 =    2.5/s Avg:  4110 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:35:00,169 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5285 Min:   928 Max: 14608 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:35:00,170 INFO o.a.j.r.Summariser: summary =   5608 in 00:37:22 =    2.5/s Avg:  4126 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:35:30,329 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  5196 Min:  1133 Max: 13354 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:35:30,329 INFO o.a.j.r.Summariser: summary =   5688 in 00:37:52 =    2.5/s Avg:  4141 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:36:00,122 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5493 Min:   938 Max: 14473 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:36:00,122 INFO o.a.j.r.Summariser: summary =   5766 in 00:38:22 =    2.5/s Avg:  4160 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:36:30,049 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5280 Min:  1007 Max: 13246 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:36:30,050 INFO o.a.j.r.Summariser: summary =   5845 in 00:38:52 =    2.5/s Avg:  4175 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:37:00,417 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  5402 Min:  1164 Max: 14413 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:37:00,417 INFO o.a.j.r.Summariser: summary =   5922 in 00:39:22 =    2.5/s Avg:  4191 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:37:30,103 INFO o.a.j.r.Summariser: summary +     76 in 00:00:30 =    2.6/s Avg:  5486 Min:   983 Max: 13981 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:37:30,103 INFO o.a.j.r.Summariser: summary =   5998 in 00:39:52 =    2.5/s Avg:  4207 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:38:00,457 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  5699 Min:   988 Max: 14656 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:38:00,457 INFO o.a.j.r.Summariser: summary =   6075 in 00:40:22 =    2.5/s Avg:  4226 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:38:30,014 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5268 Min:  1293 Max: 13595 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:38:30,014 INFO o.a.j.r.Summariser: summary =   6152 in 00:40:52 =    2.5/s Avg:  4239 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:39:00,381 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  5473 Min:  1009 Max: 12992 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:39:00,381 INFO o.a.j.r.Summariser: summary =   6229 in 00:41:22 =    2.5/s Avg:  4254 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:39:30,341 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5400 Min:   819 Max: 12702 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:39:30,341 INFO o.a.j.r.Summariser: summary =   6308 in 00:41:52 =    2.5/s Avg:  4269 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:40:00,489 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5085 Min:  1043 Max: 14253 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:40:00,489 INFO o.a.j.r.Summariser: summary =   6387 in 00:42:22 =    2.5/s Avg:  4279 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:40:30,327 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5542 Min:  1020 Max: 15305 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:40:30,327 INFO o.a.j.r.Summariser: summary =   6465 in 00:42:52 =    2.5/s Avg:  4294 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:41:00,169 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5350 Min:   958 Max: 14161 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:41:00,169 INFO o.a.j.r.Summariser: summary =   6544 in 00:43:22 =    2.5/s Avg:  4307 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:41:30,144 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5209 Min:   838 Max: 14950 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:41:30,145 INFO o.a.j.r.Summariser: summary =   6623 in 00:43:52 =    2.5/s Avg:  4318 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:42:00,209 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5335 Min:   880 Max: 15190 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:42:00,209 INFO o.a.j.r.Summariser: summary =   6701 in 00:44:22 =    2.5/s Avg:  4329 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:42:30,167 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5423 Min:   961 Max: 16132 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:42:30,167 INFO o.a.j.r.Summariser: summary =   6779 in 00:44:52 =    2.5/s Avg:  4342 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:43:00,144 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5280 Min:   931 Max: 14840 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:43:00,144 INFO o.a.j.r.Summariser: summary =   6857 in 00:45:22 =    2.5/s Avg:  4353 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:43:30,028 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5432 Min:   989 Max: 16066 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:43:30,029 INFO o.a.j.r.Summariser: summary =   6935 in 00:45:52 =    2.5/s Avg:  4365 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:44:00,292 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5483 Min:   964 Max: 15663 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:44:00,292 INFO o.a.j.r.Summariser: summary =   7013 in 00:46:22 =    2.5/s Avg:  4377 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:44:30,224 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  5436 Min:  1009 Max: 15703 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:44:30,224 INFO o.a.j.r.Summariser: summary =   7090 in 00:46:52 =    2.5/s Avg:  4389 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:45:00,176 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5507 Min:  1050 Max: 15636 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:45:00,176 INFO o.a.j.r.Summariser: summary =   7168 in 00:47:22 =    2.5/s Avg:  4401 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:45:30,366 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5288 Min:  1051 Max: 12850 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:45:30,366 INFO o.a.j.r.Summariser: summary =   7247 in 00:47:52 =    2.5/s Avg:  4411 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:46:00,276 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5378 Min:   797 Max: 13103 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:46:00,276 INFO o.a.j.r.Summariser: summary =   7325 in 00:48:22 =    2.5/s Avg:  4421 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:46:30,200 INFO o.a.j.r.Summariser: summary +     70 in 00:00:30 =    2.3/s Avg:  6007 Min:   982 Max: 14975 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:46:30,200 INFO o.a.j.r.Summariser: summary =   7395 in 00:48:52 =    2.5/s Avg:  4436 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:47:00,063 INFO o.a.j.r.Summariser: summary +     79 in 00:00:30 =    2.6/s Avg:  5357 Min:  1104 Max: 10648 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:47:00,063 INFO o.a.j.r.Summariser: summary =   7474 in 00:49:22 =    2.5/s Avg:  4446 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:47:30,246 INFO o.a.j.r.Summariser: summary +     80 in 00:00:30 =    2.7/s Avg:  5242 Min:  1107 Max: 10640 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:47:30,246 INFO o.a.j.r.Summariser: summary =   7554 in 00:49:52 =    2.5/s Avg:  4454 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:48:00,048 INFO o.a.j.r.Summariser: summary +     78 in 00:00:30 =    2.6/s Avg:  5387 Min:  1074 Max: 10749 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
-2022-05-09 12:48:00,048 INFO o.a.j.r.Summariser: summary =   7632 in 00:50:22 =    2.5/s Avg:  4464 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:48:08,701 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-3
-2022-05-09 12:48:08,701 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-3
-2022-05-09 12:48:09,025 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-5
-2022-05-09 12:48:09,025 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-5
-2022-05-09 12:48:09,532 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-4
-2022-05-09 12:48:09,532 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-4
-2022-05-09 12:48:09,976 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-1
-2022-05-09 12:48:09,977 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-1
-2022-05-09 12:48:15,607 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-2
-2022-05-09 12:48:15,607 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-2
-2022-05-09 12:48:30,046 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  4531 Min:  1178 Max:  9607 Err:     0 (0.00%) Active: 9 Started: 14 Finished: 5
-2022-05-09 12:48:30,046 INFO o.a.j.r.Summariser: summary =   7709 in 00:50:52 =    2.5/s Avg:  4464 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:49:00,304 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.5/s Avg:  3518 Min:   972 Max:  8336 Err:     0 (0.00%) Active: 9 Started: 14 Finished: 5
-2022-05-09 12:49:00,304 INFO o.a.j.r.Summariser: summary =   7786 in 00:51:22 =    2.5/s Avg:  4455 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:49:08,660 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-8
-2022-05-09 12:49:08,660 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-8
-2022-05-09 12:49:08,671 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-7
-2022-05-09 12:49:08,671 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-7
-2022-05-09 12:49:09,564 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-6
-2022-05-09 12:49:09,564 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-6
-2022-05-09 12:49:10,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-9
-2022-05-09 12:49:10,168 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-9
-2022-05-09 12:49:10,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-10
-2022-05-09 12:49:10,410 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-10
-2022-05-09 12:49:30,331 INFO o.a.j.r.Summariser: summary +     75 in 00:00:30 =    2.5/s Avg:  2439 Min:   813 Max:  6382 Err:     0 (0.00%) Active: 4 Started: 14 Finished: 10
-2022-05-09 12:49:30,331 INFO o.a.j.r.Summariser: summary =   7861 in 00:51:52 =    2.5/s Avg:  4436 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:50:00,174 INFO o.a.j.r.Summariser: summary +     77 in 00:00:30 =    2.6/s Avg:  1560 Min:   871 Max:  3296 Err:     0 (0.00%) Active: 4 Started: 14 Finished: 10
-2022-05-09 12:50:00,174 INFO o.a.j.r.Summariser: summary =   7938 in 00:52:22 =    2.5/s Avg:  4408 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:50:08,172 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-14
-2022-05-09 12:50:08,172 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-14
-2022-05-09 12:50:08,369 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-12
-2022-05-09 12:50:08,370 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-12
-2022-05-09 12:50:09,138 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-13
-2022-05-09 12:50:09,138 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-13
-2022-05-09 12:50:09,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-11
-2022-05-09 12:50:09,211 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-11
-2022-05-09 12:50:09,212 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-05-09 12:50:09,213 INFO o.a.j.r.Summariser: summary +     24 in 00:00:09 =    2.7/s Avg:  1526 Min:   786 Max:  3049 Err:     0 (0.00%) Active: 0 Started: 14 Finished: 14
-2022-05-09 12:50:09,213 INFO o.a.j.r.Summariser: summary =   7962 in 00:52:31 =    2.5/s Avg:  4399 Min:   580 Max: 18024 Err:     0 (0.00%)
-2022-05-09 12:50:09,213 INFO o.a.j.JMeter: Generating Dashboard
-2022-05-09 12:50:09,213 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2022-05-09 12:50:09,227 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2022-05-09 12:50:09,905 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2022-05-09 12:50:09,905 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2022-05-09 12:50:09,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2022-05-09 12:50:09,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2022-05-09 12:50:09,925 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2022-05-09 12:50:09,932 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2022-05-09 12:50:09,932 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2022-05-09 12:50:09,932 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2022-05-09 12:50:10,074 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2022-05-09 12:50:10,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2022-05-09 12:50:10,075 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2022-05-09 12:50:10,076 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2022-05-09 12:50:10,164 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2022-05-09 12:50:10,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 55734 samples
-2022-05-09 12:50:10,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
-2022-05-09 12:50:10,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2022-05-09 12:50:10,167 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2022-05-09 12:50:10,168 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2022-05-09 12:50:10,168 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2022-05-09 12:50:10,168 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2022-05-09 12:50:10,186 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2022-05-09 12:50:10,194 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2022-05-09 12:50:10,195 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2022-05-09 12:50:10,195 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2022-05-09 12:50:10,195 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 119430 samples
-2022-05-09 12:50:10,195 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 23886 samples
-2022-05-09 12:50:10,195 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 7962 samples
-2022-05-09 12:50:10,196 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 7962 samples produced in 910ms on channel 0
-2022-05-09 12:50:10,196 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
-2022-05-09 12:50:10,347 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
-2022-05-09 12:50:10,347 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
-2022-05-09 12:50:10,348 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
-2022-05-09 12:50:10,348 INFO o.a.j.r.d.JsonExporter: Checking output folder
-2022-05-09 12:50:10,348 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2/statistics.json
-2022-05-09 12:50:10,385 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2022-05-09 12:50:10,389 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2
-2022-05-09 12:50:10,535 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2, creating folder structure
-2022-05-09 12:50:10,539 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/app/.local/apache-jmeter-5.4.3/bin/report-template' to '/app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2', got message: /app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2, found non empty folder with following content [/app/performtest/test/Ultimate_comm-activation2/SmartPlannerAWS2/statistics.json], will be ignored
-2022-05-09 12:50:10,794 INFO o.a.j.JMeter: Dashboard generated
+2022-05-10 15:45:13,975 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-05-10 15:45:13,993 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
+2022-05-10 15:45:13,993 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
+2022-05-10 15:45:14,009 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-05-10 15:45:14,009 INFO o.a.j.JMeter: Version 5.4.3
+2022-05-10 15:45:14,009 INFO o.a.j.JMeter: java.version=1.8.0_322
+2022-05-10 15:45:14,009 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-05-10 15:45:14,009 INFO o.a.j.JMeter: os.name=Linux
+2022-05-10 15:45:14,010 INFO o.a.j.JMeter: os.arch=amd64
+2022-05-10 15:45:14,010 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
+2022-05-10 15:45:14,010 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-05-10 15:45:14,010 INFO o.a.j.JMeter: java.awt.headless=true
+2022-05-10 15:45:14,010 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-05-10 15:45:14,010 INFO o.a.j.JMeter: Available Processors =2
+2022-05-10 15:45:14,019 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-05-10 15:45:14,019 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-05-10 15:45:14,020 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
+2022-05-10 15:45:14,020 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/Ultimate_comm-activation2
+2022-05-10 15:45:14,020 INFO o.a.j.JMeter: PWD       =/app/performtest/test/Ultimate_comm-activation2
+2022-05-10 15:45:14,020 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-05-10 15:45:14,025 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm'
+2022-05-10 15:45:14,029 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/Ultimate_comm-activation2'
+2022-05-10 15:45:14,030 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/Ultimate_comm-activation2'
+2022-05-10 15:45:14,242 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-05-10 15:45:14,273 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-05-10 15:45:14,281 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-05-10 15:45:14,290 INFO o.a.j.s.SaveService: Loading file: UltimateThreadGroup-comm.jmx
+2022-05-10 15:45:14,362 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-10 15:45:14,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-10 15:45:14,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-10 15:45:14,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-10 15:45:14,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-05-10 15:45:14,363 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-05-10 15:45:14,411 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-05-10 15:45:14,419 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-05-10 15:45:14,419 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: UltimateThreadGroup-comm.jtl
+2022-05-10 15:45:14,419 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
+2022-05-10 15:45:14,420 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-05-10 15:45:14,426 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-05-10 15:45:14,431 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-05-10 15:45:14,432 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-05-10 15:45:14,438 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,438 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,438 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,438 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,439 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,439 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,439 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,439 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,439 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,440 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-05-10 15:45:14,441 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-05-10 15:45:14,441 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-05-10 15:45:14,441 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-05-10 15:45:14,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-05-10 15:45:14,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-05-10 15:45:14,442 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-05-10 15:45:14,452 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-10 15:45:14,452 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-10 15:45:14,453 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-10 15:45:14,459 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-05-10 15:45:14,459 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-05-10 15:45:15,435 INFO o.a.j.JMeter: Running test (1652165115435)
+2022-05-10 15:45:15,499 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Ultimate Thread Group
+2022-05-10 15:45:15,499 INFO o.a.j.e.StandardJMeterEngine: Starting 14 threads for group jp@gc - Ultimate Thread Group.
+2022-05-10 15:45:15,499 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-10 15:45:15,499 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 14
+2022-05-10 15:45:15,523 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-05-10 15:45:15,524 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-10 15:45:29,786 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-14
+2022-05-10 15:45:29,817 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-05-10 15:45:29,826 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-05-10 15:45:29,828 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-05-10 15:45:29,829 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-05-10 15:45:29,829 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-05-10 15:45:29,829 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-05-10 15:45:29,960 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-05-10 15:45:29,969 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-05-10 15:45:29,969 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-05-10 15:45:30,053 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-05-10 15:45:30,057 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-05-10 15:45:30,060 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-05-10 15:45:31,408 INFO o.a.j.r.Summariser: summary +      1 in 00:00:16 =    0.1/s Avg:  1477 Min:  1477 Max:  1477 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2022-05-10 15:45:34,071 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-13
+2022-05-10 15:45:38,358 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-12
+2022-05-10 15:45:42,642 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-11
+2022-05-10 15:45:46,929 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-10
+2022-05-10 15:45:51,214 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-9
+2022-05-10 15:45:55,500 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-8
+2022-05-10 15:45:59,786 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-7
+2022-05-10 15:46:00,231 INFO o.a.j.r.Summariser: summary +     62 in 00:00:29 =    2.2/s Avg:  1780 Min:   808 Max:  4162 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+2022-05-10 15:46:00,231 INFO o.a.j.r.Summariser: summary =     63 in 00:00:45 =    1.4/s Avg:  1776 Min:   808 Max:  4162 Err:     0 (0.00%)
+2022-05-10 15:46:04,071 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-6
+2022-05-10 15:46:08,358 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-5
+2022-05-10 15:46:12,643 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-4
+2022-05-10 15:46:16,928 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-3
+2022-05-10 15:46:21,214 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-2
+2022-05-10 15:46:25,500 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Ultimate Thread Group 1-1
+2022-05-10 15:46:30,183 INFO o.a.j.r.Summariser: summary +     82 in 00:00:30 =    2.7/s Avg:  3685 Min:   898 Max:  7776 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:46:30,184 INFO o.a.j.r.Summariser: summary =    145 in 00:01:15 =    1.9/s Avg:  2855 Min:   808 Max:  7776 Err:     0 (0.00%)
+2022-05-10 15:47:00,393 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.7/s Avg:  5052 Min:   876 Max:  9861 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:47:00,393 INFO o.a.j.r.Summariser: summary =    228 in 00:01:45 =    2.2/s Avg:  3655 Min:   808 Max:  9861 Err:     0 (0.00%)
+2022-05-10 15:47:30,357 INFO o.a.j.r.Summariser: summary +     85 in 00:00:30 =    2.8/s Avg:  5007 Min:  1009 Max: 10447 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:47:30,358 INFO o.a.j.r.Summariser: summary =    313 in 00:02:15 =    2.3/s Avg:  4022 Min:   808 Max: 10447 Err:     0 (0.00%)
+2022-05-10 15:48:00,442 INFO o.a.j.r.Summariser: summary +     84 in 00:00:30 =    2.8/s Avg:  4952 Min:   827 Max: 10079 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:48:00,442 INFO o.a.j.r.Summariser: summary =    397 in 00:02:45 =    2.4/s Avg:  4219 Min:   808 Max: 10447 Err:     0 (0.00%)
+2022-05-10 15:48:30,346 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg:  5023 Min:   831 Max: 10966 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:48:30,347 INFO o.a.j.r.Summariser: summary =    480 in 00:03:15 =    2.5/s Avg:  4358 Min:   808 Max: 10966 Err:     0 (0.00%)
+2022-05-10 15:49:00,020 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg:  4934 Min:   957 Max: 12922 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:49:00,020 INFO o.a.j.r.Summariser: summary =    563 in 00:03:45 =    2.5/s Avg:  4443 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:49:30,007 INFO o.a.j.r.Summariser: summary +     88 in 00:00:30 =    2.9/s Avg:  4892 Min:   922 Max: 11872 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:49:30,007 INFO o.a.j.r.Summariser: summary =    651 in 00:04:15 =    2.6/s Avg:  4504 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:50:00,426 INFO o.a.j.r.Summariser: summary +     85 in 00:00:30 =    2.8/s Avg:  4930 Min:   984 Max: 10081 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:50:00,426 INFO o.a.j.r.Summariser: summary =    736 in 00:04:45 =    2.6/s Avg:  4553 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:50:30,176 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg:  5086 Min:   960 Max: 11093 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:50:30,176 INFO o.a.j.r.Summariser: summary =    819 in 00:05:15 =    2.6/s Avg:  4607 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:51:00,001 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.8/s Avg:  5047 Min:   857 Max: 10263 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:51:00,001 INFO o.a.j.r.Summariser: summary =    902 in 00:05:45 =    2.6/s Avg:  4647 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:51:30,011 INFO o.a.j.r.Summariser: summary +     82 in 00:00:30 =    2.7/s Avg:  5080 Min:   979 Max: 10369 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2022-05-10 15:51:30,011 INFO o.a.j.r.Summariser: summary =    984 in 00:06:15 =    2.6/s Avg:  4683 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:51:33,439 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-14
+2022-05-10 15:51:33,439 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-14
+2022-05-10 15:51:36,617 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-13
+2022-05-10 15:51:36,617 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-13
+2022-05-10 15:51:38,719 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-12
+2022-05-10 15:51:38,719 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-12
+2022-05-10 15:51:43,268 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-11
+2022-05-10 15:51:43,269 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-11
+2022-05-10 15:51:49,855 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-10
+2022-05-10 15:51:49,855 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-10
+2022-05-10 15:51:53,359 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-9
+2022-05-10 15:51:53,359 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-9
+2022-05-10 15:51:56,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-8
+2022-05-10 15:51:56,130 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-8
+2022-05-10 15:52:00,229 INFO o.a.j.r.Summariser: summary +     83 in 00:00:30 =    2.7/s Avg:  4156 Min:   898 Max: 11530 Err:     0 (0.00%) Active: 7 Started: 14 Finished: 7
+2022-05-10 15:52:00,230 INFO o.a.j.r.Summariser: summary =   1067 in 00:06:45 =    2.6/s Avg:  4642 Min:   808 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:52:04,108 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-7
+2022-05-10 15:52:04,108 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-7
+2022-05-10 15:52:04,660 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-6
+2022-05-10 15:52:04,660 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-6
+2022-05-10 15:52:10,855 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-5
+2022-05-10 15:52:10,855 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-5
+2022-05-10 15:52:13,917 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-4
+2022-05-10 15:52:13,918 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-4
+2022-05-10 15:52:17,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-3
+2022-05-10 15:52:17,297 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-3
+2022-05-10 15:52:21,614 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-2
+2022-05-10 15:52:21,614 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-2
+2022-05-10 15:52:25,987 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Ultimate Thread Group 1-1
+2022-05-10 15:52:25,987 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Ultimate Thread Group 1-1
+2022-05-10 15:52:25,988 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-10 15:52:25,989 INFO o.a.j.r.Summariser: summary +     62 in 00:00:26 =    2.4/s Avg:  1744 Min:   749 Max:  5609 Err:     0 (0.00%) Active: 0 Started: 14 Finished: 14
+2022-05-10 15:52:25,989 INFO o.a.j.r.Summariser: summary =   1129 in 00:07:11 =    2.6/s Avg:  4483 Min:   749 Max: 12922 Err:     0 (0.00%)
+2022-05-10 15:52:25,989 INFO o.a.j.JMeter: Generating Dashboard
+2022-05-10 15:52:25,989 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-05-10 15:52:26,013 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-05-10 15:52:26,307 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-05-10 15:52:26,307 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-05-10 15:52:26,311 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-05-10 15:52:26,311 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-05-10 15:52:26,320 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-05-10 15:52:26,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-05-10 15:52:26,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-05-10 15:52:26,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-05-10 15:52:26,400 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-05-10 15:52:26,400 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-05-10 15:52:26,401 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-05-10 15:52:26,401 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-05-10 15:52:26,429 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-05-10 15:52:26,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 7903 samples
+2022-05-10 15:52:26,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-05-10 15:52:26,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-05-10 15:52:26,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-05-10 15:52:26,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-05-10 15:52:26,438 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-05-10 15:52:26,438 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-05-10 15:52:26,445 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-05-10 15:52:26,447 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-05-10 15:52:26,447 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-05-10 15:52:26,447 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-05-10 15:52:26,448 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 16935 samples
+2022-05-10 15:52:26,448 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3387 samples
+2022-05-10 15:52:26,448 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1129 samples
+2022-05-10 15:52:26,449 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1129 samples produced in 398ms on channel 0
+2022-05-10 15:52:26,449 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-05-10 15:52:26,646 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-05-10 15:52:26,646 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-05-10 15:52:26,647 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-05-10 15:52:26,647 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-05-10 15:52:26,648 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm/statistics.json
+2022-05-10 15:52:26,707 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-05-10 15:52:26,715 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm
+2022-05-10 15:52:26,889 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm, creating folder structure
+2022-05-10 15:52:26,894 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/app/.local/apache-jmeter-5.4.3/bin/report-template' to '/app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm', got message: /app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm, found non empty folder with following content [/app/performtest/test/Ultimate_comm-activation2/UltimateThreadGroup-comm/statistics.json], will be ignored
+2022-05-10 15:52:27,219 INFO o.a.j.JMeter: Dashboard generated
