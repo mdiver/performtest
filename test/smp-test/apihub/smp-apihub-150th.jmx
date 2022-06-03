@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="AWS Smart Planner Microservices" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <stringProp name="TestPlan.comments">&apos;22년 AWS Public Cloud 전환 프로젝트 단위 성능 테스트</stringProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="SMP_HOST" elementType="Argument">
+            <stringProp name="Argument.name">SMP_HOST</stringProp>
+            <stringProp name="Argument.value">smp.sktelecom.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SMP_PORT" elementType="Argument">
+            <stringProp name="Argument.name">SMP_PORT</stringProp>
+            <stringProp name="Argument.value">443</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SMP_HOST" elementType="Argument">
+            <stringProp name="Argument.name">SMP_HOST</stringProp>
+            <stringProp name="Argument.value">smp.sktelecom.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="SMP_PORT" elementType="Argument">
+            <stringProp name="Argument.name">SMP_PORT</stringProp>
+            <stringProp name="Argument.value">443</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AWS_SMP_HOST" elementType="Argument">
+            <stringProp name="Argument.name">AWS_SMP_HOST</stringProp>
+            <stringProp name="Argument.value">smpaws.sktelecom.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AWS_SMP_PORT" elementType="Argument">
+            <stringProp name="Argument.name">AWS_SMP_PORT</stringProp>
+            <stringProp name="Argument.value">443</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AWS_SMP_HOST" elementType="Argument">
+            <stringProp name="Argument.name">AWS_SMP_HOST</stringProp>
+            <stringProp name="Argument.value">smpaws.sktelecom.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="AWS_SMP_PORT" elementType="Argument">
+            <stringProp name="Argument.name">AWS_SMP_PORT</stringProp>
+            <stringProp name="Argument.value">443</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="Variables pr�-d�finies" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain">${SMP_HOST}</stringProp>
+        <stringProp name="HTTPSampler.port">${SMP_PORT}</stringProp>
+        <stringProp name="HTTPSampler.protocol">https</stringProp>
+        <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+        <stringProp name="HTTPSampler.path"></stringProp>
+        <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+        <stringProp name="HTTPSampler.response_timeout"></stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Content-Type</stringProp>
+            <stringProp name="Header.value">application/json;charset=UTF-8</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">Accept-Encoding</stringProp>
+            <stringProp name="Header.value">gzip, deflate, br</stringProp>
+          </elementProp>
+          <elementProp name="" elementType="Header">
+            <stringProp name="Header.name">auth</stringProp>
+            <stringProp name="Header.value">skip</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="TS_TOT_02_03" enabled="true">
+        <collectionProp name="ultimatethreadgroupdata">
+          <collectionProp name="1966791593">
+            <stringProp name="1603">150</stringProp>
+            <stringProp name="1567">10</stringProp>
+            <stringProp name="1567">10</stringProp>
+            <stringProp name="50547">300</stringProp>
+            <stringProp name="10">10</stringProp>
+          </collectionProp>
+        </collectionProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="TestPlan.comments">API HUB - MLS 연동 단독</stringProp>
+      </kg.apc.jmeter.threads.UltimateThreadGroup>
+      <hashTree>
+        <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="Gaussian Random Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">300</stringProp>
+          <stringProp name="RandomTimer.range">100.0</stringProp>
+        </GaussianRandomTimer>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ISMLS00001" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+ &#xd;
+    &quot;input1&quot;: [&#xd;
+ &#xd;
+        {&#xd;
+ &#xd;
+            &quot;mls_if_chase_num&quot;: &quot;&quot;,&#xd;
+ &#xd;
+            &quot;USER_ID&quot;: &quot;1992934216&quot;,&#xd;
+ &#xd;
+            &quot;KEYS&quot;: [&#xd;
+ &#xd;
+                &quot;prefer_latest_device&quot;,&#xd;
+ &#xd;
+                &quot;avg_eqp_chg_duration&quot;,&#xd;
+ &#xd;
+                &quot;eqp_chg_timing_days&quot;,&#xd;
+ &#xd;
+                &quot;last_equip_period&quot;,&#xd;
+ &#xd;
+                &quot;prefer_device_manufacturer&quot;,&#xd;
+ &#xd;
+                &quot;prefer_device_price&quot;,&#xd;
+ &#xd;
+                &quot;main_channel_eqp_buy&quot;,&#xd;
+ &#xd;
+                &quot;prefer_second_device_yn&quot;,&#xd;
+ &#xd;
+                &quot;data_use_ratio_max&quot;,&#xd;
+ &#xd;
+                &quot;data_use_ratio_familyshare&quot;,&#xd;
+ &#xd;
+                &quot;data_use_night_ratio_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;additional_svc_ansim_option_scrb_type&quot;,&#xd;
+ &#xd;
+                &quot;family_comb_type&quot;,&#xd;
+ &#xd;
+                &quot;days_speed_limit&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_public_tv_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_music_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;non_skt_wifi_use_yn&quot;,&#xd;
+ &#xd;
+                &quot;contact_homemove_yn&quot;,&#xd;
+ &#xd;
+                &quot;contact_baby_yn&quot;,&#xd;
+ &#xd;
+                &quot;contact_pet_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_etc_ai_assistant_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;age_band&quot;,&#xd;
+ &#xd;
+                &quot;family_wire_comb_term_bf_m6_yn&quot;,&#xd;
+ &#xd;
+                &quot;tw_visit_days_fee_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;prefer_discount_yn&quot;,&#xd;
+ &#xd;
+                &quot;non_vip_mbr_discount_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;campaign_acceptance_ratio_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;vas_cnt_video&quot;,&#xd;
+ &#xd;
+                &quot;vas_cnt_music&quot;,&#xd;
+ &#xd;
+                &quot;vas_cnt_call&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_video_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_days_video_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_days_music_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_game_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_shopping_median_yn&quot;,&#xd;
+ &#xd;
+                &quot;avg_dcb_sml_pay_amt&quot;,&#xd;
+ &#xd;
+                &quot;app_use_traffic_healthcare_yn&quot;,&#xd;
+ &#xd;
+                &quot;app_use_cnt_fin_bf_m1&quot;,&#xd;
+ &#xd;
+                &quot;app_use_yn_kdb_bf_m3&quot;,&#xd;
+ &#xd;
+                &quot;app_use_yn_finnq_bf_m3&quot;,&#xd;
+ &#xd;
+                &quot;app_use_yn_11st_bf_m6&quot;,&#xd;
+ &#xd;
+                &quot;prefer_tw_pages&quot;&#xd;
+ &#xd;
+            ],&#xd;
+ &#xd;
+            &quot;rowStatus&quot;: &quot;R&quot;&#xd;
+ &#xd;
+        }&#xd;
+ &#xd;
+    ],&#xd;
+ &#xd;
+    &quot;HEAD&quot;: {&#xd;
+ &#xd;
+        &quot;Trx_Code&quot;: &quot;/smtp-smp-extsvc/api/v1/apihub/ISMLS00001&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_UserId&quot;: &quot;1000964278&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_LogInId&quot;: &quot;SCP03&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_EmpNum&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_OrgId&quot;: &quot;1000009294&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_HrOrgCd&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_PostOrgCd&quot;: &quot;D00066A000&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_PostSaleOrgCd&quot;: &quot;D00066A000&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_SupSaleOrgCd&quot;: &quot;C099920000&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_IpAddr&quot;: &quot;150.20.18.205&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_BrTypCd&quot;: &quot;500&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_AuthId&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnOrgId&quot;: &quot;1000009295&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnOrgCd&quot;: &quot;D00066&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnSaleOrgId&quot;: &quot;1000009295&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnSaleOrgCd&quot;: &quot;D00066&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_AuthTypPermCd&quot;: &quot;EQ&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_PostSaleOrgId&quot;: &quot;1000009294&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_SupSaleOrgId&quot;: &quot;B099920000&quot;,&#xd;
+ &#xd;
+        &quot;Term_Type&quot;: &quot;0&quot;,&#xd;
+ &#xd;
+        &quot;User_Term_Type&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;St_Stop&quot;: &quot;0&quot;,&#xd;
+ &#xd;
+        &quot;St_Trace&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Stx_Dt&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Stx_Tm&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Etx_Dt&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Etx_Tm&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Rt_Cd&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Screen_Name&quot;: &quot;ZSMPSCSC10010&quot;,&#xd;
+ &#xd;
+        &quot;Msg_Cnt&quot;: &quot;0&quot;,&#xd;
+ &#xd;
+        &quot;Handle_Id&quot;: &quot;898660918 &quot;,&#xd;
+ &#xd;
+        &quot;Ngms_Filler1&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_CoClCd&quot;: &quot;T&quot;,&#xd;
+ &#xd;
+        &quot;Screen_Call_Trace&quot;: &quot;m:ZSMPSCSC10010-m:ZSMPSCSC10010-/smtp-smp-extsvc/api/v1/apihub/ISMLS00001&quot;,&#xd;
+ &#xd;
+        &quot;Pgm_Typ_Cd&quot;: &quot;008&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_TbAgentInfo&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_TbAuthInfo&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;rowStatus&quot;: &quot;C&quot;&#xd;
+ &#xd;
+    }&#xd;
+ &#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/smtp-smp-extsvc/api/v1/apihub/ISMLS00001</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">스마트진단서 고객프로파일 연동</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="ISMLS00003" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+ &#xd;
+    &quot;input1&quot;: [&#xd;
+ &#xd;
+        {&#xd;
+ &#xd;
+            &quot;mls_if_chase_num&quot;: &quot;&quot;,&#xd;
+ &#xd;
+            &quot;USER_ID&quot;: &quot;1992934216&quot;,&#xd;
+ &#xd;
+            &quot;SALE_ORG_ID&quot;: &quot;1000009295&quot;,&#xd;
+ &#xd;
+            &quot;CHANNEL_IDS&quot;: [&#xd;
+ &#xd;
+                &quot;netcrm_fee_equip_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_vas_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_internet_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_wifi_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_stb_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_apple_tv&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_tbroad_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_adt_v3&quot;,&#xd;
+ &#xd;
+                &quot;netcrm_adt_biz_v3&quot;&#xd;
+ &#xd;
+            ],&#xd;
+ &#xd;
+            &quot;KEYS&quot;: [&#xd;
+ &#xd;
+                &quot;A3XH&quot;&#xd;
+ &#xd;
+            ],&#xd;
+ &#xd;
+            &quot;ADDITIONAL_INFO&quot;: {&#xd;
+ &#xd;
+                &quot;SALE_ORG_ID&quot;: &quot;1000009295&quot;&#xd;
+ &#xd;
+            },&#xd;
+ &#xd;
+            &quot;rowStatus&quot;: &quot;R&quot;&#xd;
+ &#xd;
+        }&#xd;
+ &#xd;
+    ],&#xd;
+ &#xd;
+    &quot;HEAD&quot;: {&#xd;
+ &#xd;
+        &quot;Trx_Code&quot;: &quot;/smtp-smp-extsvc/api/v1/apihub/ISMLS00003&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_UserId&quot;: &quot;1000964278&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_LogInId&quot;: &quot;SCP03&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_EmpNum&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_OrgId&quot;: &quot;1000009294&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_HrOrgCd&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_PostOrgCd&quot;: &quot;D00066A000&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_PostSaleOrgCd&quot;: &quot;D00066A000&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_SupSaleOrgCd&quot;: &quot;C099920000&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_IpAddr&quot;: &quot;150.20.18.205&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_BrTypCd&quot;: &quot;500&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_AuthId&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnOrgId&quot;: &quot;1000009295&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnOrgCd&quot;: &quot;D00066&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnSaleOrgId&quot;: &quot;1000009295&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_ConnSaleOrgCd&quot;: &quot;D00066&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_AuthTypPermCd&quot;: &quot;EQ&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_PostSaleOrgId&quot;: &quot;1000009294&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_SupSaleOrgId&quot;: &quot;B099920000&quot;,&#xd;
+ &#xd;
+        &quot;Term_Type&quot;: &quot;0&quot;,&#xd;
+ &#xd;
+        &quot;User_Term_Type&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;St_Stop&quot;: &quot;0&quot;,&#xd;
+ &#xd;
+        &quot;St_Trace&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Stx_Dt&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Stx_Tm&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Etx_Dt&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Etx_Tm&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Rt_Cd&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Screen_Name&quot;: &quot;ZSMPSCSC10010&quot;,&#xd;
+ &#xd;
+        &quot;Msg_Cnt&quot;: &quot;0&quot;,&#xd;
+ &#xd;
+        &quot;Handle_Id&quot;: &quot;898660918 &quot;,&#xd;
+ &#xd;
+        &quot;Ngms_Filler1&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_CoClCd&quot;: &quot;T&quot;,&#xd;
+ &#xd;
+        &quot;Screen_Call_Trace&quot;: &quot;m:ZSMPSCSC10010-m:ZSMPSCSC10010-/smtp-smp-extsvc/api/v1/apihub/ISMLS00003&quot;,&#xd;
+ &#xd;
+        &quot;Pgm_Typ_Cd&quot;: &quot;008&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_TbAgentInfo&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;Ngms_TbAuthInfo&quot;: &quot;&quot;,&#xd;
+ &#xd;
+        &quot;rowStatus&quot;: &quot;C&quot;&#xd;
+ &#xd;
+    }&#xd;
+ &#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/smtp-smp-extsvc/api/v1/apihub/ISMLS00003</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="TestPlan.comments">스마트계산기 추천상품 연동 [V3]</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.TransactionsPerSecondGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Transactions per Second" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <stringProp name="start_offset"></stringProp>
+          <stringProp name="end_offset"></stringProp>
+          <boolProp name="include_checkbox_state">false</boolProp>
+          <boolProp name="exclude_checkbox_state">false</boolProp>
+        </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+        <hashTree/>
+        <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+          <longProp name="interval_grouping">1000</longProp>
+          <boolProp name="graph_aggregated">false</boolProp>
+          <stringProp name="include_sample_labels"></stringProp>
+          <stringProp name="exclude_sample_labels"></stringProp>
+          <stringProp name="start_offset"></stringProp>
+          <stringProp name="end_offset"></stringProp>
+          <boolProp name="include_checkbox_state">false</boolProp>
+          <boolProp name="exclude_checkbox_state">false</boolProp>
+        </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="View Results in Table" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
