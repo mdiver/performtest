@@ -18,13 +18,13 @@
             <stringProp name="Argument.value">443</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="SMPS_HOST" elementType="Argument">
-            <stringProp name="Argument.name">SMPS_HOST</stringProp>
+          <elementProp name="SMP_HOST" elementType="Argument">
+            <stringProp name="Argument.name">SMP_HOST</stringProp>
             <stringProp name="Argument.value">smps.sktelecom.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="SMPS_PORT" elementType="Argument">
-            <stringProp name="Argument.name">SMPS_PORT</stringProp>
+          <elementProp name="SMP_PORT" elementType="Argument">
+            <stringProp name="Argument.name">SMP_PORT</stringProp>
             <stringProp name="Argument.value">443</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -38,13 +38,13 @@
             <stringProp name="Argument.value">443</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="AWS_SMPS_HOST" elementType="Argument">
-            <stringProp name="Argument.name">AWS_SMPS_HOST</stringProp>
+          <elementProp name="AWS_SMP_HOST" elementType="Argument">
+            <stringProp name="Argument.name">AWS_SMP_HOST</stringProp>
             <stringProp name="Argument.value">smpsaws.sktelecom.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="AWS_SMPS_PORT" elementType="Argument">
-            <stringProp name="Argument.name">AWS_SMPS_PORT</stringProp>
+          <elementProp name="AWS_SMP_PORT" elementType="Argument">
+            <stringProp name="Argument.name">AWS_SMP_PORT</stringProp>
             <stringProp name="Argument.value">443</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
