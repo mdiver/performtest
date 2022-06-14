@@ -1,0 +1,461 @@
+2022-06-14 14:59:51,625 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-06-14 14:59:51,650 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
+2022-06-14 14:59:51,651 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: Version 5.4.3
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: java.version=1.8.0_322
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: os.name=Linux
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: os.arch=amd64
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
+2022-06-14 14:59:51,664 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-06-14 14:59:51,668 INFO o.a.j.JMeter: java.awt.headless=true
+2022-06-14 14:59:51,668 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-06-14 14:59:51,668 INFO o.a.j.JMeter: Available Processors =2
+2022-06-14 14:59:51,675 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-06-14 14:59:51,675 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-06-14 14:59:51,675 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
+2022-06-14 14:59:51,675 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/smp-test/38unit
+2022-06-14 14:59:51,676 INFO o.a.j.JMeter: PWD       =/app/performtest/test/smp-test/38unit
+2022-06-14 14:59:51,676 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-06-14 14:59:51,681 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/smp-test/38unit/38unit-150th-2'
+2022-06-14 14:59:51,685 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/smp-test/38unit'
+2022-06-14 14:59:51,686 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/smp-test/38unit'
+2022-06-14 14:59:51,874 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-06-14 14:59:51,909 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-06-14 14:59:51,917 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-06-14 14:59:51,927 INFO o.a.j.s.SaveService: Loading file: 38unit-150th-2.jmx
+2022-06-14 14:59:52,016 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-14 14:59:52,016 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-14 14:59:52,016 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-14 14:59:52,016 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-14 14:59:52,016 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-06-14 14:59:52,016 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-06-14 14:59:52,081 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-06-14 14:59:52,086 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-06-14 14:59:52,087 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: 38unit-150th-2.jtl
+2022-06-14 14:59:52,087 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
+2022-06-14 14:59:52,087 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-06-14 14:59:52,093 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-06-14 14:59:52,097 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-06-14 14:59:52,097 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-06-14 14:59:52,097 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-06-14 14:59:52,097 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-06-14 14:59:52,098 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-06-14 14:59:52,098 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-06-14 14:59:52,098 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-06-14 14:59:52,098 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-06-14 14:59:52,104 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,104 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,104 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,104 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,104 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,105 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,105 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,105 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,105 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,105 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-14 14:59:52,107 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-14 14:59:52,107 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-06-14 14:59:52,107 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-06-14 14:59:52,107 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-14 14:59:52,107 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-06-14 14:59:52,108 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-06-14 14:59:52,114 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-14 14:59:52,114 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-14 14:59:52,115 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-14 14:59:52,120 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-06-14 14:59:52,120 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-06-14 14:59:53,071 INFO o.a.j.JMeter: Running test (1655186393071)
+2022-06-14 14:59:53,133 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TS_TOT_02_02
+2022-06-14 14:59:53,134 INFO o.a.j.e.StandardJMeterEngine: Starting 150 threads for group TS_TOT_02_02.
+2022-06-14 14:59:53,134 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-14 14:59:53,134 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 150
+2022-06-14 14:59:53,308 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-06-14 14:59:53,308 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-06-14 15:00:23,200 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-150
+2022-06-14 15:00:23,267 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-149
+2022-06-14 15:00:23,334 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-148
+2022-06-14 15:00:23,400 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-147
+2022-06-14 15:00:23,468 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-146
+2022-06-14 15:00:23,534 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-145
+2022-06-14 15:00:23,570 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-06-14 15:00:23,582 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-06-14 15:00:23,585 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-06-14 15:00:23,585 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-06-14 15:00:23,585 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-06-14 15:00:23,585 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-06-14 15:00:23,601 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-144
+2022-06-14 15:00:23,673 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-143
+2022-06-14 15:00:23,743 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-142
+2022-06-14 15:00:23,794 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-06-14 15:00:23,802 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-141
+2022-06-14 15:00:23,825 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-06-14 15:00:23,825 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-06-14 15:00:23,874 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-140
+2022-06-14 15:00:23,938 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-06-14 15:00:23,945 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-06-14 15:00:23,945 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-06-14 15:00:23,947 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-139
+2022-06-14 15:00:24,003 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-138
+2022-06-14 15:00:24,074 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-137
+2022-06-14 15:00:24,137 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-136
+2022-06-14 15:00:24,273 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-134
+2022-06-14 15:00:24,281 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-135
+2022-06-14 15:00:24,340 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-133
+2022-06-14 15:00:24,410 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-132
+2022-06-14 15:00:24,472 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-131
+2022-06-14 15:00:24,534 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-130
+2022-06-14 15:00:24,605 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-129
+2022-06-14 15:00:24,669 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-128
+2022-06-14 15:00:24,734 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-127
+2022-06-14 15:00:24,800 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-126
+2022-06-14 15:00:24,873 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-125
+2022-06-14 15:00:24,935 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-124
+2022-06-14 15:00:25,005 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-123
+2022-06-14 15:00:25,068 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-122
+2022-06-14 15:00:25,139 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-121
+2022-06-14 15:00:25,200 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-120
+2022-06-14 15:00:25,288 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-119
+2022-06-14 15:00:25,334 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-118
+2022-06-14 15:00:25,400 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-117
+2022-06-14 15:00:25,468 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-116
+2022-06-14 15:00:25,541 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-115
+2022-06-14 15:00:25,602 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-114
+2022-06-14 15:00:25,673 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-113
+2022-06-14 15:00:25,736 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-112
+2022-06-14 15:00:25,802 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-111
+2022-06-14 15:00:25,876 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-110
+2022-06-14 15:00:25,934 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-109
+2022-06-14 15:00:26,005 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-108
+2022-06-14 15:00:26,067 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-107
+2022-06-14 15:00:26,140 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-106
+2022-06-14 15:00:26,200 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-105
+2022-06-14 15:00:26,268 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-104
+2022-06-14 15:00:26,335 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-103
+2022-06-14 15:00:26,409 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-102
+2022-06-14 15:00:26,467 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-101
+2022-06-14 15:00:26,541 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-100
+2022-06-14 15:00:26,600 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-99
+2022-06-14 15:00:26,667 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-98
+2022-06-14 15:00:26,738 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-97
+2022-06-14 15:00:26,802 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-96
+2022-06-14 15:00:26,868 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-95
+2022-06-14 15:00:26,934 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-94
+2022-06-14 15:00:27,003 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-93
+2022-06-14 15:00:27,067 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-92
+2022-06-14 15:00:27,135 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-91
+2022-06-14 15:00:27,202 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-90
+2022-06-14 15:00:27,306 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-89
+2022-06-14 15:00:27,335 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-88
+2022-06-14 15:00:27,403 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-87
+2022-06-14 15:00:27,467 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-86
+2022-06-14 15:00:27,545 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-85
+2022-06-14 15:00:27,601 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-84
+2022-06-14 15:00:27,667 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-83
+2022-06-14 15:00:27,735 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-82
+2022-06-14 15:00:27,800 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-81
+2022-06-14 15:00:27,869 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-80
+2022-06-14 15:00:27,934 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-79
+2022-06-14 15:00:28,017 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-78
+2022-06-14 15:00:28,067 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-77
+2022-06-14 15:00:28,137 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-76
+2022-06-14 15:00:28,200 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-75
+2022-06-14 15:00:28,267 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-74
+2022-06-14 15:00:28,337 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-73
+2022-06-14 15:00:28,400 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-72
+2022-06-14 15:00:28,469 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-71
+2022-06-14 15:00:28,534 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-70
+2022-06-14 15:00:28,602 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-69
+2022-06-14 15:00:28,677 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-68
+2022-06-14 15:00:28,738 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-67
+2022-06-14 15:00:28,800 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-66
+2022-06-14 15:00:28,869 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-65
+2022-06-14 15:00:28,934 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-64
+2022-06-14 15:00:29,000 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-63
+2022-06-14 15:00:29,070 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-62
+2022-06-14 15:00:29,134 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-61
+2022-06-14 15:00:29,204 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-60
+2022-06-14 15:00:29,271 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-59
+2022-06-14 15:00:29,335 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-58
+2022-06-14 15:00:29,401 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-57
+2022-06-14 15:00:29,467 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-56
+2022-06-14 15:00:29,535 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-55
+2022-06-14 15:00:29,610 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-54
+2022-06-14 15:00:29,670 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-53
+2022-06-14 15:00:29,735 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-52
+2022-06-14 15:00:29,800 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-51
+2022-06-14 15:00:29,870 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-50
+2022-06-14 15:00:29,937 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-49
+2022-06-14 15:00:30,001 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-48
+2022-06-14 15:00:30,005 INFO o.a.j.r.Summariser: summary +    984 in 00:00:37 =   26.6/s Avg:    39 Min:    14 Max:   764 Err:     0 (0.00%) Active: 103 Started: 103 Finished: 0
+2022-06-14 15:00:30,068 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-47
+2022-06-14 15:00:30,135 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-46
+2022-06-14 15:00:30,200 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-45
+2022-06-14 15:00:30,273 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-44
+2022-06-14 15:00:30,338 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-43
+2022-06-14 15:00:30,402 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-42
+2022-06-14 15:00:30,470 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-41
+2022-06-14 15:00:30,538 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-40
+2022-06-14 15:00:30,605 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-39
+2022-06-14 15:00:30,669 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-38
+2022-06-14 15:00:30,735 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-37
+2022-06-14 15:00:30,804 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-36
+2022-06-14 15:00:30,868 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-35
+2022-06-14 15:00:30,934 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-34
+2022-06-14 15:00:31,003 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-33
+2022-06-14 15:00:31,071 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-32
+2022-06-14 15:00:31,135 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-31
+2022-06-14 15:00:31,204 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-30
+2022-06-14 15:00:31,268 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-29
+2022-06-14 15:00:31,337 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-28
+2022-06-14 15:00:31,402 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-27
+2022-06-14 15:00:31,468 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-26
+2022-06-14 15:00:31,540 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-25
+2022-06-14 15:00:31,604 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-24
+2022-06-14 15:00:31,672 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-23
+2022-06-14 15:00:31,742 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-22
+2022-06-14 15:00:31,801 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-21
+2022-06-14 15:00:31,872 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-20
+2022-06-14 15:00:31,935 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-19
+2022-06-14 15:00:32,005 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-18
+2022-06-14 15:00:32,072 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-17
+2022-06-14 15:00:32,146 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-16
+2022-06-14 15:00:32,200 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-15
+2022-06-14 15:00:32,268 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-14
+2022-06-14 15:00:32,335 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-13
+2022-06-14 15:00:32,400 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-12
+2022-06-14 15:00:32,472 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-11
+2022-06-14 15:00:32,535 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-10
+2022-06-14 15:00:32,603 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-9
+2022-06-14 15:00:32,697 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-8
+2022-06-14 15:00:32,734 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-7
+2022-06-14 15:00:32,800 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-6
+2022-06-14 15:00:32,868 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-5
+2022-06-14 15:00:32,935 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-4
+2022-06-14 15:00:33,000 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-3
+2022-06-14 15:00:33,067 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-2
+2022-06-14 15:00:33,138 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_02 1-1
+2022-06-14 15:01:00,001 INFO o.a.j.r.Summariser: summary +  13155 in 00:00:30 =  438.5/s Avg:    35 Min:    14 Max:   184 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:01:00,001 INFO o.a.j.r.Summariser: summary =  14139 in 00:01:07 =  211.3/s Avg:    35 Min:    14 Max:   764 Err:     0 (0.00%)
+2022-06-14 15:01:30,002 INFO o.a.j.r.Summariser: summary +  13563 in 00:00:30 =  452.1/s Avg:    32 Min:    14 Max:   182 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:01:30,002 INFO o.a.j.r.Summariser: summary =  27702 in 00:01:37 =  285.8/s Avg:    34 Min:    14 Max:   764 Err:     0 (0.00%)
+2022-06-14 15:02:00,006 INFO o.a.j.r.Summariser: summary +  13588 in 00:00:30 =  452.9/s Avg:    31 Min:    13 Max:  7011 Err:     1 (0.01%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:02:00,006 INFO o.a.j.r.Summariser: summary =  41290 in 00:02:07 =  325.3/s Avg:    33 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:02:30,018 INFO o.a.j.r.Summariser: summary +  13608 in 00:00:30 =  453.4/s Avg:    31 Min:    13 Max:   127 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:02:30,019 INFO o.a.j.r.Summariser: summary =  54898 in 00:02:37 =  349.8/s Avg:    32 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:03:00,000 INFO o.a.j.r.Summariser: summary +  13548 in 00:00:30 =  451.9/s Avg:    31 Min:    13 Max:  1070 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:03:00,001 INFO o.a.j.r.Summariser: summary =  68446 in 00:03:07 =  366.2/s Avg:    32 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:03:30,000 INFO o.a.j.r.Summariser: summary +  13564 in 00:00:30 =  452.1/s Avg:    31 Min:    13 Max:   119 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:03:30,001 INFO o.a.j.r.Summariser: summary =  82010 in 00:03:37 =  378.0/s Avg:    32 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:04:00,018 INFO o.a.j.r.Summariser: summary +  13593 in 00:00:30 =  452.8/s Avg:    31 Min:    13 Max:   149 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:04:00,019 INFO o.a.j.r.Summariser: summary =  95603 in 00:04:07 =  387.1/s Avg:    32 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:04:30,006 INFO o.a.j.r.Summariser: summary +  13589 in 00:00:30 =  453.1/s Avg:    31 Min:    13 Max:   123 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:04:30,007 INFO o.a.j.r.Summariser: summary = 109192 in 00:04:37 =  394.3/s Avg:    32 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:05:00,012 INFO o.a.j.r.Summariser: summary +  13588 in 00:00:30 =  452.9/s Avg:    31 Min:    13 Max:   109 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:05:00,012 INFO o.a.j.r.Summariser: summary = 122780 in 00:05:07 =  400.0/s Avg:    31 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:05:30,000 INFO o.a.j.r.Summariser: summary +  13582 in 00:00:30 =  452.9/s Avg:    31 Min:    14 Max:   102 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2022-06-14 15:05:30,001 INFO o.a.j.r.Summariser: summary = 136362 in 00:05:37 =  404.7/s Avg:    31 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:05:33,300 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-150
+2022-06-14 15:05:33,481 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-149
+2022-06-14 15:05:33,671 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-148
+2022-06-14 15:05:33,861 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-146
+2022-06-14 15:05:33,917 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-147
+2022-06-14 15:05:34,221 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-145
+2022-06-14 15:05:34,257 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-144
+2022-06-14 15:05:34,698 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-143
+2022-06-14 15:05:34,957 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TS_TOT_02_02 1-142
+2022-06-14 15:05:34,958 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-142
+2022-06-14 15:05:35,039 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-141
+2022-06-14 15:05:35,159 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-140
+2022-06-14 15:05:35,357 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-139
+2022-06-14 15:05:35,534 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-138
+2022-06-14 15:05:35,687 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-137
+2022-06-14 15:05:35,953 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-136
+2022-06-14 15:05:36,239 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-135
+2022-06-14 15:05:36,528 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-134
+2022-06-14 15:05:36,537 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-133
+2022-06-14 15:05:36,826 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-132
+2022-06-14 15:05:37,198 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TS_TOT_02_02 1-131
+2022-06-14 15:05:37,198 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-131
+2022-06-14 15:05:37,210 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-130
+2022-06-14 15:05:37,384 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-129
+2022-06-14 15:05:37,544 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-128
+2022-06-14 15:05:37,629 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-127
+2022-06-14 15:05:38,047 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-126
+2022-06-14 15:05:38,173 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-125
+2022-06-14 15:05:38,457 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-124
+2022-06-14 15:05:38,548 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-123
+2022-06-14 15:05:38,751 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-122
+2022-06-14 15:05:38,800 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-121
+2022-06-14 15:05:39,097 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-120
+2022-06-14 15:05:39,427 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-119
+2022-06-14 15:05:39,649 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-118
+2022-06-14 15:05:39,828 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-117
+2022-06-14 15:05:39,959 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-116
+2022-06-14 15:05:40,307 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-115
+2022-06-14 15:05:40,443 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-114
+2022-06-14 15:05:40,664 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-113
+2022-06-14 15:05:40,666 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-112
+2022-06-14 15:05:40,867 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-111
+2022-06-14 15:05:41,259 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-110
+2022-06-14 15:05:41,476 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-109
+2022-06-14 15:05:41,603 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-107
+2022-06-14 15:05:41,706 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-108
+2022-06-14 15:05:41,802 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-106
+2022-06-14 15:05:42,138 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-105
+2022-06-14 15:05:42,473 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-104
+2022-06-14 15:05:42,675 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-103
+2022-06-14 15:05:42,819 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-102
+2022-06-14 15:05:42,894 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-101
+2022-06-14 15:05:43,079 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-100
+2022-06-14 15:05:43,467 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-99
+2022-06-14 15:05:43,601 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-98
+2022-06-14 15:05:43,928 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-97
+2022-06-14 15:05:44,009 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-96
+2022-06-14 15:05:44,257 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-95
+2022-06-14 15:05:44,392 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-94
+2022-06-14 15:05:44,392 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-93
+2022-06-14 15:05:44,897 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-92
+2022-06-14 15:05:44,961 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-91
+2022-06-14 15:05:45,297 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-90
+2022-06-14 15:05:45,500 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-88
+2022-06-14 15:05:45,504 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-89
+2022-06-14 15:05:45,592 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-87
+2022-06-14 15:05:45,828 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-86
+2022-06-14 15:05:46,090 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-85
+2022-06-14 15:05:46,512 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-83
+2022-06-14 15:05:46,542 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TS_TOT_02_02 1-84
+2022-06-14 15:05:46,543 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-84
+2022-06-14 15:05:46,926 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-82
+2022-06-14 15:05:47,024 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-81
+2022-06-14 15:05:47,108 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-80
+2022-06-14 15:05:47,399 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-79
+2022-06-14 15:05:47,543 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-78
+2022-06-14 15:05:47,953 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-76
+2022-06-14 15:05:47,956 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TS_TOT_02_02 1-77
+2022-06-14 15:05:47,956 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-77
+2022-06-14 15:05:48,082 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-75
+2022-06-14 15:05:48,262 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-74
+2022-06-14 15:05:48,634 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-72
+2022-06-14 15:05:48,650 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-73
+2022-06-14 15:05:49,053 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-71
+2022-06-14 15:05:49,163 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-70
+2022-06-14 15:05:49,463 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-69
+2022-06-14 15:05:49,606 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-68
+2022-06-14 15:05:49,862 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-66
+2022-06-14 15:05:49,901 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-67
+2022-06-14 15:05:50,156 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-65
+2022-06-14 15:05:50,434 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-64
+2022-06-14 15:05:50,559 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-63
+2022-06-14 15:05:50,596 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-62
+2022-06-14 15:05:51,071 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-61
+2022-06-14 15:05:51,195 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-60
+2022-06-14 15:05:51,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TS_TOT_02_02 1-59
+2022-06-14 15:05:51,536 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-59
+2022-06-14 15:05:51,636 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-58
+2022-06-14 15:05:51,702 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-57
+2022-06-14 15:05:51,863 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-56
+2022-06-14 15:05:52,072 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-55
+2022-06-14 15:05:52,377 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-53
+2022-06-14 15:05:52,377 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-54
+2022-06-14 15:05:52,809 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-52
+2022-06-14 15:05:52,985 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-51
+2022-06-14 15:05:53,130 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-50
+2022-06-14 15:05:53,324 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-49
+2022-06-14 15:05:53,362 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-48
+2022-06-14 15:05:53,875 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-47
+2022-06-14 15:05:53,992 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-46
+2022-06-14 15:05:54,144 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-45
+2022-06-14 15:05:54,386 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-44
+2022-06-14 15:05:54,538 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-43
+2022-06-14 15:05:54,778 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-42
+2022-06-14 15:05:54,799 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-41
+2022-06-14 15:05:54,914 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-40
+2022-06-14 15:05:55,481 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-39
+2022-06-14 15:05:55,685 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-37
+2022-06-14 15:05:55,711 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-38
+2022-06-14 15:05:55,867 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-36
+2022-06-14 15:05:56,281 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-35
+2022-06-14 15:05:56,412 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-33
+2022-06-14 15:05:56,451 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-34
+2022-06-14 15:05:56,585 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-32
+2022-06-14 15:05:56,994 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-31
+2022-06-14 15:05:57,034 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-30
+2022-06-14 15:05:57,390 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-29
+2022-06-14 15:05:57,585 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-28
+2022-06-14 15:05:57,668 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-27
+2022-06-14 15:05:57,860 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-26
+2022-06-14 15:05:57,974 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-25
+2022-06-14 15:05:58,336 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-24
+2022-06-14 15:05:58,436 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-23
+2022-06-14 15:05:58,606 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-22
+2022-06-14 15:05:58,723 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-21
+2022-06-14 15:05:59,069 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-20
+2022-06-14 15:05:59,558 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TS_TOT_02_02 1-19
+2022-06-14 15:05:59,558 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-19
+2022-06-14 15:05:59,605 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-17
+2022-06-14 15:05:59,645 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-18
+2022-06-14 15:05:59,857 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-16
+2022-06-14 15:06:00,022 INFO o.a.j.r.Summariser: summary +   8227 in 00:00:30 =  274.0/s Avg:    27 Min:    14 Max:   113 Err:     0 (0.00%) Active: 15 Started: 150 Finished: 135
+2022-06-14 15:06:00,023 INFO o.a.j.r.Summariser: summary = 144589 in 00:06:07 =  394.0/s Avg:    31 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:06:00,118 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-15
+2022-06-14 15:06:00,386 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-14
+2022-06-14 15:06:00,719 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-13
+2022-06-14 15:06:00,778 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-12
+2022-06-14 15:06:00,910 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-11
+2022-06-14 15:06:01,030 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-10
+2022-06-14 15:06:01,271 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-9
+2022-06-14 15:06:01,660 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-8
+2022-06-14 15:06:01,892 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-6
+2022-06-14 15:06:01,921 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-7
+2022-06-14 15:06:02,130 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-5
+2022-06-14 15:06:02,391 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-4
+2022-06-14 15:06:02,601 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-3
+2022-06-14 15:06:02,715 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-2
+2022-06-14 15:06:03,126 INFO o.a.j.t.JMeterThread: Thread finished: TS_TOT_02_02 1-1
+2022-06-14 15:06:03,126 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-14 15:06:03,127 INFO o.a.j.r.Summariser: summary +     90 in 00:00:03 =   29.0/s Avg:    23 Min:    16 Max:    42 Err:     0 (0.00%) Active: 0 Started: 150 Finished: 150
+2022-06-14 15:06:03,128 INFO o.a.j.r.Summariser: summary = 144679 in 00:06:10 =  391.0/s Avg:    31 Min:    13 Max:  7011 Err:     1 (0.00%)
+2022-06-14 15:06:03,128 INFO o.a.j.JMeter: Generating Dashboard
+2022-06-14 15:06:03,128 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-06-14 15:06:03,148 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-06-14 15:06:06,939 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-06-14 15:06:06,939 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-06-14 15:06:06,941 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-06-14 15:06:06,942 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-06-14 15:06:06,968 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-06-14 15:06:06,975 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-06-14 15:06:06,975 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-06-14 15:06:06,975 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-06-14 15:06:07,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-06-14 15:06:07,698 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-06-14 15:06:07,699 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-06-14 15:06:07,699 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-06-14 15:06:08,291 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-06-14 15:06:08,299 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1012753 samples
+2022-06-14 15:06:08,299 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-06-14 15:06:08,300 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-06-14 15:06:08,300 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-06-14 15:06:08,301 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-06-14 15:06:08,301 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-06-14 15:06:08,301 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-06-14 15:06:08,304 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-06-14 15:06:08,311 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-06-14 15:06:08,312 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-06-14 15:06:08,312 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-06-14 15:06:08,312 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 2170185 samples
+2022-06-14 15:06:08,312 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 434037 samples
+2022-06-14 15:06:08,312 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 144679 samples
+2022-06-14 15:06:08,313 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 144679 samples produced in 5s 115 ms on channel 0
+2022-06-14 15:06:08,313 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-06-14 15:06:08,445 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-06-14 15:06:08,446 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-06-14 15:06:08,446 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-06-14 15:06:08,447 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-06-14 15:06:08,447 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /app/performtest/test/smp-test/38unit/38unit-150th-2/statistics.json
+2022-06-14 15:06:08,490 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-06-14 15:06:08,493 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /app/performtest/test/smp-test/38unit/38unit-150th-2
+2022-06-14 15:06:08,654 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /app/performtest/test/smp-test/38unit/38unit-150th-2, creating folder structure
+2022-06-14 15:06:08,661 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/app/.local/apache-jmeter-5.4.3/bin/report-template' to '/app/performtest/test/smp-test/38unit/38unit-150th-2', got message: /app/performtest/test/smp-test/38unit/38unit-150th-2, found non empty folder with following content [/app/performtest/test/smp-test/38unit/38unit-150th-2/statistics.json], will be ignored
+2022-06-14 15:06:08,938 INFO o.a.j.JMeter: Dashboard generated
