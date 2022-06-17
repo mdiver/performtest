@@ -1,0 +1,164 @@
+2022-06-17 16:30:02,286 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-06-17 16:30:02,305 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
+2022-06-17 16:30:02,306 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
+2022-06-17 16:30:02,316 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-06-17 16:30:02,316 INFO o.a.j.JMeter: Version 5.4.3
+2022-06-17 16:30:02,316 INFO o.a.j.JMeter: java.version=1.8.0_322
+2022-06-17 16:30:02,316 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-06-17 16:30:02,316 INFO o.a.j.JMeter: os.name=Linux
+2022-06-17 16:30:02,317 INFO o.a.j.JMeter: os.arch=amd64
+2022-06-17 16:30:02,317 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
+2022-06-17 16:30:02,317 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-06-17 16:30:02,317 INFO o.a.j.JMeter: java.awt.headless=true
+2022-06-17 16:30:02,317 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-06-17 16:30:02,317 INFO o.a.j.JMeter: Available Processors =2
+2022-06-17 16:30:02,324 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-06-17 16:30:02,325 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-06-17 16:30:02,325 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
+2022-06-17 16:30:02,325 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/smp-test/top10
+2022-06-17 16:30:02,325 INFO o.a.j.JMeter: PWD       =/app/performtest/test/smp-test/top10
+2022-06-17 16:30:02,326 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-06-17 16:30:02,331 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/smp-test/top10/smp-top10-60th-6'
+2022-06-17 16:30:02,335 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/smp-test/top10'
+2022-06-17 16:30:02,336 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/smp-test/top10'
+2022-06-17 16:30:02,535 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-06-17 16:30:02,569 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-06-17 16:30:02,577 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-06-17 16:30:02,591 INFO o.a.j.s.SaveService: Loading file: smp-top10-60th-2.jmx
+2022-06-17 16:30:02,715 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 16:30:02,715 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 16:30:02,716 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 16:30:02,716 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 16:30:02,716 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-06-17 16:30:02,716 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-06-17 16:30:02,785 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-06-17 16:30:02,793 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-06-17 16:30:02,793 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: smp-top10-60th-6.jtl
+2022-06-17 16:30:02,793 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
+2022-06-17 16:30:02,794 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-06-17 16:30:02,800 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-06-17 16:30:02,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-06-17 16:30:02,806 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-06-17 16:30:02,813 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,813 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,813 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,813 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,813 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,814 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 16:30:02,816 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-17 16:30:02,816 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-06-17 16:30:02,816 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-06-17 16:30:02,816 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-17 16:30:02,816 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-06-17 16:30:02,816 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-06-17 16:30:02,827 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-17 16:30:02,828 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-17 16:30:02,828 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-17 16:30:02,834 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-06-17 16:30:02,834 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-06-17 16:30:03,926 INFO o.a.j.JMeter: Running test (1655451003926)
+2022-06-17 16:30:03,996 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TS_TOT_02_01
+2022-06-17 16:30:03,997 INFO o.a.j.e.StandardJMeterEngine: Starting 60 threads for group TS_TOT_02_01.
+2022-06-17 16:30:03,997 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-17 16:30:03,997 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 60
+2022-06-17 16:30:04,188 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-06-17 16:30:04,188 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-06-17 16:30:14,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-60
+2022-06-17 16:30:14,331 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-59
+2022-06-17 16:30:14,429 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-06-17 16:30:14,445 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-06-17 16:30:14,447 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-06-17 16:30:14,447 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-06-17 16:30:14,447 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-06-17 16:30:14,447 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-06-17 16:30:14,503 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-58
+2022-06-17 16:30:14,647 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-06-17 16:30:14,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-57
+2022-06-17 16:30:14,665 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-06-17 16:30:14,666 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-06-17 16:30:14,756 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-06-17 16:30:14,760 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-06-17 16:30:14,760 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-06-17 16:30:14,839 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-56
+2022-06-17 16:30:15,002 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-55
+2022-06-17 16:30:15,172 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-54
+2022-06-17 16:30:15,334 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-53
+2022-06-17 16:30:15,498 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-52
+2022-06-17 16:30:15,664 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-51
+2022-06-17 16:30:15,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-50
+2022-06-17 16:30:15,997 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-49
+2022-06-17 16:30:16,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-48
+2022-06-17 16:30:16,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-47
+2022-06-17 16:30:16,499 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-46
+2022-06-17 16:30:16,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-45
+2022-06-17 16:30:16,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-44
+2022-06-17 16:30:16,997 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-43
+2022-06-17 16:30:17,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-42
+2022-06-17 16:30:17,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-41
+2022-06-17 16:30:17,497 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-40
+2022-06-17 16:30:17,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-39
+2022-06-17 16:30:17,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-38
+2022-06-17 16:30:17,997 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-37
+2022-06-17 16:30:18,164 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-36
+2022-06-17 16:30:18,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-35
+2022-06-17 16:30:18,498 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-34
+2022-06-17 16:30:18,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-33
+2022-06-17 16:30:18,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-32
+2022-06-17 16:30:18,998 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-31
+2022-06-17 16:30:19,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-30
+2022-06-17 16:30:19,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-29
+2022-06-17 16:30:19,497 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-28
+2022-06-17 16:30:19,664 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-27
+2022-06-17 16:30:19,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-26
+2022-06-17 16:30:19,997 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-25
+2022-06-17 16:30:20,164 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-24
+2022-06-17 16:30:20,336 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-23
+2022-06-17 16:30:20,497 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-22
+2022-06-17 16:30:20,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-21
+2022-06-17 16:30:20,831 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-20
+2022-06-17 16:30:20,997 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-19
+2022-06-17 16:30:21,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-18
+2022-06-17 16:30:21,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-17
+2022-06-17 16:30:21,497 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-16
+2022-06-17 16:30:21,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-15
+2022-06-17 16:30:21,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-14
+2022-06-17 16:30:21,998 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-13
+2022-06-17 16:30:22,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-12
+2022-06-17 16:30:22,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-11
+2022-06-17 16:30:22,498 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-10
+2022-06-17 16:30:22,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-9
+2022-06-17 16:30:22,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-8
+2022-06-17 16:30:22,998 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-7
+2022-06-17 16:30:23,163 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-6
+2022-06-17 16:30:23,330 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-5
+2022-06-17 16:30:23,497 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-4
+2022-06-17 16:30:23,663 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-3
+2022-06-17 16:30:23,830 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-2
+2022-06-17 16:30:23,997 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-1
+2022-06-17 16:30:30,002 INFO o.a.j.r.Summariser: summary +   1948 in 00:00:26 =   74.7/s Avg:    29 Min:    11 Max:   794 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:31:00,007 INFO o.a.j.r.Summariser: summary +   5486 in 00:00:30 =  182.8/s Avg:    28 Min:    11 Max:   445 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:31:00,007 INFO o.a.j.r.Summariser: summary =   7434 in 00:00:56 =  132.6/s Avg:    28 Min:    11 Max:   794 Err:     0 (0.00%)
+2022-06-17 16:31:30,005 INFO o.a.j.r.Summariser: summary +   5491 in 00:00:30 =  183.1/s Avg:    28 Min:    11 Max:   239 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:31:30,005 INFO o.a.j.r.Summariser: summary =  12925 in 00:01:26 =  150.2/s Avg:    28 Min:    11 Max:   794 Err:     0 (0.00%)
+2022-06-17 16:32:00,016 INFO o.a.j.r.Summariser: summary +   5515 in 00:00:30 =  183.8/s Avg:    27 Min:    11 Max:   267 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:32:00,016 INFO o.a.j.r.Summariser: summary =  18440 in 00:01:56 =  158.8/s Avg:    28 Min:    11 Max:   794 Err:     0 (0.00%)
+2022-06-17 16:32:30,003 INFO o.a.j.r.Summariser: summary +   5504 in 00:00:30 =  183.5/s Avg:    28 Min:    11 Max:    87 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:32:30,003 INFO o.a.j.r.Summariser: summary =  23944 in 00:02:26 =  163.9/s Avg:    28 Min:    11 Max:   794 Err:     0 (0.00%)
+2022-06-17 16:33:00,008 INFO o.a.j.r.Summariser: summary +   5480 in 00:00:30 =  182.6/s Avg:    28 Min:    11 Max:  1036 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:33:00,009 INFO o.a.j.r.Summariser: summary =  29424 in 00:02:56 =  167.1/s Avg:    28 Min:    11 Max:  1036 Err:     0 (0.00%)
+2022-06-17 16:33:30,000 INFO o.a.j.r.Summariser: summary +   5492 in 00:00:30 =  183.1/s Avg:    27 Min:    11 Max:   229 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:33:30,001 INFO o.a.j.r.Summariser: summary =  34916 in 00:03:26 =  169.4/s Avg:    28 Min:    11 Max:  1036 Err:     0 (0.00%)
+2022-06-17 16:34:00,003 INFO o.a.j.r.Summariser: summary +   5514 in 00:00:30 =  183.8/s Avg:    27 Min:    11 Max:   226 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 16:34:00,004 INFO o.a.j.r.Summariser: summary =  40430 in 00:03:56 =  171.3/s Avg:    28 Min:    11 Max:  1036 Err:     0 (0.00%)
+2022-06-17 16:34:15,129 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2022-06-17 16:34:15,130 INFO o.a.j.r.ResultCollector: Shutdown hook ended

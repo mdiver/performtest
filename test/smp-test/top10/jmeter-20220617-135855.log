@@ -1,0 +1,268 @@
+2022-06-17 13:58:57,404 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-06-17 13:58:57,421 INFO o.a.j.JMeter: Loading user properties from: /app/.local/apache-jmeter-5.4.3/bin/user.properties
+2022-06-17 13:58:57,422 INFO o.a.j.JMeter: Loading system properties from: /app/.local/apache-jmeter-5.4.3/bin/system.properties
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: Version 5.4.3
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: java.version=1.8.0_322
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: os.name=Linux
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: os.arch=amd64
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: os.version=3.10.0-1160.6.1.el7.x86_64
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: java.awt.headless=true
+2022-06-17 13:58:57,432 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-06-17 13:58:57,433 INFO o.a.j.JMeter: Available Processors =2
+2022-06-17 13:58:57,440 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-06-17 13:58:57,440 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-06-17 13:58:57,440 INFO o.a.j.JMeter: JMeterHome=/app/.local/apache-jmeter-5.4.3
+2022-06-17 13:58:57,440 INFO o.a.j.JMeter: user.dir  =/app/performtest/test/smp-test/top10
+2022-06-17 13:58:57,440 INFO o.a.j.JMeter: PWD       =/app/performtest/test/smp-test/top10
+2022-06-17 13:58:57,441 INFO o.a.j.JMeter: IP: 100.64.40.247 Name: ip-100-64-40-247.ap-northeast-2.compute.internal FullName: ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-06-17 13:58:57,446 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/app/performtest/test/smp-test/top10/smp-top10-60th-2'
+2022-06-17 13:58:57,450 INFO o.a.j.s.FileServer: Default base='/app/performtest/test/smp-test/top10'
+2022-06-17 13:58:57,451 INFO o.a.j.s.FileServer: Set new base='/app/performtest/test/smp-test/top10'
+2022-06-17 13:58:57,653 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-06-17 13:58:57,687 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-06-17 13:58:57,694 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-06-17 13:58:57,704 INFO o.a.j.s.SaveService: Loading file: smp-top10-60th-2.jmx
+2022-06-17 13:58:57,798 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 13:58:57,798 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 13:58:57,798 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 13:58:57,798 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-17 13:58:57,798 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-06-17 13:58:57,798 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-06-17 13:58:57,881 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-06-17 13:58:57,888 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-06-17 13:58:57,888 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: smp-top10-60th-2.jtl
+2022-06-17 13:58:57,888 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /app/.local/apache-jmeter-5.4.3/bin/reportgenerator.properties
+2022-06-17 13:58:57,888 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-06-17 13:58:57,894 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-06-17 13:58:57,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-06-17 13:58:57,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-06-17 13:58:57,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-06-17 13:58:57,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-06-17 13:58:57,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-06-17 13:58:57,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-06-17 13:58:57,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-06-17 13:58:57,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-06-17 13:58:57,903 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,904 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,904 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,904 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,904 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,904 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,905 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,905 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,905 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,905 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-17 13:58:57,907 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-17 13:58:57,907 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-06-17 13:58:57,907 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-06-17 13:58:57,907 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-17 13:58:57,908 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-06-17 13:58:57,908 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-06-17 13:58:57,917 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-17 13:58:57,918 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-17 13:58:57,918 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-17 13:58:57,925 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-06-17 13:58:57,925 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-06-17 13:58:58,893 INFO o.a.j.JMeter: Running test (1655441938893)
+2022-06-17 13:58:58,956 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TS_TOT_02_01
+2022-06-17 13:58:58,956 INFO o.a.j.e.StandardJMeterEngine: Starting 60 threads for group TS_TOT_02_01.
+2022-06-17 13:58:58,956 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-17 13:58:58,956 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 60
+2022-06-17 13:58:59,066 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2022-06-17 13:58:59,066 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-06-17 13:59:09,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-60
+2022-06-17 13:59:09,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-59
+2022-06-17 13:59:09,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-58
+2022-06-17 13:59:09,551 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-100-64-40-247.ap-northeast-2.compute.internal
+2022-06-17 13:59:09,561 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-06-17 13:59:09,564 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-06-17 13:59:09,564 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-06-17 13:59:09,564 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-06-17 13:59:09,564 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-06-17 13:59:09,631 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-57
+2022-06-17 13:59:09,732 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-06-17 13:59:09,745 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-06-17 13:59:09,745 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-06-17 13:59:09,797 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-56
+2022-06-17 13:59:09,852 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-06-17 13:59:09,860 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-06-17 13:59:09,860 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-06-17 13:59:09,957 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-55
+2022-06-17 13:59:10,132 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-54
+2022-06-17 13:59:10,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-53
+2022-06-17 13:59:10,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-52
+2022-06-17 13:59:10,622 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-51
+2022-06-17 13:59:10,789 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-50
+2022-06-17 13:59:10,956 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-49
+2022-06-17 13:59:11,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-48
+2022-06-17 13:59:11,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-47
+2022-06-17 13:59:11,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-46
+2022-06-17 13:59:11,622 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-45
+2022-06-17 13:59:11,789 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-44
+2022-06-17 13:59:11,956 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-43
+2022-06-17 13:59:12,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-42
+2022-06-17 13:59:12,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-41
+2022-06-17 13:59:12,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-40
+2022-06-17 13:59:12,622 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-39
+2022-06-17 13:59:12,789 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-38
+2022-06-17 13:59:12,957 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-37
+2022-06-17 13:59:13,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-36
+2022-06-17 13:59:13,290 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-35
+2022-06-17 13:59:13,457 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-34
+2022-06-17 13:59:13,623 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-33
+2022-06-17 13:59:13,790 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-32
+2022-06-17 13:59:13,957 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-31
+2022-06-17 13:59:14,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-30
+2022-06-17 13:59:14,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-29
+2022-06-17 13:59:14,458 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-28
+2022-06-17 13:59:14,622 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-27
+2022-06-17 13:59:14,791 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-26
+2022-06-17 13:59:14,958 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-25
+2022-06-17 13:59:15,123 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-24
+2022-06-17 13:59:15,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-23
+2022-06-17 13:59:15,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-22
+2022-06-17 13:59:15,623 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-21
+2022-06-17 13:59:15,790 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-20
+2022-06-17 13:59:15,956 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-19
+2022-06-17 13:59:16,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-18
+2022-06-17 13:59:16,295 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-17
+2022-06-17 13:59:16,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-16
+2022-06-17 13:59:16,622 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-15
+2022-06-17 13:59:16,793 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-14
+2022-06-17 13:59:16,956 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-13
+2022-06-17 13:59:17,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-12
+2022-06-17 13:59:17,294 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-11
+2022-06-17 13:59:17,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-10
+2022-06-17 13:59:17,622 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-9
+2022-06-17 13:59:17,794 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-8
+2022-06-17 13:59:17,956 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-7
+2022-06-17 13:59:18,122 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-6
+2022-06-17 13:59:18,289 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-5
+2022-06-17 13:59:18,456 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-4
+2022-06-17 13:59:18,623 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-3
+2022-06-17 13:59:18,789 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-2
+2022-06-17 13:59:18,956 INFO o.a.j.t.JMeterThread: Thread started: TS_TOT_02_01 1-1
+2022-06-17 13:59:30,002 INFO o.a.j.r.Summariser: summary +   2906 in 00:00:31 =   93.4/s Avg:    29 Min:    10 Max:   650 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:00:00,000 INFO o.a.j.r.Summariser: summary +   5500 in 00:00:30 =  183.3/s Avg:    27 Min:    10 Max:    85 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:00:00,001 INFO o.a.j.r.Summariser: summary =   8406 in 00:01:01 =  137.6/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:00:30,006 INFO o.a.j.r.Summariser: summary +   5454 in 00:00:30 =  181.8/s Avg:    28 Min:    11 Max:   151 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:00:30,006 INFO o.a.j.r.Summariser: summary =  13860 in 00:01:31 =  152.1/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:01:00,020 INFO o.a.j.r.Summariser: summary +   5483 in 00:00:30 =  182.7/s Avg:    28 Min:    11 Max:   123 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:01:00,020 INFO o.a.j.r.Summariser: summary =  19343 in 00:02:01 =  159.7/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:01:30,008 INFO o.a.j.r.Summariser: summary +   5503 in 00:00:30 =  183.5/s Avg:    28 Min:    11 Max:   230 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:01:30,008 INFO o.a.j.r.Summariser: summary =  24846 in 00:02:31 =  164.4/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:02:00,010 INFO o.a.j.r.Summariser: summary +   5472 in 00:00:30 =  182.4/s Avg:    28 Min:    11 Max:    82 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:02:00,010 INFO o.a.j.r.Summariser: summary =  30318 in 00:03:01 =  167.4/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:02:30,002 INFO o.a.j.r.Summariser: summary +   5460 in 00:00:30 =  182.0/s Avg:    28 Min:    11 Max:   270 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:02:30,002 INFO o.a.j.r.Summariser: summary =  35778 in 00:03:31 =  169.5/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:03:00,000 INFO o.a.j.r.Summariser: summary +   5493 in 00:00:30 =  183.1/s Avg:    28 Min:    11 Max:   268 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:03:00,000 INFO o.a.j.r.Summariser: summary =  41271 in 00:04:01 =  171.2/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:03:30,002 INFO o.a.j.r.Summariser: summary +   5495 in 00:00:30 =  183.2/s Avg:    28 Min:    11 Max:   102 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:03:30,002 INFO o.a.j.r.Summariser: summary =  46766 in 00:04:31 =  172.5/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:04:00,001 INFO o.a.j.r.Summariser: summary +   5458 in 00:00:30 =  181.9/s Avg:    28 Min:    11 Max:    80 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:04:00,001 INFO o.a.j.r.Summariser: summary =  52224 in 00:05:01 =  173.4/s Avg:    28 Min:    10 Max:   650 Err:     0 (0.00%)
+2022-06-17 14:04:30,004 INFO o.a.j.r.Summariser: summary +   5476 in 00:00:30 =  182.5/s Avg:    28 Min:    10 Max:  1029 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:04:30,005 INFO o.a.j.r.Summariser: summary =  57700 in 00:05:31 =  174.3/s Avg:    28 Min:    10 Max:  1029 Err:     0 (0.00%)
+2022-06-17 14:05:00,005 INFO o.a.j.r.Summariser: summary +   5535 in 00:00:30 =  184.5/s Avg:    28 Min:    11 Max:  1033 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:05:00,006 INFO o.a.j.r.Summariser: summary =  63235 in 00:06:01 =  175.1/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:05:30,002 INFO o.a.j.r.Summariser: summary +   5514 in 00:00:30 =  183.8/s Avg:    28 Min:    11 Max:   287 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:05:30,002 INFO o.a.j.r.Summariser: summary =  68749 in 00:06:31 =  175.8/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:06:00,000 INFO o.a.j.r.Summariser: summary +   5466 in 00:00:30 =  182.2/s Avg:    28 Min:    11 Max:   133 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:06:00,000 INFO o.a.j.r.Summariser: summary =  74215 in 00:07:01 =  176.2/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:06:30,007 INFO o.a.j.r.Summariser: summary +   5457 in 00:00:30 =  181.9/s Avg:    28 Min:    10 Max:    83 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:06:30,007 INFO o.a.j.r.Summariser: summary =  79672 in 00:07:31 =  176.6/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:07:00,001 INFO o.a.j.r.Summariser: summary +   5523 in 00:00:30 =  184.1/s Avg:    27 Min:    11 Max:    97 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:07:00,001 INFO o.a.j.r.Summariser: summary =  85195 in 00:08:01 =  177.1/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:07:30,006 INFO o.a.j.r.Summariser: summary +   5506 in 00:00:30 =  183.5/s Avg:    27 Min:    11 Max:    80 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:07:30,006 INFO o.a.j.r.Summariser: summary =  90701 in 00:08:31 =  177.5/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:08:00,011 INFO o.a.j.r.Summariser: summary +   5514 in 00:00:30 =  183.8/s Avg:    28 Min:    11 Max:    82 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:08:00,011 INFO o.a.j.r.Summariser: summary =  96215 in 00:09:01 =  177.8/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:08:30,005 INFO o.a.j.r.Summariser: summary +   5502 in 00:00:30 =  183.4/s Avg:    27 Min:    11 Max:   256 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:08:30,006 INFO o.a.j.r.Summariser: summary = 101717 in 00:09:31 =  178.1/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:09:00,001 INFO o.a.j.r.Summariser: summary +   5505 in 00:00:30 =  183.5/s Avg:    28 Min:    11 Max:   228 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:09:00,001 INFO o.a.j.r.Summariser: summary = 107222 in 00:10:01 =  178.4/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:09:30,004 INFO o.a.j.r.Summariser: summary +   5480 in 00:00:30 =  182.6/s Avg:    27 Min:    11 Max:    87 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:09:30,004 INFO o.a.j.r.Summariser: summary = 112702 in 00:10:31 =  178.6/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:10:00,003 INFO o.a.j.r.Summariser: summary +   5512 in 00:00:30 =  183.7/s Avg:    27 Min:    11 Max:   260 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:10:00,003 INFO o.a.j.r.Summariser: summary = 118214 in 00:11:01 =  178.8/s Avg:    28 Min:    10 Max:  1033 Err:     0 (0.00%)
+2022-06-17 14:10:32,663 INFO o.a.j.r.Summariser: summary +   2275 in 00:00:33 =   69.7/s Avg:   102 Min:    11 Max: 10192 Err:    11 (0.48%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:10:32,664 INFO o.a.j.r.Summariser: summary = 120489 in 00:11:34 =  173.7/s Avg:    29 Min:    10 Max: 10192 Err:    11 (0.01%)
+2022-06-17 14:11:00,000 INFO o.a.j.r.Summariser: summary +    290 in 00:00:27 =   10.6/s Avg:  2351 Min:    12 Max: 43650 Err:    29 (10.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:11:00,001 INFO o.a.j.r.Summariser: summary = 120779 in 00:12:01 =  167.5/s Avg:    35 Min:    10 Max: 43650 Err:    40 (0.03%)
+2022-06-17 14:11:30,002 INFO o.a.j.r.Summariser: summary +   1719 in 00:00:30 =   57.3/s Avg:   312 Min:    11 Max: 60064 Err:    33 (1.92%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:11:30,003 INFO o.a.j.r.Summariser: summary = 122498 in 00:12:31 =  163.1/s Avg:    39 Min:    10 Max: 60064 Err:    73 (0.06%)
+2022-06-17 14:12:00,008 INFO o.a.j.r.Summariser: summary +   1981 in 00:00:30 =   66.0/s Avg:   840 Min:    11 Max: 107397 Err:    37 (1.87%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:12:00,009 INFO o.a.j.r.Summariser: summary = 124479 in 00:13:01 =  159.4/s Avg:    51 Min:    10 Max: 107397 Err:   110 (0.09%)
+2022-06-17 14:12:30,005 INFO o.a.j.r.Summariser: summary +   3575 in 00:00:30 =  119.2/s Avg:   141 Min:    12 Max: 107573 Err:     3 (0.08%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:12:30,005 INFO o.a.j.r.Summariser: summary = 128054 in 00:13:31 =  157.9/s Avg:    54 Min:    10 Max: 107573 Err:   113 (0.09%)
+2022-06-17 14:13:00,000 INFO o.a.j.r.Summariser: summary +   3868 in 00:00:30 =  129.0/s Avg:    24 Min:    10 Max:    77 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:13:00,000 INFO o.a.j.r.Summariser: summary = 131922 in 00:14:01 =  156.8/s Avg:    53 Min:    10 Max: 107573 Err:   113 (0.09%)
+2022-06-17 14:13:30,018 INFO o.a.j.r.Summariser: summary +   3661 in 00:00:30 =  122.0/s Avg:    42 Min:    11 Max:  1662 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:13:30,018 INFO o.a.j.r.Summariser: summary = 135583 in 00:14:31 =  155.6/s Avg:    53 Min:    10 Max: 107573 Err:   113 (0.08%)
+2022-06-17 14:14:00,002 INFO o.a.j.r.Summariser: summary +   3857 in 00:00:30 =  128.6/s Avg:    25 Min:    11 Max:   295 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:14:00,004 INFO o.a.j.r.Summariser: summary = 139440 in 00:15:01 =  154.7/s Avg:    52 Min:    10 Max: 107573 Err:   113 (0.08%)
+2022-06-17 14:14:30,010 INFO o.a.j.r.Summariser: summary +   3927 in 00:00:30 =  130.9/s Avg:    25 Min:    11 Max:  1033 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:14:30,010 INFO o.a.j.r.Summariser: summary = 143367 in 00:15:31 =  154.0/s Avg:    51 Min:    10 Max: 107573 Err:   113 (0.08%)
+2022-06-17 14:15:00,007 INFO o.a.j.r.Summariser: summary +   3848 in 00:00:30 =  128.3/s Avg:    25 Min:    11 Max:   236 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:15:00,007 INFO o.a.j.r.Summariser: summary = 147215 in 00:16:01 =  153.2/s Avg:    51 Min:    10 Max: 107573 Err:   113 (0.08%)
+2022-06-17 14:15:30,008 INFO o.a.j.r.Summariser: summary +   3831 in 00:00:30 =  127.7/s Avg:    30 Min:    11 Max:   639 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:15:30,009 INFO o.a.j.r.Summariser: summary = 151046 in 00:16:31 =  152.4/s Avg:    50 Min:    10 Max: 107573 Err:   113 (0.07%)
+2022-06-17 14:16:00,004 INFO o.a.j.r.Summariser: summary +   3864 in 00:00:30 =  128.8/s Avg:    26 Min:    11 Max:    96 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:16:00,004 INFO o.a.j.r.Summariser: summary = 154910 in 00:17:01 =  151.7/s Avg:    49 Min:    10 Max: 107573 Err:   113 (0.07%)
+2022-06-17 14:16:30,000 INFO o.a.j.r.Summariser: summary +   3894 in 00:00:30 =  129.8/s Avg:    26 Min:    11 Max:   237 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:16:30,000 INFO o.a.j.r.Summariser: summary = 158804 in 00:17:31 =  151.1/s Avg:    49 Min:    10 Max: 107573 Err:   113 (0.07%)
+2022-06-17 14:17:00,004 INFO o.a.j.r.Summariser: summary +   3836 in 00:00:30 =  127.9/s Avg:    26 Min:    11 Max:    82 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:17:00,004 INFO o.a.j.r.Summariser: summary = 162640 in 00:18:01 =  150.4/s Avg:    48 Min:    10 Max: 107573 Err:   113 (0.07%)
+2022-06-17 14:17:30,003 INFO o.a.j.r.Summariser: summary +   3873 in 00:00:30 =  129.1/s Avg:    26 Min:    11 Max:    72 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:17:30,003 INFO o.a.j.r.Summariser: summary = 166513 in 00:18:31 =  149.9/s Avg:    48 Min:    10 Max: 107573 Err:   113 (0.07%)
+2022-06-17 14:18:00,004 INFO o.a.j.r.Summariser: summary +   3874 in 00:00:30 =  129.1/s Avg:    26 Min:    11 Max:   251 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:18:00,005 INFO o.a.j.r.Summariser: summary = 170387 in 00:19:01 =  149.3/s Avg:    47 Min:    10 Max: 107573 Err:   113 (0.07%)
+2022-06-17 14:18:30,000 INFO o.a.j.r.Summariser: summary +   3890 in 00:00:30 =  129.7/s Avg:    25 Min:    11 Max:    78 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:18:30,000 INFO o.a.j.r.Summariser: summary = 174277 in 00:19:31 =  148.8/s Avg:    47 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:19:00,002 INFO o.a.j.r.Summariser: summary +   3835 in 00:00:30 =  127.8/s Avg:    26 Min:    10 Max:    90 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:19:00,002 INFO o.a.j.r.Summariser: summary = 178112 in 00:20:01 =  148.3/s Avg:    46 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:19:30,005 INFO o.a.j.r.Summariser: summary +   3832 in 00:00:30 =  127.7/s Avg:    26 Min:    11 Max:    86 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:19:30,005 INFO o.a.j.r.Summariser: summary = 181944 in 00:20:31 =  147.8/s Avg:    46 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:20:00,006 INFO o.a.j.r.Summariser: summary +   3867 in 00:00:30 =  128.9/s Avg:    25 Min:    11 Max:    85 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:20:00,007 INFO o.a.j.r.Summariser: summary = 185811 in 00:21:01 =  147.3/s Avg:    46 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:20:30,003 INFO o.a.j.r.Summariser: summary +   3875 in 00:00:30 =  129.2/s Avg:    26 Min:    11 Max:    80 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:20:30,004 INFO o.a.j.r.Summariser: summary = 189686 in 00:21:31 =  146.9/s Avg:    45 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:21:00,005 INFO o.a.j.r.Summariser: summary +   3876 in 00:00:30 =  129.2/s Avg:    25 Min:    11 Max:   255 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:21:00,005 INFO o.a.j.r.Summariser: summary = 193562 in 00:22:01 =  146.5/s Avg:    45 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:21:30,012 INFO o.a.j.r.Summariser: summary +   3871 in 00:00:30 =  129.0/s Avg:    26 Min:    10 Max:    78 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:21:30,012 INFO o.a.j.r.Summariser: summary = 197433 in 00:22:31 =  146.1/s Avg:    44 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:22:00,004 INFO o.a.j.r.Summariser: summary +   3867 in 00:00:30 =  128.9/s Avg:    25 Min:    11 Max:    80 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:22:00,005 INFO o.a.j.r.Summariser: summary = 201300 in 00:23:01 =  145.8/s Avg:    44 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:22:30,018 INFO o.a.j.r.Summariser: summary +   3861 in 00:00:30 =  128.6/s Avg:    26 Min:    11 Max:  1027 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:22:30,018 INFO o.a.j.r.Summariser: summary = 205161 in 00:23:31 =  145.4/s Avg:    44 Min:    10 Max: 107573 Err:   113 (0.06%)
+2022-06-17 14:23:00,001 INFO o.a.j.r.Summariser: summary +   3866 in 00:00:30 =  128.9/s Avg:    26 Min:    11 Max:    72 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:23:00,002 INFO o.a.j.r.Summariser: summary = 209027 in 00:24:01 =  145.0/s Avg:    43 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:23:30,001 INFO o.a.j.r.Summariser: summary +   3884 in 00:00:30 =  129.5/s Avg:    26 Min:    11 Max:   259 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:23:30,002 INFO o.a.j.r.Summariser: summary = 212911 in 00:24:31 =  144.7/s Avg:    43 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:24:00,001 INFO o.a.j.r.Summariser: summary +   3851 in 00:00:30 =  128.4/s Avg:    26 Min:    11 Max:    78 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:24:00,001 INFO o.a.j.r.Summariser: summary = 216762 in 00:25:01 =  144.4/s Avg:    43 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:24:30,001 INFO o.a.j.r.Summariser: summary +   3877 in 00:00:30 =  129.2/s Avg:    26 Min:    12 Max:    73 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:24:30,002 INFO o.a.j.r.Summariser: summary = 220639 in 00:25:31 =  144.1/s Avg:    42 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:25:00,008 INFO o.a.j.r.Summariser: summary +   3865 in 00:00:30 =  128.8/s Avg:    26 Min:    11 Max:  1028 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:25:00,008 INFO o.a.j.r.Summariser: summary = 224504 in 00:26:01 =  143.8/s Avg:    42 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:25:30,005 INFO o.a.j.r.Summariser: summary +   3859 in 00:00:30 =  128.6/s Avg:    26 Min:    11 Max:   120 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:25:30,005 INFO o.a.j.r.Summariser: summary = 228363 in 00:26:31 =  143.5/s Avg:    42 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:26:00,002 INFO o.a.j.r.Summariser: summary +   3887 in 00:00:30 =  129.6/s Avg:    26 Min:    11 Max:   108 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:26:00,002 INFO o.a.j.r.Summariser: summary = 232250 in 00:27:01 =  143.3/s Avg:    42 Min:    10 Max: 107573 Err:   113 (0.05%)
+2022-06-17 14:26:30,003 INFO o.a.j.r.Summariser: summary +   4467 in 00:00:30 =  148.9/s Avg:  1735 Min:    11 Max: 960533 Err:     8 (0.18%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:26:30,004 INFO o.a.j.r.Summariser: summary = 236717 in 00:27:31 =  143.4/s Avg:    74 Min:    10 Max: 960533 Err:   121 (0.05%)
+2022-06-17 14:27:00,001 INFO o.a.j.r.Summariser: summary +   4601 in 00:00:30 =  153.4/s Avg:    26 Min:    11 Max:   261 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:27:00,001 INFO o.a.j.r.Summariser: summary = 241318 in 00:28:01 =  143.5/s Avg:    73 Min:    10 Max: 960533 Err:   121 (0.05%)
+2022-06-17 14:27:30,018 INFO o.a.j.r.Summariser: summary +   4605 in 00:00:30 =  153.4/s Avg:    26 Min:    11 Max:   239 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:27:30,018 INFO o.a.j.r.Summariser: summary = 245923 in 00:28:31 =  143.7/s Avg:    72 Min:    10 Max: 960533 Err:   121 (0.05%)
+2022-06-17 14:28:00,031 INFO o.a.j.r.Summariser: summary +   4603 in 00:00:30 =  153.4/s Avg:    26 Min:    11 Max:    75 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:28:00,032 INFO o.a.j.r.Summariser: summary = 250526 in 00:29:01 =  143.9/s Avg:    71 Min:    10 Max: 960533 Err:   121 (0.05%)
+2022-06-17 14:28:30,007 INFO o.a.j.r.Summariser: summary +   4618 in 00:00:30 =  154.1/s Avg:    26 Min:    10 Max:    85 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:28:30,008 INFO o.a.j.r.Summariser: summary = 255144 in 00:29:31 =  144.1/s Avg:    70 Min:    10 Max: 960533 Err:   121 (0.05%)
+2022-06-17 14:29:00,002 INFO o.a.j.r.Summariser: summary +   4569 in 00:00:30 =  152.3/s Avg:    26 Min:    11 Max:    79 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2022-06-17 14:29:00,002 INFO o.a.j.r.Summariser: summary = 259713 in 00:30:01 =  144.2/s Avg:    69 Min:    10 Max: 960533 Err:   121 (0.05%)
+2022-06-17 14:29:22,038 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2022-06-17 14:29:22,039 INFO o.a.j.r.ResultCollector: Shutdown hook ended
