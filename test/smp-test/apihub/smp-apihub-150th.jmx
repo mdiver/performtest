@@ -87,10 +87,10 @@
         <collectionProp name="ultimatethreadgroupdata">
           <collectionProp name="1966791593">
             <stringProp name="1603">150</stringProp>
-            <stringProp name="1567">10</stringProp>
+            <stringProp name="1567">30</stringProp>
             <stringProp name="1567">10</stringProp>
             <stringProp name="50547">300</stringProp>
-            <stringProp name="10">10</stringProp>
+            <stringProp name="10">30</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
